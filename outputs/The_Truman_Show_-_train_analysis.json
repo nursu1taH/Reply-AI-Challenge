@@ -1,0 +1,753 @@
+{
+  "dataset": "The Truman Show - train",
+  "generated_at": "2026-04-16T14:42:32.552600Z",
+  "submission_transaction_ids": [
+    "beaa4b03-0a2f-48a1-abb4-a5c7378ed046",
+    "3ba7708b-367a-4637-9b52-d8fea85dc8e7",
+    "32e73719-7b07-4c61-9fac-6c715c92ab1f",
+    "2d22a0cd-8297-4d67-bd84-9e1ceaba5b10"
+  ],
+  "ranked_assessments": [
+    {
+      "transaction_id": "beaa4b03-0a2f-48a1-abb4-a5c7378ed046",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.94,
+      "heuristic_score": 0.94,
+      "decision": "fraud",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "new-payment-method",
+        "new-location",
+        "missing-description",
+        "one-off-recipient",
+        "message-transaction-theme-match",
+        "benign-shopping-signal-present"
+      ],
+      "timestamp": "2087-10-30T11:21:05",
+      "amount": 106.15,
+      "transaction_type": "e-commerce",
+      "recipient_id": "RETRB44116",
+      "payment_method": "PayPal"
+    },
+    {
+      "transaction_id": "3ba7708b-367a-4637-9b52-d8fea85dc8e7",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.66,
+      "heuristic_score": 0.66,
+      "decision": "fraud",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "one-off-recipient",
+        "message-transaction-theme-match",
+        "subscription-can-follow-account-takeover",
+        "fits-user-job"
+      ],
+      "timestamp": "2087-06-11T05:39:27",
+      "amount": 22.21,
+      "transaction_type": "direct debit",
+      "recipient_id": "ACCRN68493",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "32e73719-7b07-4c61-9fac-6c715c92ab1f",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.63,
+      "heuristic_score": 0.63,
+      "decision": "fraud",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "new-payment-method",
+        "new-location",
+        "missing-description",
+        "recipient-uses-multiple-ibans",
+        "message-transaction-theme-match",
+        "benign-shopping-signal-present"
+      ],
+      "timestamp": "2087-01-22T16:22:55",
+      "amount": 99.8,
+      "transaction_type": "e-commerce",
+      "recipient_id": "MKTSW90199",
+      "payment_method": "debit card"
+    },
+    {
+      "transaction_id": "2d22a0cd-8297-4d67-bd84-9e1ceaba5b10",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.41,
+      "heuristic_score": 0.41,
+      "decision": "fraud",
+      "reasons": [
+        "new-recipient",
+        "one-off-recipient",
+        "message-transaction-theme-match",
+        "utility-paid-while-abroad"
+      ],
+      "timestamp": "2087-09-04T12:13:53",
+      "amount": 325.39,
+      "transaction_type": "transfer",
+      "recipient_id": "CMPNT41147",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "9caf7a6f-afa8-43a8-b0bb-8a81d16f8cc3",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.29,
+      "heuristic_score": 0.29,
+      "decision": "legit",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "recipient-uses-multiple-ibans",
+        "message-transaction-theme-match",
+        "small-phone-bill"
+      ],
+      "timestamp": "2087-06-06T02:45:45",
+      "amount": 46.09,
+      "transaction_type": "direct debit",
+      "recipient_id": "ACCST55537",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "c1da1f34-1760-4841-966f-cbed3f255dfb",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.18,
+      "heuristic_score": 0.18,
+      "decision": "legit",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "new-payment-method",
+        "new-location",
+        "missing-description",
+        "message-transaction-theme-match",
+        "small-local-in-person-pattern",
+        "matches-daily-lifestyle"
+      ],
+      "timestamp": "2087-06-14T09:23:14",
+      "amount": 16.29,
+      "transaction_type": "in-person payment",
+      "recipient_id": "",
+      "payment_method": "smartwatch"
+    },
+    {
+      "transaction_id": "45f793a8-8223-4e65-9b6b-fa1b0a62d4aa",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.16,
+      "heuristic_score": 0.16,
+      "decision": "legit",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-01-04T15:29:49",
+      "amount": 926.07,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "c7491b59-9186-42c8-a930-1411b13dfe13",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.11,
+      "heuristic_score": 0.11,
+      "decision": "legit",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-01-06T16:30:16",
+      "amount": 336.09,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "7dc83725-605a-4fab-9e5a-017200a34b9a",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.11,
+      "heuristic_score": 0.11,
+      "decision": "legit",
+      "reasons": [
+        "new-recipient",
+        "new-transaction-type",
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-01-07T18:20:09",
+      "amount": 982.6,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "8289782a-685b-45cd-b0a1-2caed460b686",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.1,
+      "heuristic_score": 0.1,
+      "decision": "legit",
+      "reasons": [
+        "recipient-uses-multiple-ibans",
+        "message-transaction-theme-match",
+        "essential-bill-plausible",
+        "amount-spike-vs-history"
+      ],
+      "timestamp": "2087-12-09T08:05:41",
+      "amount": 125.55,
+      "transaction_type": "direct debit",
+      "recipient_id": "ACCST55537",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "be65ac20-9102-4206-adba-b53380910ecf",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.03,
+      "heuristic_score": 0.03,
+      "decision": "legit",
+      "reasons": [
+        "missing-description",
+        "recipient-uses-multiple-ibans",
+        "message-transaction-theme-match",
+        "benign-shopping-signal-present"
+      ],
+      "timestamp": "2087-05-04T09:28:11",
+      "amount": 44.95,
+      "transaction_type": "e-commerce",
+      "recipient_id": "MKTSW90199",
+      "payment_method": "debit card"
+    },
+    {
+      "transaction_id": "95679cc6-814c-4fbe-86a3-b697b54f5d10",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-02-05T14:47:28",
+      "amount": 399.65,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "a3ebbbea-d56c-4627-bf6e-3f9ead9a4125",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-02-06T10:52:12",
+      "amount": 1026.68,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "2f585191-4e73-4850-805c-b02167082198",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-02-07T12:37:03",
+      "amount": 965.13,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "a8df2827-5aa0-4831-8f92-b2093d62739d",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-03-04T14:21:11",
+      "amount": 370.14,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "0ed77000-3456-4052-8c6e-0a66f94561ca",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-03-04T15:55:23",
+      "amount": 978.9,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "a9833409-4bb9-4764-b1c1-89521a636e36",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-03-06T08:23:53",
+      "amount": 952.23,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "f187ddae-1a5d-4ff2-ad5a-565eae237d71",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-04-04T09:18:05",
+      "amount": 1019.29,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "e6e1cc47-780e-40cc-9f3e-01ac239e0a87",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-04-06T09:27:38",
+      "amount": 407.1,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "a0ba62a7-9a03-47c1-9575-7c26b2da5f1b",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-04-06T17:32:24",
+      "amount": 987.17,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "c1ec5542-1bc7-49ba-a89c-4194f01d12c2",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-05-04T14:05:58",
+      "amount": 914.5,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "eee4f7cb-10ba-4f01-8a43-37cc11c74371",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-05-05T16:50:47",
+      "amount": 1073.33,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "1a02f1a5-2a7a-489f-8e43-cf6f4f8fe116",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-05-06T09:20:42",
+      "amount": 355.28,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "40d61e52-ee54-4aa0-a435-43bffce12aed",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-06-04T14:03:25",
+      "amount": 968.72,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "9d893a51-4843-47dc-b66e-1436341ff374",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-06-05T19:28:22",
+      "amount": 366.5,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "dd81e9f0-e9b6-4586-a9f4-79994d6b1f21",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-06-06T11:20:38",
+      "amount": 989.74,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "7a010f53-8ad9-4b88-9bca-e93f6c705b62",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-07-06T08:18:58",
+      "amount": 1032.2,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "6f075509-4fae-44d3-b958-a72e0d435435",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-07-07T10:02:15",
+      "amount": 1035.88,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "dc26681a-fbb6-49bc-9481-9ae2996c93fb",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-07-07T14:23:32",
+      "amount": 392.72,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "09e4d085-53f1-46c6-b28b-7d34dab52052",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-08-03T15:28:39",
+      "amount": 872.52,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "9d3e4492-2021-426c-bf3c-5193b2d7de87",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-08-06T13:23:58",
+      "amount": 951.4,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "6669e8f8-212b-4e7a-9615-0e59f923a35c",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-08-07T17:43:50",
+      "amount": 365.84,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "6f3885cf-c26e-454d-aba8-f1be0222f75d",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-09-05T13:23:24",
+      "amount": 403.71,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "97ede41a-a012-4c6e-aa31-ee9d6dc27c26",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-09-06T08:50:40",
+      "amount": 1023.88,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "00b11377-c3b6-484e-b70e-c7281fe51261",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-09-06T18:50:39",
+      "amount": 960.03,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "8d9ec706-bd91-4458-af02-4bc1166c943d",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-10-05T13:23:28",
+      "amount": 389.91,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "9bcef53d-137b-4b82-8fca-3ea5f9978a37",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-10-05T16:01:40",
+      "amount": 971.31,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "a839c005-7c5c-4e2d-b8d2-f07e99d7aedf",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-10-06T14:18:16",
+      "amount": 1039.09,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "5309f3e1-a29e-4533-a44b-d8d7da5f4597",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-11-04T11:45:09",
+      "amount": 927.91,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "d8711093-2453-4a74-8779-756014cc234d",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-11-04T17:08:33",
+      "amount": 360.56,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "ea9f3acb-d2af-4b42-8588-9a7eb7823137",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-11-05T10:38:45",
+      "amount": 1081.71,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "65eb47c9-3b12-40bc-b660-4a0f944fab22",
+      "sender_id": "RGNR-LNAA-7FF-AUD-0",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-12-06T12:35:24",
+      "amount": 1023.13,
+      "transaction_type": "transfer",
+      "recipient_id": "RES83889",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "07e4b774-7ea2-4ca0-bb9d-d1e95a728b03",
+      "sender_id": "GRSC-KRLH-807-DIE-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-12-06T16:23:04",
+      "amount": 1056.14,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT68841",
+      "payment_method": ""
+    },
+    {
+      "transaction_id": "0c9b840e-5cda-440a-8d08-5f8cb74fe41c",
+      "sender_id": "BRCH-TRCY-802-HAM-1",
+      "final_score": 0.0,
+      "heuristic_score": 0.0,
+      "decision": "legit",
+      "reasons": [
+        "message-transaction-theme-match",
+        "recurring-rent-pattern"
+      ],
+      "timestamp": "2087-12-07T16:24:58",
+      "amount": 374.99,
+      "transaction_type": "transfer",
+      "recipient_id": "ABIT36422",
+      "payment_method": ""
+    }
+  ]
+}
