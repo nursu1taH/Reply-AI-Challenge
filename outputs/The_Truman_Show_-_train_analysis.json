@@ -1,6 +1,6 @@
 {
   "dataset": "The Truman Show - train",
-  "generated_at": "2026-04-16T14:42:32.552600Z",
+  "generated_at": "2026-04-16T14:56:58.194666Z",
   "submission_transaction_ids": [
     "beaa4b03-0a2f-48a1-abb4-a5c7378ed046",
     "3ba7708b-367a-4637-9b52-d8fea85dc8e7",
@@ -22,7 +22,8 @@
         "missing-description",
         "one-off-recipient",
         "message-transaction-theme-match",
-        "benign-shopping-signal-present"
+        "benign-shopping-signal-present",
+        "llm:Multiple red flags including new recipient, transaction type, payment method, and location."
       ],
       "timestamp": "2087-10-30T11:21:05",
       "amount": 106.15,
@@ -42,7 +43,8 @@
         "one-off-recipient",
         "message-transaction-theme-match",
         "subscription-can-follow-account-takeover",
-        "fits-user-job"
+        "fits-user-job",
+        "llm:New recipient and transaction type with potential account takeover risk."
       ],
       "timestamp": "2087-06-11T05:39:27",
       "amount": 22.21,
@@ -64,7 +66,8 @@
         "missing-description",
         "recipient-uses-multiple-ibans",
         "message-transaction-theme-match",
-        "benign-shopping-signal-present"
+        "benign-shopping-signal-present",
+        "llm:New recipient and payment method with multiple red flags."
       ],
       "timestamp": "2087-01-22T16:22:55",
       "amount": 99.8,
@@ -82,7 +85,8 @@
         "new-recipient",
         "one-off-recipient",
         "message-transaction-theme-match",
-        "utility-paid-while-abroad"
+        "utility-paid-while-abroad",
+        "llm:New recipient and one-off transaction while abroad."
       ],
       "timestamp": "2087-09-04T12:13:53",
       "amount": 325.39,
@@ -101,7 +105,8 @@
         "new-transaction-type",
         "recipient-uses-multiple-ibans",
         "message-transaction-theme-match",
-        "small-phone-bill"
+        "small-phone-bill",
+        "llm:New recipient and transaction type with low risk indicators."
       ],
       "timestamp": "2087-06-06T02:45:45",
       "amount": 46.09,
@@ -123,7 +128,8 @@
         "missing-description",
         "message-transaction-theme-match",
         "small-local-in-person-pattern",
-        "matches-daily-lifestyle"
+        "matches-daily-lifestyle",
+        "llm:New recipient and transaction type, but low risk due to small amount."
       ],
       "timestamp": "2087-06-14T09:23:14",
       "amount": 16.29,
