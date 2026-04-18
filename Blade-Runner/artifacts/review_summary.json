@@ -1,0 +1,1082 @@
+{
+  "session_id": "KairatNurtas-01KPBVKRMM0GS3D9EYGY4F7CP8",
+  "llm_enabled": false,
+  "flagged_count": 176,
+  "top_flagged": [
+    {
+      "transaction_id": "50475b51-7fc7-4d7e-9ce2-e2162a41e0c0",
+      "sender_id": "GBRT-GNV\u00c8-807-RIO-1",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-05-25T11:08:01",
+      "base_score": 1.0,
+      "final_score": 1.0,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.92)"
+      ]
+    },
+    {
+      "transaction_id": "a4c0ce71-ef82-44ac-8ec8-5cff1d7866fe",
+      "sender_id": "GYTU-DRNN-810-LYO-0",
+      "transaction_type": "withdrawal",
+      "amount": 115.56,
+      "timestamp": "2087-08-24T13:35:50",
+      "base_score": 1.0,
+      "final_score": 1.0,
+      "reviewed": false,
+      "reasons": [
+        "amount deviates from sender baseline for this transaction type",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "location mismatch persists over 24h window (924km)",
+        "new in-person city far from residence (926km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.38)"
+      ]
+    },
+    {
+      "transaction_id": "11e16209-c20f-4bc1-970b-cd2b65cc0cef",
+      "sender_id": "CLLN-TNIA-812-THO-1",
+      "transaction_type": "e-commerce",
+      "amount": 13.28,
+      "timestamp": "2087-04-23T15:57:20",
+      "base_score": 0.9876,
+      "final_score": 0.9876,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "amount resembles a value requested in a recent suspicious message",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "c4c14d90-28c5-47b3-9f2d-2919c6d45bfe",
+      "sender_id": "PSQR-GTHA-801-LIL-0",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "timestamp": "2087-10-27T21:20:58",
+      "base_score": 0.9732,
+      "final_score": 0.9732,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction drains most of the available balance",
+        "location mismatch persists over 24h window (1098km)",
+        "new in-person city far from residence (1101km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.98)"
+      ]
+    },
+    {
+      "transaction_id": "b6c5f746-f7b0-4a82-acb0-26da8bbaa15b",
+      "sender_id": "STRM-CHRL-804-BRU-0",
+      "transaction_type": "withdrawal",
+      "amount": 200.15,
+      "timestamp": "2087-06-20T02:10:36",
+      "base_score": 0.9732,
+      "final_score": 0.9732,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "location mismatch persists over 24h window (816km)",
+        "new in-person city far from residence (819km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.98)"
+      ]
+    },
+    {
+      "transaction_id": "c721d74b-cb5f-4cc3-9695-7de0e8569933",
+      "sender_id": "LLLB-GSPP-7DB-CAN-1",
+      "transaction_type": "withdrawal",
+      "amount": 249.98,
+      "timestamp": "2087-11-04T10:26:10",
+      "base_score": 0.9447,
+      "final_score": 0.9447,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "location mismatch: Charlotte is 7283km from closest GPS ping within 6h",
+        "new in-person city far from residence (7284km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.86)"
+      ]
+    },
+    {
+      "transaction_id": "5a62e89f-9b38-40ba-a11b-5c219a708757",
+      "sender_id": "NDRS-CROA-811-STU-0",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "timestamp": "2087-07-04T19:57:56",
+      "base_score": 0.9304,
+      "final_score": 0.9304,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction drains most of the available balance",
+        "location mismatch persists over 24h window (853km)",
+        "new in-person city far from residence (852km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "2390539b-27c1-4c6e-bde9-c6f739211c43",
+      "sender_id": "NDRS-CROA-811-STU-0",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "timestamp": "2087-07-04T20:36:13",
+      "base_score": 0.9304,
+      "final_score": 0.9304,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "high short-term transaction burst",
+        "clustered ATM withdrawals",
+        "transaction drains most of the available balance",
+        "location mismatch persists over 24h window (853km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "3ace23c3-542c-4987-bdd0-a2a0f79c2ffc",
+      "sender_id": "GYTU-DRNN-810-LYO-0",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-06-04T00:23:27",
+      "base_score": 0.9228,
+      "final_score": 0.9228,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.60)"
+      ]
+    },
+    {
+      "transaction_id": "f3c48e2c-f2dc-4c5b-8e16-a2c45e72e778",
+      "sender_id": "LLLB-GSPP-7DB-CAN-1",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-06-21T13:23:54",
+      "base_score": 0.9082,
+      "final_score": 0.9082,
+      "reviewed": false,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.84)",
+        "recent sms with phishing markers (credential_theft, score 0.54)"
+      ]
+    },
+    {
+      "transaction_id": "091f0b8e-5ad9-41bc-a91b-348bf16feb71",
+      "sender_id": "K\u00dcHN-MRSL-805-DUI-0",
+      "transaction_type": "e-commerce",
+      "amount": 171.11,
+      "timestamp": "2087-07-14T17:01:56",
+      "base_score": 0.9,
+      "final_score": 0.9,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "d2edd4df-9496-4c1f-a809-b4a94335cb1b",
+      "sender_id": "STRM-CHRL-804-BRU-0",
+      "transaction_type": "e-commerce",
+      "amount": 165.72,
+      "timestamp": "2087-08-14T18:00:30",
+      "base_score": 0.9,
+      "final_score": 0.9,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "02fc8606-adbd-4c6d-8b3d-c4de2cba2885",
+      "sender_id": "NDRS-CROA-811-STU-0",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-07-15T15:08:28",
+      "base_score": 0.898,
+      "final_score": 0.898,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "a453c34a-83e8-46a8-850a-2089d5326224",
+      "sender_id": "SRNG-KRLA-805-DRE-0",
+      "transaction_type": "e-commerce",
+      "amount": 52.36,
+      "timestamp": "2087-05-05T17:04:40",
+      "base_score": 0.8796,
+      "final_score": 0.8796,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (parcel_fee, score 0.94)"
+      ]
+    },
+    {
+      "transaction_id": "fc5255c1-9d78-4e1d-96e2-d2135d9123c6",
+      "sender_id": "K\u00dcHN-MRSL-805-DUI-0",
+      "transaction_type": "e-commerce",
+      "amount": 27.21,
+      "timestamp": "2087-10-28T19:47:31",
+      "base_score": 0.871,
+      "final_score": 0.871,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 1.00)",
+        "recent mail with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "9b81d7c8-c518-4847-97d1-a3516c4e426f",
+      "sender_id": "HMLT-DNSE-7F6-LON-1",
+      "transaction_type": "e-commerce",
+      "amount": 37.97,
+      "timestamp": "2087-07-23T21:49:24",
+      "base_score": 0.8676,
+      "final_score": 0.8676,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.84)"
+      ]
+    },
+    {
+      "transaction_id": "2a0db784-a525-414b-b6bb-a88fcfc5735e",
+      "sender_id": "PRTA-PCCU-80D-MOL-0",
+      "transaction_type": "withdrawal",
+      "amount": 200.29,
+      "timestamp": "2087-06-09T18:07:59",
+      "base_score": 0.8504,
+      "final_score": 0.8504,
+      "reviewed": false,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "high short-term transaction burst",
+        "clustered ATM withdrawals",
+        "transaction consumes an unusually large share of the balance",
+        "location mismatch persists over 24h window (1332km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "725d5e47-1a26-4c03-81eb-da70f322bd43",
+      "sender_id": "GYTU-DRNN-810-LYO-0",
+      "transaction_type": "transfer",
+      "amount": 32.11,
+      "timestamp": "2087-03-25T19:51:04",
+      "base_score": 0.838,
+      "final_score": 0.838,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "unusual transaction hour for the sender",
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "a6197b17-798a-4f7b-a385-8c42f9801506",
+      "sender_id": "HPKN-GRGE-7F1-STO-0",
+      "transaction_type": "e-commerce",
+      "amount": 651.97,
+      "timestamp": "2087-10-21T11:13:19",
+      "base_score": 0.8371,
+      "final_score": 0.8371,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "05a0bd24-4623-4fac-94c3-6401404535cd",
+      "sender_id": "HMLT-DNSE-7F6-LON-1",
+      "transaction_type": "withdrawal",
+      "amount": 149.84,
+      "timestamp": "2087-10-23T14:05:39",
+      "base_score": 0.8256,
+      "final_score": 0.8256,
+      "reviewed": false,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "high short-term transaction burst",
+        "clustered ATM withdrawals",
+        "location mismatch persists over 24h window (1334km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.78)"
+      ]
+    },
+    {
+      "transaction_id": "95bbde26-41dd-495f-a018-eb9ea6111e3f",
+      "sender_id": "LVRD-BLLY-7FC-CHA-1",
+      "transaction_type": "e-commerce",
+      "amount": 187.43,
+      "timestamp": "2087-03-02T20:49:46",
+      "base_score": 0.8236,
+      "final_score": 0.8236,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.72)"
+      ]
+    },
+    {
+      "transaction_id": "43541f36-f81b-4eaa-a559-92c858361048",
+      "sender_id": "RYRO-BN\u00ceT-7CD-BOR-1",
+      "transaction_type": "withdrawal",
+      "amount": 249.98,
+      "timestamp": "2087-06-20T22:34:59",
+      "base_score": 0.8107,
+      "final_score": 0.8107,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "location mismatch persists over 24h window (9257km)",
+        "new in-person city far from residence (9253km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.72)",
+        "recent sms with phishing markers (crypto_or_gift, score 0.78)"
+      ]
+    },
+    {
+      "transaction_id": "6c6aaebd-b853-4f23-9248-ea7bf2986f92",
+      "sender_id": "HMLT-DNSE-7F6-LON-1",
+      "transaction_type": "withdrawal",
+      "amount": 49.92,
+      "timestamp": "2087-10-23T13:27:59",
+      "base_score": 0.8056,
+      "final_score": 0.8056,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "location mismatch persists over 24h window (1334km)",
+        "new in-person city far from residence (1336km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.78)"
+      ]
+    },
+    {
+      "transaction_id": "279611e6-c44b-40af-92f6-4125a17f0053",
+      "sender_id": "PRNT-LCUI-803-CHA-0",
+      "transaction_type": "e-commerce",
+      "amount": 12.18,
+      "timestamp": "2087-02-25T20:30:32",
+      "base_score": 0.798,
+      "final_score": 0.798,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "82dc5dde-ee6b-4a3e-80ee-c61f3e87cc0c",
+      "sender_id": "HPKN-GRGE-7F1-STO-0",
+      "transaction_type": "transfer",
+      "amount": 188.11,
+      "timestamp": "2087-02-07T18:07:34",
+      "base_score": 0.7973,
+      "final_score": 0.7973,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "recipient is globally rare in the dataset",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.50)",
+        "recent sms with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "e80929e8-81b8-4651-8e2c-a0951811fca1",
+      "sender_id": "PSQR-GTHA-801-LIL-0",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "timestamp": "2087-10-27T21:31:38",
+      "base_score": 0.7932,
+      "final_score": 0.7932,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "transaction drains most of the available balance",
+        "location mismatch persists over 24h window (1098km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.98)"
+      ]
+    },
+    {
+      "transaction_id": "8a65f594-9e22-4eff-81da-5a68583dc7ad",
+      "sender_id": "PRTA-PCCU-80D-MOL-0",
+      "transaction_type": "withdrawal",
+      "amount": 200.11,
+      "timestamp": "2087-02-21T12:00:27",
+      "base_score": 0.7732,
+      "final_score": 0.7732,
+      "reviewed": false,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 1.00)",
+        "recent sms with phishing markers (credential_theft, score 0.74)"
+      ]
+    },
+    {
+      "transaction_id": "8b23318b-a18b-4759-899e-5a9f3d95d3f7",
+      "sender_id": "PSQR-GTHA-801-LIL-0",
+      "transaction_type": "e-commerce",
+      "amount": 195.8,
+      "timestamp": "2087-03-23T15:58:44",
+      "base_score": 0.7732,
+      "final_score": 0.7732,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.98)"
+      ]
+    },
+    {
+      "transaction_id": "cd2c6f5a-b3b4-408e-9255-21d755dec9f5",
+      "sender_id": "PSQR-GTHA-801-LIL-0",
+      "transaction_type": "e-commerce",
+      "amount": 42.88,
+      "timestamp": "2087-10-27T13:24:37",
+      "base_score": 0.7732,
+      "final_score": 0.7732,
+      "reviewed": false,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.98)"
+      ]
+    },
+    {
+      "transaction_id": "d32e320f-ee3a-4697-b795-ac09872106f5",
+      "sender_id": "GBRT-GNV\u00c8-807-RIO-1",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "timestamp": "2087-05-20T04:13:52",
+      "base_score": 0.773,
+      "final_score": 0.773,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction drains most of the available balance",
+        "new in-person city far from residence (849km)",
+        "recent sms with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "872d0513-04e2-474a-a97e-d031bfd212a5",
+      "sender_id": "NDRS-CROA-811-STU-0",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "timestamp": "2087-07-04T20:20:57",
+      "base_score": 0.7704,
+      "final_score": 0.7704,
+      "reviewed": false,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "transaction drains most of the available balance",
+        "location mismatch persists over 24h window (853km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "61f51927-edae-4463-8482-f2dd0ed92617",
+      "sender_id": "STRM-CHRL-804-BRU-0",
+      "transaction_type": "withdrawal",
+      "amount": 149.52,
+      "timestamp": "2087-06-20T02:43:56",
+      "base_score": 0.7532,
+      "final_score": 0.7532,
+      "reviewed": false,
+      "reasons": [
+        "high short-term transaction burst",
+        "clustered ATM withdrawals",
+        "location mismatch persists over 24h window (816km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.98)"
+      ]
+    },
+    {
+      "transaction_id": "885c302b-7ab3-4d0a-ac7d-bdd193c487a4",
+      "sender_id": "RYRO-BN\u00ceT-7CD-BOR-1",
+      "transaction_type": "withdrawal",
+      "amount": 205.44,
+      "timestamp": "2087-06-20T22:42:47",
+      "base_score": 0.7507,
+      "final_score": 0.7507,
+      "reviewed": false,
+      "reasons": [
+        "transaction drains most of the available balance",
+        "location mismatch persists over 24h window (9257km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.72)",
+        "recent sms with phishing markers (crypto_or_gift, score 0.78)"
+      ]
+    },
+    {
+      "transaction_id": "74577c7e-4b0b-47cf-b0a6-c87713443a42",
+      "sender_id": "K\u00dcHN-MRSL-805-DUI-0",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-04-27T18:11:18",
+      "base_score": 0.7499,
+      "final_score": 0.7499,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "unusual transaction hour for the sender",
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.98)"
+      ]
+    },
+    {
+      "transaction_id": "e5fd04c3-dbc8-4c79-b56f-ae145c3e90c7",
+      "sender_id": "CLLN-TNIA-812-THO-1",
+      "transaction_type": "in-person payment",
+      "amount": 13.83,
+      "timestamp": "2087-04-23T15:03:49",
+      "base_score": 0.7476,
+      "final_score": 0.7476,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "amount resembles a value requested in a recent suspicious message",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "5ee0841a-4acc-42b3-9603-fb5ffdaf2a20",
+      "sender_id": "HMLT-DNSE-7F6-LON-1",
+      "transaction_type": "transfer",
+      "amount": 1095.15,
+      "timestamp": "2087-04-24T20:08:46",
+      "base_score": 0.7476,
+      "final_score": 0.7476,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "recipient is globally rare in the dataset",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.84)"
+      ]
+    },
+    {
+      "transaction_id": "d426b7d8-8c65-4a4e-815b-e0fd8df4ac87",
+      "sender_id": "PRTA-PCCU-80D-MOL-0",
+      "transaction_type": "e-commerce",
+      "amount": 12.6,
+      "timestamp": "2087-05-04T22:17:23",
+      "base_score": 0.746,
+      "final_score": 0.746,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (parcel_fee, score 0.90)"
+      ]
+    },
+    {
+      "transaction_id": "cc6059d5-fada-4519-96d0-831e30b89c99",
+      "sender_id": "PYTA-MMNL-80C-SAI-0",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-04-02T12:36:54",
+      "base_score": 0.7348,
+      "final_score": 0.7348,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent mail with phishing markers (parcel_fee, score 0.22)"
+      ]
+    },
+    {
+      "transaction_id": "6aabf210-9544-469e-8fc3-ccef5a60823b",
+      "sender_id": "K\u00dcHN-MRSL-805-DUI-0",
+      "transaction_type": "transfer",
+      "amount": 273.05,
+      "timestamp": "2087-10-30T14:49:43",
+      "base_score": 0.726,
+      "final_score": 0.726,
+      "reviewed": false,
+      "reasons": [
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 1.00)",
+        "recent mail with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "2fb5cb68-11b0-45d9-882c-d4ff3d7197fe",
+      "sender_id": "PRTA-PCCU-80D-MOL-0",
+      "transaction_type": "transfer",
+      "amount": 119.44,
+      "timestamp": "2087-02-23T14:02:57",
+      "base_score": 0.7129,
+      "final_score": 0.7129,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 0.84)",
+        "recent sms with phishing markers (credential_theft, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "77307663-3b7c-44e4-ad79-3d0e22b9f073",
+      "sender_id": "PYTA-MMNL-80C-SAI-0",
+      "transaction_type": "withdrawal",
+      "amount": 99.85,
+      "timestamp": "2087-01-19T18:58:36",
+      "base_score": 0.7113,
+      "final_score": 0.7113,
+      "reviewed": false,
+      "reasons": [
+        "location mismatch persists over 24h window (934km)",
+        "new in-person city far from residence (934km)",
+        "recent sms with phishing markers (reward_scam, score 0.76)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "4fdf2004-ab0b-4e86-9eba-3a231a69b808",
+      "sender_id": "PRTA-PCCU-80D-MOL-0",
+      "transaction_type": "withdrawal",
+      "amount": 100.36,
+      "timestamp": "2087-06-09T17:28:07",
+      "base_score": 0.7104,
+      "final_score": 0.7104,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "location mismatch persists over 24h window (1332km)",
+        "new in-person city far from residence (1336km)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "83deedd7-9789-4fab-98f8-43111c0d121f",
+      "sender_id": "STRM-CHRL-804-BRU-0",
+      "transaction_type": "e-commerce",
+      "amount": 104.4,
+      "timestamp": "2087-06-01T11:08:16",
+      "base_score": 0.7038,
+      "final_score": 0.7038,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.94)"
+      ]
+    },
+    {
+      "transaction_id": "e534d5f6-4374-4e40-a249-a583553d5b63",
+      "sender_id": "LVRD-BLLY-7FC-CHA-1",
+      "transaction_type": "e-commerce",
+      "amount": 168.86,
+      "timestamp": "2087-03-02T21:02:18",
+      "base_score": 0.7036,
+      "final_score": 0.7036,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.72)"
+      ]
+    },
+    {
+      "transaction_id": "005287e0-5a1c-4cac-b667-390c5b5709be",
+      "sender_id": "HMLT-DNSE-7F6-LON-1",
+      "transaction_type": "e-commerce",
+      "amount": 4.87,
+      "timestamp": "2087-06-22T19:40:20",
+      "base_score": 0.6984,
+      "final_score": 0.6984,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.54)"
+      ]
+    },
+    {
+      "transaction_id": "49558bc1-e79f-4819-9cdc-5fdb8dd7de53",
+      "sender_id": "LLLB-GSPP-7DB-CAN-1",
+      "transaction_type": "e-commerce",
+      "amount": 69.04,
+      "timestamp": "2087-02-06T18:13:16",
+      "base_score": 0.6984,
+      "final_score": 0.6984,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction type aligns with a recent scam message theme",
+        "recent mail with phishing markers (parcel_fee, score 0.76)"
+      ]
+    },
+    {
+      "transaction_id": "4358828f-b92d-45b3-9d1e-bd1905e94e9a",
+      "sender_id": "K\u00dcHN-MRSL-805-DUI-0",
+      "transaction_type": "transfer",
+      "amount": 139.07,
+      "timestamp": "2087-10-28T15:42:41",
+      "base_score": 0.693,
+      "final_score": 0.693,
+      "reviewed": false,
+      "reasons": [
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 1.00)",
+        "recent mail with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "e9c6b905-5e56-452a-a1e9-e46edc3a2353",
+      "sender_id": "PYTA-MMNL-80C-SAI-0",
+      "transaction_type": "withdrawal",
+      "amount": 150.34,
+      "timestamp": "2087-01-19T19:17:05",
+      "base_score": 0.6913,
+      "final_score": 0.6913,
+      "reviewed": false,
+      "reasons": [
+        "high short-term transaction burst",
+        "location mismatch persists over 24h window (934km)",
+        "recent sms with phishing markers (reward_scam, score 0.76)",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "4e33bcc6-5b0c-4851-b027-1529c681a49a",
+      "sender_id": "HPKN-GRGE-7F1-STO-0",
+      "transaction_type": "e-commerce",
+      "amount": 81.23,
+      "timestamp": "2087-04-29T17:26:41",
+      "base_score": 0.6859,
+      "final_score": 0.6859,
+      "reviewed": false,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.72)"
+      ]
+    },
+    {
+      "transaction_id": "4fb37543-f7c5-4e40-aa70-069463561325",
+      "sender_id": "SRNG-KRLA-805-DRE-0",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-04-21T23:45:31",
+      "base_score": 0.68,
+      "final_score": 0.68,
+      "reviewed": false,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    }
+  ],
+  "score_summary": {
+    "total_transactions": 7387,
+    "reviewed_transactions": 0,
+    "max_score": 1.0,
+    "min_score": 0.0
+  },
+  "non_flagged_high_scores": [
+    {
+      "transaction_id": "9050c9ef-9325-448b-a940-f8103fbe14e2",
+      "final_score": 0.4799,
+      "reasons": [
+        "high short-term transaction burst",
+        "clustered ATM withdrawals",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.84)"
+      ]
+    },
+    {
+      "transaction_id": "c4c8ddff-8364-4b30-a7be-f55b5e2c5476",
+      "final_score": 0.473,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "transaction drains most of the available balance",
+        "recent sms with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "4beceda5-1de8-47ba-aae2-0d5a37592a0a",
+      "final_score": 0.473,
+      "reasons": [
+        "transaction drains most of the available balance",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "0cba2bc0-76ee-47e3-85f5-131d491efa41",
+      "final_score": 0.4729,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "recent sms with phishing markers (reward_scam, score 0.84)",
+        "recent sms with phishing markers (credential_theft, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "2af1fea1-ffd9-43d6-8606-78b6a2da0b85",
+      "final_score": 0.4729,
+      "reasons": [
+        "unusual transaction hour for the sender",
+        "recent sms with phishing markers (reward_scam, score 0.84)",
+        "recent sms with phishing markers (credential_theft, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "7f19e589-2583-4484-9f4f-3f3b2854397a",
+      "final_score": 0.4723,
+      "reasons": [
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.78)",
+        "recent sms with phishing markers (credential_theft, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "de3f0f16-86b5-4df0-a360-e9a271c41400",
+      "final_score": 0.4675,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 0.18)"
+      ]
+    },
+    {
+      "transaction_id": "1dc405e6-bc5d-42b3-9cea-bda7f8a514cb",
+      "final_score": 0.4675,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (reward_scam, score 0.18)"
+      ]
+    },
+    {
+      "transaction_id": "19ba6af4-750c-4386-9177-5b542d98b8e9",
+      "final_score": 0.4662,
+      "reasons": [
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (parcel_fee, score 1.00)"
+      ]
+    },
+    {
+      "transaction_id": "6ced4c28-af62-48e0-91e5-4ae12efc8bba",
+      "final_score": 0.465,
+      "reasons": [
+        "new merchant or ATM location for this sender",
+        "unusual transaction hour for the sender",
+        "transaction type aligns with a recent scam message theme",
+        "recent mail with phishing markers (parcel_fee, score 0.88)"
+      ]
+    },
+    {
+      "transaction_id": "e3c065c4-41e6-417b-9c75-3800051aee0a",
+      "final_score": 0.463,
+      "reasons": [
+        "new recipient for this sender",
+        "recipient is globally rare in the dataset",
+        "transaction type aligns with a recent scam message theme",
+        "recent sms with phishing markers (credential_theft, score 0.80)"
+      ]
+    },
+    {
+      "transaction_id": "5d8c3270-8201-4461-bebb-204661e87afb",
+      "final_score": 0.4603,
+      "reasons": [
+        "transaction drains most of the available balance",
+        "recent sms with phishing markers (credential_theft, score 0.62)"
+      ]
+    },
+    {
+      "transaction_id": "8fdc6ba3-13ae-4603-8095-b1a599c9a38f",
+      "final_score": 0.46,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    },
+    {
+      "transaction_id": "b99c124d-d74d-439b-94b8-0b45b1f08d3a",
+      "final_score": 0.46,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    },
+    {
+      "transaction_id": "841e9d7a-0571-44a4-a4c0-4b945ca776f8",
+      "final_score": 0.46,
+      "reasons": [
+        "amount deviates from sender baseline for this transaction type",
+        "unusual transaction hour for the sender"
+      ]
+    },
+    {
+      "transaction_id": "8ec43b1b-05c6-40e9-9009-b1e6348a324d",
+      "final_score": 0.46,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    },
+    {
+      "transaction_id": "b16c6f27-9265-41cd-9653-d9f89a2cca30",
+      "final_score": 0.46,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    },
+    {
+      "transaction_id": "3636ad61-f246-4b2f-ab37-a427641f9169",
+      "final_score": 0.46,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    },
+    {
+      "transaction_id": "8716705d-1742-468d-b031-43b0caafcc28",
+      "final_score": 0.46,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    },
+    {
+      "transaction_id": "7db97101-4448-450c-a6ba-5588250f326d",
+      "final_score": 0.46,
+      "reasons": [
+        "new recipient for this sender",
+        "new merchant or ATM location for this sender",
+        "new city for this sender's card-present activity",
+        "unusual transaction hour for the sender"
+      ]
+    }
+  ]
+}

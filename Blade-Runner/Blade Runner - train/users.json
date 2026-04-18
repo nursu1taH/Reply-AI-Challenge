@@ -1,0 +1,282 @@
+[
+  {
+    "first_name": "Georgia",
+    "last_name": "Hopkins",
+    "birth_year": 2033,
+    "salary": 160700,
+    "job": "Company Owner",
+    "iban": "GB22T2516808288912049814866",
+    "residence": {
+      "city": "Stourbridge",
+      "lat": "52.4575",
+      "lng": "-2.1479"
+    },
+    "description": "Georgia Hopkins, born in 2033 and now 54, is a Company Owner based in Stourbridge whose grit and practical eye for business turned local industry know-how into a solid enterprise that earns her about £160,700 a year; she keeps a visible but unflashy presence in town—hiring locally, mentoring younger founders and checking the workshop floor as often as the meeting room—travelling only once a year, sometimes to nearby British hubs and sometimes as far as 15,000 km to cities that range from quiet market towns to sprawling metropolises of tens of millions, and, pragmatic by nature, she relies on a small, trusted circle for the digital details after realising her attention can waver when faced with unfamiliar messages."
+  },
+  {
+    "first_name": "Karla",
+    "last_name": "Siering",
+    "birth_year": 2053,
+    "salary": 30600,
+    "job": "Office Clerk",
+    "iban": "DE29H3765595980408552608053",
+    "residence": {
+      "city": "Dresden",
+      "lat": "51.0500",
+      "lng": "13.7400"
+    },
+    "description": "Karla Siering, 34 Jahre alt (geb. 2053), lebt in Dresden und arbeitet als Office Clerk; mit einem Jahresgehalt von 30.600 Euro führt sie ein unauffälliges, ordentliches Leben, in dem Büroalltag und feste Routinen dominieren, sie reist etwa zweimal im Jahr — manchmal bis zu 15.000 km, von kleinen Orten bis zu Megastädten — und lässt ihr Gehalt auf das Konto DE29H3765595980408552608053 überweisen; im digitalen Alltag ist sie pragmatisch, aber nicht unfehlbar: gelegentlich klickt sie auf fragwürdige Nachrichten, was hin und wieder für Ärger sorgt."
+  },
+  {
+    "first_name": "Puccio",
+    "last_name": "Prati",
+    "birth_year": 2061,
+    "salary": 16500,
+    "job": "Ride-share Driver",
+    "iban": "IT03S9939500543681152476954",
+    "residence": {
+      "city": "Molinella",
+      "lat": "44.6167",
+      "lng": "11.6667"
+    },
+    "description": "Puccio Prati, nato nel 2061 e quindi ventiseienne, vive a Molinella e si mantiene guidando per piattaforme di ride‑sharing: la sua auto è insieme ufficio, casa e strumento di sopravvivenza in un lavoro da gig worker che gli frutta circa 16.500 euro l'anno; conosce le vie della Bassa e i volti dei clienti abituali, è pratico e cordiale ma non sempre guardingo nel mondo digitale — cade spesso davanti a email e link sospetti — e, pur muovendosi soprattutto entro poche decine di chilometri dalla città, fa in media tre viaggi all'anno che possono spaziare da brevi trasferte in piccoli paesi fino a corse lunghe fino a 15.000 chilometri, portandolo a incrociare passeggeri provenienti tanto da borghi di poche migliaia di abitanti quanto da metropoli di milioni."
+  },
+  {
+    "first_name": "Billy",
+    "last_name": "Alvarado",
+    "birth_year": 2044,
+    "salary": 83500,
+    "job": "Senior Consultant",
+    "iban": "US07S9686003727743086128653",
+    "residence": {
+      "city": "Charlotte",
+      "lat": "35.2083",
+      "lng": "-80.8303"
+    },
+    "description": "Billy Alvarado, born in 2044, is a 43-year-old Senior Consultant based in Charlotte who earns about $83,500 a year; measured and practical in client work, he still makes roughly one long business trip a year—potentially spanning up to 15,000 km and taking him from small regional towns to vast megacities—and while he brings steady managerial instincts to negotiations and budgets, his digital caution lags behind (he has roughly a 49% chance of clicking phishing links), which keeps colleagues reminding him to tighten his online habits."
+  },
+  {
+    "first_name": "Astrid",
+    "last_name": "Haering",
+    "birth_year": 2010,
+    "salary": 27000,
+    "job": "Retired",
+    "iban": "DE88F2064683579425141331952",
+    "residence": {
+      "city": "Buxtehude",
+      "lat": "53.4769",
+      "lng": "9.7011"
+    },
+    "description": "Astrid Haering ist 77 Jahre alt und lebt in Buxtehude; als ehemalige Hausfrau und jetzt Rentnerin mit einer bescheidenen Rente von rund 27.000 Euro im Jahr führt sie einen ruhigen Haushalt, pflegt den kleinen Garten hinter dem Backsteinhaus und kennt die Nachbarn vom Wochenmarkt, gleichzeitig bleibt sie neugierig: etwa fünfmal im Jahr unternimmt sie Reisen — von kurzen Ausflügen in vertraute Kleinstädte bis zu weiten Fahrten in große Metropolen und gelegentlich sogar sehr entfernte Ziele — und genießt sowohl das Städtetrubel als auch die Stille kleiner Gemeinden; praktisch veranlagt und selbstorganisiert erledigt sie Termine und Papierkram, nutzt Smartphone und E‑Mail, ist online freundlich, manchmal zu vertrauensselig und klickt gelegentlich auf zweifelhafte Nachrichten, lebt aber insgesamt einfach und verlässlich, fest verwurzelt in ihrer Gemeinschaft in Buxtehude."
+  },
+  {
+    "first_name": "Lucie",
+    "last_name": "Parent",
+    "birth_year": 2051,
+    "salary": 79700,
+    "job": "Business Manager",
+    "iban": "FR70I5556812497454602285773",
+    "residence": {
+      "city": "Challans",
+      "lat": "46.8467",
+      "lng": "-1.8781"
+    },
+    "description": "Lucie Parent, née en 2051 et âgée de 36 ans, est Business Manager à Challans; elle gagne environ 79 700 € par an et mène une vie rythmée par son travail, avec deux déplacements professionnels par an — parfois jusqu'à 15 000 km — pour des marchés qui vont de petites agglomérations à de grandes métropoles de plusieurs dizaines de millions d'habitants; à Challans elle gère équipes, contrats et budgets avec pragmatisme et efficacité, préfère les solutions pratiques et optimise ses voyages pour obtenir des résultats concrets, mais cette rapidité se paye parfois par une vigilance numérique inégale qui la rend relativement exposée aux tentatives d'hameçonnage, et elle administre ses finances dans le réseau bancaire français en gardant la simplicité comme règle."
+  },
+  {
+    "first_name": "Miroslav",
+    "last_name": "Kühnert",
+    "birth_year": 2053,
+    "salary": 28200,
+    "job": "Office Clerk",
+    "iban": "DE77H2783902503801923110301",
+    "residence": {
+      "city": "Duisburg",
+      "lat": "51.4347",
+      "lng": "6.7625"
+    },
+    "description": "Miroslav Kühnert, 2053 geboren und damit 34 Jahre alt, lebt in Duisburg und führt das Leben eines klassischen Büroangestellten: als Sachbearbeiter fühlt er sich an seinem Schreibtisch wohl, sortiert Akten, prüft Zahlen und erledigt die alltäglichen Verwaltungsaufgaben mit einer anhaltenden, unaufgeregten Sorgfalt; sein Jahresgehalt liegt bei rund 28.200 Euro, genug für eine bescheidene Wohnung und kleine Freuden, aber keine großen Sprünge. Er reist im Schnitt fünfmal im Jahr, von kurzen Wochenendausflügen in die nähere Umgebung bis zu längeren Fahrten, die bis zu 15.000 Kilometer reichen und ihn sowohl in Orte mit tausend Einwohnern als auch in Megastädte mit Millionenbevölkerung führen können, weil er beides schätzt: Vertrautes und ab und zu die Fremde. Online ist er routiniert, aber nicht misstrauisch genug, um sich ganz zu schützen — mit einer Klickwahrscheinlichkeit von etwa 46 % auf Phishing-Links stolpert er gelegentlich über gefälschte Angebote oder Rechnungen und lernt so nach und nach, vorsichtiger zu werden; in Duisburg ist er jemand, den Nachbarn als zuverlässig und bodenständig beschreiben, jemand, der eher Gewohnheiten pflegt als Aufsehen erregt."
+  },
+  {
+    "first_name": "Benoît",
+    "last_name": "Royer",
+    "birth_year": 1997,
+    "salary": 37100,
+    "job": "Retired",
+    "iban": "FR70Y5755505904812448123133",
+    "residence": {
+      "city": "Bordeaux",
+      "lat": "44.8400",
+      "lng": "-0.5800"
+    },
+    "description": "Benoît Royer, né en 1997 et âgé de 90 ans en 2087, vit à Bordeaux où, retraité et homme au foyer, il a aménagé un appartement fonctionnel près des quais avec un petit balcon d'herbes aromatiques et une cuisine soignée où il prépare la plupart des repas; il mène une vie rythmée par des routines simples — pain maison le matin, lecture des bulletins locaux sur un écran recyclé, échanges de nouvelles avec les voisins et réparation d'objets du quotidien — et voyage environ une fois par an, parfois seulement à l'intérieur de la région bordelaise, parfois beaucoup plus loin, jusqu'à 15 000 km, pour des raisons pratiques comme des rendez‑vous ou des retrouvailles; son revenu annuel tourne autour de 37 100, suffisant pour une existence sobre mais stable, et si Benoît est prudent en ligne, il a déjà connu une arnaque numérique qui l'a rendu plus méfiant envers les propositions trop alléchantes, préférant au final la compagnie des jeunes du quartier et les après‑midis tranquilles à l'animation d'une ville qui a appris à composer avec les années difficiles."
+  },
+  {
+    "first_name": "Agathe",
+    "last_name": "Pasquier",
+    "birth_year": 2049,
+    "salary": 48100,
+    "job": "Retail Entrepreneur",
+    "iban": "FR63W6493380323616760643636",
+    "residence": {
+      "city": "Lille",
+      "lat": "50.6278",
+      "lng": "3.0583"
+    },
+    "description": "Agathe Pasquier, née en 2049 et âgée de 38 ans, tient depuis plusieurs années un commerce de détail à Lille où elle combine boutique de quartier et vitrine en ligne pour rester à flot dans un marché dominé par les plateformes; avec un revenu annuel d'environ 48 100 €, elle mène une vie de chef d'entreprise modeste mais stable, passe la plupart de ses journées à gérer stocks et clients dans les rues commerçantes de la ville et ne prend qu'un voyage par an — parfois à l'autre bout du monde, jusqu'à 15 000 km, pour sourcer des produits ou participer à un salon — en traitant avec villes et fournisseurs de tailles très diverses; numérique et paiements dématérialisés font partie de son quotidien, et si elle sait déléguer la maintenance technique, elle n'est pas à l'abri des courriels frauduleux (sa propension à cliquer reste assez élevée), ce qui l'oblige à rester prudente et pragmatique dans ses choix, fidèle à son ancrage lillois et à une gestion résolument concrète de son entreprise."
+  },
+  {
+    "first_name": "Xavier",
+    "last_name": "Roger",
+    "birth_year": 2014,
+    "salary": 40000,
+    "job": "Retired",
+    "iban": "FR54G4296153530065829209962",
+    "residence": {
+      "city": "Valbonne",
+      "lat": "43.6424",
+      "lng": "7.0095"
+    },
+    "description": "Xavier Roger, né en 2014 et âgé de 73 ans en 2087, vit à Valbonne et s'est organisé comme retraité homme au foyer : il gère la maison avec méthode, cuisine pour la famille, entretient un petit jardin et distribue son temps entre routines domestiques et visites d'amis; sa retraite tourne autour de 40 000 € par an et il tient ses comptes sur l'IBAN FR54G4296153530065829209962. Curieux du monde mais parfois trop confiant en ligne — on estime à environ 50 % sa propension à cliquer sur un courriel frauduleux — il voyage en moyenne cinq fois par an, tantôt pour de courts séjours autour de la Côte d'Azur, tantôt pour de longues escapades allant jusqu'à 15 000 km, visitant aussi bien des villages de mille habitants que des métropoles de plusieurs dizaines de millions, puis revient retrouver la tranquillité de son quartier à Valbonne."
+  },
+  {
+    "first_name": "Emmanuelle",
+    "last_name": "Payet",
+    "birth_year": 2060,
+    "salary": 22700,
+    "job": "Delivery Worker",
+    "iban": "FR15F0734373857332780183787",
+    "residence": {
+      "city": "Saint-Rambert",
+      "lat": "45.5003",
+      "lng": "4.2406"
+    },
+    "description": "Emmanuelle Payet, née en 2060 et âgée de 27 ans, vit à Saint-Rambert et gagne sa vie comme livreuse indépendante pour des plateformes, avec un revenu annuel d'environ 22 700 €; ses journées sont faites de courses locales à la demande, d'un véhicule utilitaire usé et d'un tableau de bord qui dicte les priorités, mais une fois par an elle s'autorise un voyage plus long — parfois jusqu'à 15 000 km — pour voir de la famille ou faire le plein de ce qu'on ne trouve plus en province, autant d'exceptions dans une routine plutôt ancrée dans les petites rues de sa ville; consciente de la précarité du travail numérique, elle a appris à se débrouiller avec peu, reste généralement méfiante envers les messages et notifications mais admet s'être déjà fait piéger par une arnaque en ligne, ce qui l'a rendue plus vigilante sans l'empêcher de rester pragmatique et tenace dans un monde de 2087 où chaque course compte."
+  },
+  {
+    "first_name": "Cora",
+    "last_name": "Anders",
+    "birth_year": 2065,
+    "salary": 10600,
+    "job": "Student",
+    "iban": "DE51T6206611129748644763117",
+    "residence": {
+      "city": "Stuttgart",
+      "lat": "48.7775",
+      "lng": "9.1800"
+    },
+    "description": "Cora Anders, geboren 2065 und damit 22 Jahre alt, ist Studentin in Stuttgart und führt ein pragmisches, auf das Studium konzentriertes Leben: mit einem Einkommen von 10.600 Euro jongliert sie zwischen Miete, Lehrmaterialien und dem Nötigsten für den Alltag, sie reist selten — etwa einmal im Jahr, dafür aber gern weit bis zu 15.000 Kilometern und gelegentlich in Millionenstädte — und verbringt den Großteil ihrer Zeit in Bibliotheken, Vorlesungen und Cafés rund um die Uni; digital ist sie versiert, aber nicht unfehlbar: etwa die Hälfte der täuschenden Angebote bringt sie dazu, impulsiv zu reagieren, was ihre Freundinnen und Freunde mit einem Achselzucken kommentieren, und so bleibt Cora eine nüchterne, ehrgeizige Pragmatikerin in einer Stadt, die zwischen Industrie und grünen Tälern ständig umgestaltet wird."
+  },
+  {
+    "first_name": "Geneviève",
+    "last_name": "Guibert",
+    "birth_year": 2055,
+    "salary": 18500,
+    "job": "Freelance Designer",
+    "iban": "FR41A7904537918159470849421",
+    "residence": {
+      "city": "Riom",
+      "lat": "45.8944",
+      "lng": "3.1133"
+    },
+    "description": "Geneviève Guibert, née en 2055 et âgée de 32 ans, vit à Riom où elle travaille comme freelance designer: elle façonne identités visuelles et interfaces en mêlant l'austérité des pierres auvergnates à des modules d'affichage holographique et des matériaux recyclés, travaillant pour des clients locaux et des commandes venues de loin; elle voyage environ trois fois par an — parfois vers de petits bourgs de quelques milliers d'habitants, parfois jusqu'à quinze mille kilomètres pour superviser une installation — et s'appuie sur un revenu d'environ 18 500 pour garder son atelier partagé dans la vieille ville; curieuse et très connectée, elle teste sans cesse de nouveaux outils en ligne, ce qui la rend inventive mais parfois trop confiante face aux propositions numériques douteuses, et à Riom on la croise souvent dans un café solaire à retoucher des maquettes ou à échanger des contacts avant de rentrer chez elle, où ses projets en cours cohabitent avec une carte du monde ponctuée d'épinglettes."
+  },
+  {
+    "first_name": "Giuseppina",
+    "last_name": "Lollobrigida",
+    "birth_year": 2011,
+    "salary": 37800,
+    "job": "Retired",
+    "iban": "IT45X7423537059632531575837",
+    "residence": {
+      "city": "Canelli",
+      "lat": "44.7208",
+      "lng": "8.2928"
+    },
+    "description": "Giuseppina Lollobrigida, nata nel 2011 e oggi pensionata che ha fatto della cura della casa il suo mestiere, vive a Canelli: con una pensione annua di 37.800 occupa le giornate tra la cucina per la famiglia, l'orto e i gerani sul balcone, le chiacchiere al mercato e le visite alle cantine sotterranee del vino locale; viaggia circa due volte l'anno — talvolta per brevi fughe nelle colline piemontesi, altre volte per mete lontane fino a 15.000 km che la portano da paesini di poche migliaia di abitanti a megacity di decine di milioni — e, sebbene sia curiosa della tecnologia, ha una tendenza a fidarsi dei messaggi ricevuti (una probabilità di cadere in phishing attorno al 47%), perciò ormai verifica con i nipoti prima di fare bonifici o operazioni bancarie online."
+  },
+  {
+    "first_name": "Ezio",
+    "last_name": "Polizzi",
+    "birth_year": 2004,
+    "salary": 41200,
+    "job": "Retired",
+    "iban": "IT63K7880119925774979493266",
+    "residence": {
+      "city": "Falconara Marittima",
+      "lat": "43.6296",
+      "lng": "13.3968"
+    },
+    "description": "Ezio Polizzi, nato nel 2004 e oggi ottantatreenne, vive a Falconara Marittima e si definisce pensionato casalingo: ha passato la vita a gestire la casa, cucinare e coordinare piccoli affari di famiglia, e ora i suoi giorni sono scanditi dal terrazzo dove coltiva erbe in vaso, dalle passeggiate sul lungomare e dagli incontri al mercato con i vicini; riceve una pensione annua di circa €41.200 e mantiene una routine domestica precisa fatta di preparare il pranzo, sistemare la casa e tenere vivo il filo con amici e parenti. Viaggia due volte l’anno: a volte sono gite brevi nei dintorni, altre volte partenze lunghe — fino a 15.000 km — per alternare il silenzio dei borghi con il ritmo delle grandi città, visitando luoghi che vanno da paesini di poche migliaia di abitanti fino a metropoli affollate. Pur essendo curioso verso le tecnologie che hanno trasformato la vita quotidiana, conserva una fiducia che lo rende a volte vulnerabile agli inganni digitali, così si affida spesso a figli o vicini per le questioni complicate; in paese è apprezzato per la cucina semplice, la calma con cui ascolta e la capacità di far sentire chi entra in casa sua come a casa propria."
+  },
+  {
+    "first_name": "Adrienne",
+    "last_name": "Guyot",
+    "birth_year": 2064,
+    "salary": 3500,
+    "job": "Student",
+    "iban": "FR35C8305807982713993582832",
+    "residence": {
+      "city": "Lyon",
+      "lat": "45.7600",
+      "lng": "4.8400"
+    },
+    "description": "Adrienne Guyot, née en 2064, a 23 ans et vit à Lyon; étudiante, elle partage son temps entre cours et petits boulots qui lui rapportent environ 3 500 €, et adore bouger — elle effectue en moyenne trois voyages par an, tantôt de courtes escapades autour de la région, tantôt des trajets longs jusqu'à 15 000 km vers des lieux aussi variés que des villages d'un millier d'habitants ou des mégapoles de 45 millions, et en ligne elle reste globalement prudente mais se laisse parfois séduire par des offres trop belles (statistiquement elle clique sur des liens douteux à peu près une fois sur deux), ce qui la rend à la fois curieuse et résolument pragmatique dans le tumulte urbain lyonnais."
+  },
+  {
+    "first_name": "Katharina",
+    "last_name": "Ring",
+    "birth_year": 1998,
+    "salary": 33900,
+    "job": "Retired",
+    "iban": "DE50O4298312992482530627506",
+    "residence": {
+      "city": "Netphen",
+      "lat": "50.9147",
+      "lng": "8.1000"
+    },
+    "description": "Katharina Ring, geboren 1998 und damit im Jahr 2087 89 Jahre alt, lebt als pensionierte Hausfrau in Netphen; mit einer jährlichen Rente von 33.900 Euro hält sie ihren Haushalt ordentlich und nutzt einen Teil des Einkommens für Reisen — etwa drei Mal im Jahr, mal kurze Ausflüge in die Umgebung, mal Fernreisen bis zu 15.000 Kilometern, wobei ihre Ziele von kleinen Orten mit rund 1.000 Einwohnern bis zu Megastädten mit etwa 45 Millionen Einwohnern reichen; online ist sie eher vertrauensvoll und klickt mit einer Wahrscheinlichkeit von rund 48 Prozent auf verdächtige Links, was ihr gelegentlich Ärger mit digitalen Betrugsversuchen einbringt, doch insgesamt wirkt sie pragmatisch, genügsam und zufrieden mit dem ruhigen Leben in Netphen."
+  },
+  {
+    "first_name": "Charles",
+    "last_name": "Austermühle",
+    "birth_year": 2052,
+    "salary": 40200,
+    "job": "Administrative Assistant",
+    "iban": "DE35R7854551860935142413007",
+    "residence": {
+      "city": "Bruchsal",
+      "lat": "49.1333",
+      "lng": "8.6000"
+    },
+    "description": "Charles Austermühle ist ein 35‑jähriger Verwaltungsassistent aus Bruchsal, geboren 2052, der seinen Alltag in einem bodenständigen Rhythmus organisiert: Vormittags Akten, Formulare und Terminplanung für ein mittleres Büro, nachmittags Erledigungen in der Stadt und abends oft ein schnelles Abendessen in seiner Wohnung nahe dem Zentrum. Sein Jahreseinkommen liegt bei etwa 40.200 Euro, genug für ein solides, eher unauffälliges Leben ohne großen Luxus; die Freizeit füllt er mit kurzen Spaziergängen, gelegentlichen Treffen mit alten Kolleginnen und dem Planen der jährlichen Reise. Er reist nur ungefähr einmal im Jahr, manchmal überraschend weit – bis zu 15.000 Kilometer – und seine Ziele schwanken von kleinen Orten bis hin zu überfüllten Metropolen, je nachdem, wer ihn besucht oder welches Angebot gerade verlockt. Charles ist ein klassischer Büroangestellter: verlässlich, pflichtbewusst, aber nicht besonders technikaffin; bei digitalen Gefahren ist er eher nachlässig, so dass seine Rückmeldung auf betrügerische Nachrichten statistisch gesehen bei etwa fünfzig Prozent liegt und er deshalb regelmäßig an Sicherheitsschulungen teilnimmt. In Bruchsal schätzt man an ihm die ruhige Verlässlichkeit, seine Vorliebe für klare Abläufe und die Art, wie er kleine Probleme pragmatisch löst, ohne großen Aufhebens zu machen."
+  },
+  {
+    "first_name": "Denis",
+    "last_name": "Hamilton",
+    "birth_year": 2038,
+    "salary": 289800,
+    "job": "Company Owner",
+    "iban": "GB85U2452711650918218975210",
+    "residence": {
+      "city": "London",
+      "lat": "51.5072",
+      "lng": "-0.1275"
+    },
+    "description": "Denis Hamilton, born in 2038, is a London-based company owner who earns about £289,800 a year; pragmatic and hands-on, he splits his time between running the business and roughly two trips a year—everything from short hops to journeys up to 15,000 km, to places ranging from small market towns to sprawling megacities—and while he manages money and deals with professional discipline, he can be surprisingly casual online, still prone to clicking dubious links, a small blind spot in an otherwise steady, urban business life."
+  },
+  {
+    "first_name": "Tina",
+    "last_name": "Collins",
+    "birth_year": 2066,
+    "salary": 11300,
+    "job": "Student",
+    "iban": "US33N3008589671581300782329",
+    "residence": {
+      "city": "Thousand Oaks",
+      "lat": "34.1914",
+      "lng": "-118.8756"
+    },
+    "description": "Tina Collins, born in 2066, is a university student based in Thousand Oaks, California, who balances classes and a part-time income of about $11,300 a year while carving out time for her restless curiosity; she makes roughly three trips a year—anything from short regional hops to journeys as far as 15,000 km, visiting places that range from small towns to sprawling megacities—and at home she rents a compact apartment near campus, studies in cafés and on autonomous-shuttle rides, and navigates the web with an open, sometimes impulsive curiosity (she's the sort to click unfamiliar links out of convenience), practical and social, focused on finishing her degree and seeing more of the world within the limits of her modest budget."
+  }
+]

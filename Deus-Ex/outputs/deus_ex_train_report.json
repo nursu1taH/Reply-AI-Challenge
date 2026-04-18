@@ -1,0 +1,2391 @@
+{
+  "summary": {
+    "transactions": 2017,
+    "suspects": 168,
+    "flag_rate": 0.0833
+  },
+  "top_suspects": [
+    {
+      "transaction_id": "1bafaf3a-f871-4705-95dc-cda65778f31c",
+      "sender_id": "PTTR-JMSA-80C-CER-0",
+      "transaction_type": "withdrawal",
+      "amount": 199.79,
+      "location": "Munich - ATM Munich City Center",
+      "description": "",
+      "timestamp": "2087-03-14T10:04:13",
+      "score": 3.3391,
+      "agent_scores": {
+        "behavior": 0.73,
+        "communications": 0.5391,
+        "counterparty": 0.22,
+        "travel": 1.85
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Amazon Security | To: +18853162739 | Date: 2087-03-14 06:01:32",
+        "counterparty has not appeared in the sender's prior history",
+        "multiple cash withdrawals happened in a short time window",
+        "cash amount matches a common ATM extraction pattern",
+        "location jumped from Ceres to Munich in under an hour"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "fdcf86f5-11b2-4a63-8558-110a497b42fd",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "transfer",
+      "amount": 986.7,
+      "location": "",
+      "description": "Office supplies invoice payment",
+      "timestamp": "2087-06-16T21:02:31",
+      "score": 3.0178,
+      "agent_scores": {
+        "behavior": 1.6113,
+        "communications": 0.6166,
+        "counterparty": 0.67,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: From: Chase Bank | To: +13017996586 | Date: 2087-06-16 09:05:58",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "d82e14e6-e940-463b-80be-a81ca496cacb",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "withdrawal",
+      "amount": 150.42,
+      "location": "Indianapolis - ATM Indianapolis Market Square",
+      "description": "",
+      "timestamp": "2087-04-24T15:38:14",
+      "score": 2.6891,
+      "agent_scores": {
+        "behavior": 0.18,
+        "communications": 0.4391,
+        "counterparty": 0.22,
+        "travel": 1.85
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Barclays Security | To: +17344825086 | Date: 2087-04-23 22:59:26",
+        "counterparty has not appeared in the sender's prior history",
+        "cash amount matches a common ATM extraction pattern",
+        "location jumped from London to Indianapolis in under an hour"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "a3d38930-be96-43cb-a43e-815523de755d",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "direct debit",
+      "amount": 62.05,
+      "location": "",
+      "description": "Monthly private health insurance",
+      "timestamp": "2087-07-10T00:49:19",
+      "score": 2.64,
+      "agent_scores": {
+        "behavior": 1.35,
+        "counterparty": 1.29
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "308ac0eb-0e29-4d3b-9442-ac6ad50d685f",
+      "sender_id": "PTTR-JMSA-80C-CER-0",
+      "transaction_type": "in-person payment",
+      "amount": 6.66,
+      "location": "Ceres - Ceres Market and Deli",
+      "description": "",
+      "timestamp": "2087-03-14T09:55:58",
+      "score": 2.6102,
+      "agent_scores": {
+        "communications": 0.5402,
+        "counterparty": 0.22,
+        "travel": 1.85
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Amazon Security | To: +18853162739 | Date: 2087-03-14 06:01:32",
+        "counterparty has not appeared in the sender's prior history",
+        "location jumped from Munich to Ceres in under an hour"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "4abcf553-0ca4-40e8-9a3c-b6c4b91a31df",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "e-commerce",
+      "amount": 105.39,
+      "location": "Water bill Feb",
+      "description": "",
+      "timestamp": "2087-12-20T14:23:28",
+      "score": 2.5882,
+      "agent_scores": {
+        "communications": 0.2682,
+        "counterparty": 2.32
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: PayPal Security | To: +15919152242 | Date: 2087-12-19 00:12:06",
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "fd3bdfef-57f2-4efb-bf0a-c1c749d9023a",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "withdrawal",
+      "amount": 100.23,
+      "location": "Cornebarrieu - ATM Cornebarrieu Town Center",
+      "description": "",
+      "timestamp": "2087-04-08T18:30:42",
+      "score": 2.58,
+      "agent_scores": {
+        "behavior": 0.73,
+        "travel": 1.85
+      },
+      "reasons": [
+        "multiple cash withdrawals happened in a short time window",
+        "cash amount matches a common ATM extraction pattern",
+        "location jumped from Wiesbaden to Cornebarrieu in under an hour"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "9f6ddd47-db0f-437e-9d7b-67cbab1dd3b8",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 393.08,
+      "location": "Water bill Oct",
+      "description": "",
+      "timestamp": "2087-03-05T16:23:00",
+      "score": 2.4992,
+      "agent_scores": {
+        "communications": 0.2592,
+        "counterparty": 2.24
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: WealthSecure | To: +18834419655 | Date: 2087-03-04 01:03:03",
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "d56aa2db-0fab-4b40-8501-cebe37e77f4c",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "direct debit",
+      "amount": 43.77,
+      "location": "",
+      "description": "Gym membership monthly fee",
+      "timestamp": "2087-04-16T00:06:40",
+      "score": 2.46,
+      "agent_scores": {
+        "behavior": 1.35,
+        "counterparty": 1.11
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "06f160ac-f641-48ba-8666-98ef98a23db0",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 43.93,
+      "location": "Savings deposit",
+      "description": "",
+      "timestamp": "2087-03-12T23:59:07",
+      "score": 2.44,
+      "agent_scores": {
+        "counterparty": 2.32,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "e8f72986-2fb6-44be-8570-62f19dcdf860",
+      "sender_id": "CHVN-GBRL-7CA-NAN-0",
+      "transaction_type": "e-commerce",
+      "amount": 108.0,
+      "location": "Savings transfer Feb",
+      "description": "",
+      "timestamp": "2087-04-29T14:44:18",
+      "score": 2.4149,
+      "agent_scores": {
+        "communications": 0.0949,
+        "counterparty": 2.32
+      },
+      "reasons": [
+        "risky communication preceded the transaction: Invitation: Nantes Senior Connect \u2014 Programs & Services for Retirees (2087)",
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history",
+        "recent audio context exists (1 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "41d4177d-1d68-4419-a9bf-c0bdd1f911ac",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 38.35,
+      "location": "Emergency fund transfer",
+      "description": "",
+      "timestamp": "2087-09-22T18:28:44",
+      "score": 2.4,
+      "agent_scores": {
+        "counterparty": 2.28,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "12d9cf4a-24d5-4edc-b9c3-e24283f270f7",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "e-commerce",
+      "amount": 151.97,
+      "location": "Water bill Oct",
+      "description": "",
+      "timestamp": "2087-12-27T23:22:25",
+      "score": 2.36,
+      "agent_scores": {
+        "counterparty": 2.24,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "cee297fc-ab96-4afa-b7a1-d15b4de509ea",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "transfer",
+      "amount": 239.07,
+      "location": "",
+      "description": "Savings deposit",
+      "timestamp": "2087-04-26T13:56:46",
+      "score": 2.3449,
+      "agent_scores": {
+        "behavior": 0.9741,
+        "communications": 0.1109,
+        "counterparty": 1.26
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Barclays Security | To: +17344825086 | Date: 2087-04-23 22:59:26",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "f9bcf3de-be2d-4fbe-82f9-a84822668d98",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 37.55,
+      "location": "RenewalHub Billing",
+      "description": "",
+      "timestamp": "2087-03-19T10:20:34",
+      "score": 2.29,
+      "agent_scores": {
+        "counterparty": 2.17,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "9f000df6-1773-4808-86aa-d3a2fe0c88ab",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "e-commerce",
+      "amount": 40.64,
+      "location": "Emergency fund transfer",
+      "description": "",
+      "timestamp": "2087-03-27T11:54:32",
+      "score": 2.28,
+      "agent_scores": {
+        "counterparty": 2.28
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "ec23ba21-342b-44d0-b4df-4e3803a5a40b",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "e-commerce",
+      "amount": 103.63,
+      "location": "Water bill Oct",
+      "description": "",
+      "timestamp": "2087-12-10T17:29:50",
+      "score": 2.24,
+      "agent_scores": {
+        "counterparty": 2.24
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "ba622811-62fb-44a1-be8d-82d483557d41",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 192.89,
+      "location": "Phone bill",
+      "description": "",
+      "timestamp": "2087-02-01T17:53:16",
+      "score": 2.21,
+      "agent_scores": {
+        "counterparty": 2.21
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "4c243d5a-1df2-40d3-ab00-99915598bb0e",
+      "sender_id": "PRKR-JLUI-7D4-AUR-0",
+      "transaction_type": "e-commerce",
+      "amount": 66.57,
+      "location": "RenewalHub Billing",
+      "description": "",
+      "timestamp": "2087-11-20T16:26:11",
+      "score": 2.17,
+      "agent_scores": {
+        "counterparty": 2.17
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "243721af-cc6e-4f03-8d2b-1de011bc3b06",
+      "sender_id": "CHVN-GBRL-7CA-NAN-0",
+      "transaction_type": "direct debit",
+      "amount": 164.01,
+      "location": "",
+      "description": "Private health insurance premium",
+      "timestamp": "2087-12-11T05:56:28",
+      "score": 2.1443,
+      "agent_scores": {
+        "behavior": 0.4042,
+        "communications": 0.5901,
+        "counterparty": 1.15
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: PayPal Security | To: +17733606977 | Date: 2087-12-10 15:24:56",
+        "counterparty is reused across unrelated users and payment categories",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "583e8162-98ec-423f-a7ef-14859f012b90",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "transfer",
+      "amount": 189.56,
+      "location": "",
+      "description": "Consultant fee",
+      "timestamp": "2087-03-17T20:20:21",
+      "score": 2.14,
+      "agent_scores": {
+        "behavior": 1.35,
+        "counterparty": 0.67,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "eeea3b3f-65bf-4b79-a0b4-3b1b688e0d2f",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "transfer",
+      "amount": 1422.91,
+      "location": "",
+      "description": "Office furniture supplier payment",
+      "timestamp": "2087-04-07T15:11:00",
+      "score": 2.1336,
+      "agent_scores": {
+        "behavior": 0.6436,
+        "counterparty": 1.37,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "a525b62f-468f-48f5-ae1d-bc74264f0e16",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "in-person payment",
+      "amount": 9.43,
+      "location": "Wiesbaden - Wilhelmstrasse Coffee House",
+      "description": "",
+      "timestamp": "2087-04-08T18:11:06",
+      "score": 2.1252,
+      "agent_scores": {
+        "behavior": 0.0552,
+        "counterparty": 0.22,
+        "travel": 1.85
+      },
+      "reasons": [
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions",
+        "location jumped from Cornebarrieu to Wiesbaden in under an hour"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "de1c8e61-f8ee-43fc-8648-16fe564a3096",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "transfer",
+      "amount": 266.89,
+      "location": "",
+      "description": "Service payment",
+      "timestamp": "2087-09-10T08:23:49",
+      "score": 2.1127,
+      "agent_scores": {
+        "communications": 0.9627,
+        "counterparty": 1.15
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: PayPal Security | To: +13482159938 | Date: 2087-09-08 22:24:54",
+        "counterparty is reused across unrelated users and payment categories"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "160c2cb6-d42d-4d28-893a-db7f644a08a0",
+      "sender_id": "PTTR-JMSA-80C-CER-0",
+      "transaction_type": "e-commerce",
+      "amount": 121.53,
+      "location": "Savings transfer Feb",
+      "description": "",
+      "timestamp": "2087-01-27T18:15:35",
+      "score": 2.1,
+      "agent_scores": {
+        "counterparty": 2.1
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "a7a53dd9-b4ab-4bd3-9021-c2b748754fb8",
+      "sender_id": "CHVN-GBRL-7CA-NAN-0",
+      "transaction_type": "e-commerce",
+      "amount": 83.03,
+      "location": "Savings transfer Feb",
+      "description": "",
+      "timestamp": "2087-09-07T15:28:42",
+      "score": 2.1,
+      "agent_scores": {
+        "counterparty": 2.1
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "recent audio context exists (1 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "f68edfe1-7319-494b-af95-9f3434d5b5a5",
+      "sender_id": "CHVN-GBRL-7CA-NAN-0",
+      "transaction_type": "e-commerce",
+      "amount": 113.03,
+      "location": "Savings transfer Feb",
+      "description": "",
+      "timestamp": "2087-10-28T07:44:04",
+      "score": 2.1,
+      "agent_scores": {
+        "counterparty": 2.1
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "591645b2-2210-481f-afc9-90131aa20415",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "transfer",
+      "amount": 603.55,
+      "location": "",
+      "description": "Internet bill Apr",
+      "timestamp": "2087-04-09T19:15:05",
+      "score": 2.0594,
+      "agent_scores": {
+        "behavior": 1.0194,
+        "counterparty": 1.04
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "44ad8987-e174-4dd0-996d-e792b053f4b4",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "e-commerce",
+      "amount": 49.43,
+      "location": "BrightBuy Store",
+      "description": "",
+      "timestamp": "2087-05-16T15:01:44",
+      "score": 2.0274,
+      "agent_scores": {
+        "behavior": 0.0289,
+        "communications": 0.5585,
+        "counterparty": 1.32,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: From: DHL Delivery | To: +13017996586 | Date: 2087-05-16 13:26:03",
+        "counterparty has not appeared in the sender's prior history",
+        "recurring payment label switched to a new counterparty",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "ac41e126-3811-4c8e-aa85-c3f198d3c5bf",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "direct debit",
+      "amount": 40.86,
+      "location": "",
+      "description": "Pensioner health insurance premium",
+      "timestamp": "2087-09-03T03:14:43",
+      "score": 2.02,
+      "agent_scores": {
+        "behavior": 1.35,
+        "counterparty": 0.67
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "9284b267-ebcc-4d80-8309-c76356906aa5",
+      "sender_id": "PRKR-JLUI-7D4-AUR-0",
+      "transaction_type": "direct debit",
+      "amount": 51.88,
+      "location": "",
+      "description": "Health insurance premium",
+      "timestamp": "2087-08-20T07:29:49",
+      "score": 1.9672,
+      "agent_scores": {
+        "behavior": 0.7472,
+        "counterparty": 1.22
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "90a84065-9df4-4195-9c03-d4b638ee5cc3",
+      "sender_id": "CHVN-GBRL-7CA-NAN-0",
+      "transaction_type": "transfer",
+      "amount": 570.69,
+      "location": "",
+      "description": "Home insurance premium",
+      "timestamp": "2087-01-20T17:16:31",
+      "score": 1.9579,
+      "agent_scores": {
+        "communications": 0.7379,
+        "counterparty": 1.22
+      },
+      "reasons": [
+        "risky communication preceded the transaction: Account Security Alert: Verify your bank access immediately",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "recent audio context exists (1 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "0d243091-f859-4546-b78c-ec50d3704025",
+      "sender_id": "PTTR-JMSA-80C-CER-0",
+      "transaction_type": "transfer",
+      "amount": 181.99,
+      "location": "",
+      "description": "Gas bill Jun",
+      "timestamp": "2087-06-01T11:12:12",
+      "score": 1.9397,
+      "agent_scores": {
+        "communications": 0.7897,
+        "counterparty": 1.15
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: PayPal Security | To: +18853162739 | Date: 2087-05-30 15:37:41",
+        "counterparty is reused across unrelated users and payment categories"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "1c70dc62-5e71-4dd6-af55-f2a3fc5cd99b",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "transfer",
+      "amount": 949.36,
+      "location": "",
+      "description": "Savings deposit",
+      "timestamp": "2087-02-25T20:26:46",
+      "score": 1.8482,
+      "agent_scores": {
+        "communications": 0.6982,
+        "counterparty": 1.15
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: PayPal Security | To: +13482159938 | Date: 2087-02-25 16:27:25",
+        "counterparty is reused across unrelated users and payment categories"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "8be56116-389f-4501-b073-8513f7772622",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 13.95,
+      "location": "Internet bill Nov",
+      "description": "",
+      "timestamp": "2087-09-16T22:14:45",
+      "score": 1.8424,
+      "agent_scores": {
+        "behavior": 0.1024,
+        "counterparty": 1.62,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "ca6fa295-68f1-4b1a-8cee-ae12c7781aad",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "transfer",
+      "amount": 210.93,
+      "location": "",
+      "description": "Consultant fee",
+      "timestamp": "2087-08-13T18:59:02",
+      "score": 1.8341,
+      "agent_scores": {
+        "behavior": 0.7941,
+        "counterparty": 1.04
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "c2804d8c-9c5d-4aa3-8248-692e4e581389",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "transfer",
+      "amount": 499.76,
+      "location": "",
+      "description": "Student rent April",
+      "timestamp": "2087-07-13T10:21:59",
+      "score": 1.8287,
+      "agent_scores": {
+        "behavior": 0.6612,
+        "communications": 0.4975,
+        "counterparty": 0.67
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Coinbase Security | To: +17859340115 | Date: 2087-07-12 10:49:33",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "91501bac-1c80-4ce2-b73b-82f951529a36",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 253.34,
+      "location": "BrightLane Commerce",
+      "description": "",
+      "timestamp": "2087-06-24T13:30:06",
+      "score": 1.77,
+      "agent_scores": {
+        "counterparty": 1.77
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history",
+        "recurring payment label switched to a new counterparty"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "b80e1cc4-c96f-4c70-af3c-1913b6a3aebd",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "direct debit",
+      "amount": 161.07,
+      "location": "",
+      "description": "Brokerage account maintenance fee",
+      "timestamp": "2087-08-20T08:41:42",
+      "score": 1.7546,
+      "agent_scores": {
+        "communications": 0.4946,
+        "counterparty": 1.26
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Coinbase Security | To: +18834419655 | Date: 2087-08-19 08:52:16",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "d4d248c1-13f8-4ff1-a992-70fee69a0f61",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "withdrawal",
+      "amount": 250.18,
+      "location": "Indianapolis - ATM Indianapolis Market Square",
+      "description": "",
+      "timestamp": "2087-05-09T09:17:56",
+      "score": 1.75,
+      "agent_scores": {
+        "behavior": 1.53,
+        "counterparty": 0.22
+      },
+      "reasons": [
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions",
+        "cash amount matches a common ATM extraction pattern"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "b4f6c554-614a-4a9a-bcc4-d86b33c30fa0",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 37.46,
+      "location": "Savings transfer Sep",
+      "description": "",
+      "timestamp": "2087-08-03T20:05:48",
+      "score": 1.74,
+      "agent_scores": {
+        "counterparty": 1.62,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "89c375c7-a1cc-4729-ac9f-a4988d711006",
+      "sender_id": "CHVN-GBRL-7CA-NAN-0",
+      "transaction_type": "transfer",
+      "amount": 106.31,
+      "location": "",
+      "description": "Rent payment Apr - Residenze Milano Nantes",
+      "timestamp": "2087-04-04T10:35:14",
+      "score": 1.7209,
+      "agent_scores": {
+        "behavior": 1.1136,
+        "communications": 0.6073
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: PayPal Security | To: +17733606977 | Date: 2087-04-03 21:44:08",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "cda98320-3d2f-42f2-b2ef-b7fd55dc6a6d",
+      "sender_id": "PRKR-JLUI-7D4-AUR-0",
+      "transaction_type": "e-commerce",
+      "amount": 62.67,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-01-24T15:26:03",
+      "score": 1.7115,
+      "agent_scores": {
+        "communications": 0.3415,
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: DHL Delivery | To: +17690760947 | Date: 2087-01-24 09:02:04",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "27d20d5c-7f2c-4d5a-a94a-f7939b0b872a",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "e-commerce",
+      "amount": 209.5,
+      "location": "Emergency fund transfer",
+      "description": "",
+      "timestamp": "2087-04-21T16:54:58",
+      "score": 1.6514,
+      "agent_scores": {
+        "behavior": 0.0314,
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "90223607-0971-4227-8966-54da453026dc",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 3368.54,
+      "location": "BrightLane Commerce",
+      "description": "",
+      "timestamp": "2087-03-17T19:34:23",
+      "score": 1.65,
+      "agent_scores": {
+        "behavior": 1.65
+      },
+      "reasons": [
+        "amount is a strong outlier versus earlier transactions",
+        "transaction is meaningfully large compared with the sender's monthly income",
+        "recent audio context exists (1 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "5555c6f3-4975-43aa-b6c1-afd69034a5af",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "e-commerce",
+      "amount": 52.0,
+      "location": "CycleCharge Payments",
+      "description": "",
+      "timestamp": "2087-10-06T10:27:08",
+      "score": 1.647,
+      "agent_scores": {
+        "communications": 0.527,
+        "counterparty": 1.0,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: From: Netflix Security | To: +13017996586 | Date: 2087-10-06 09:18:36",
+        "counterparty is reused across unrelated users and payment categories"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "e72d4031-2451-49bb-9a8d-5cd506e77124",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "e-commerce",
+      "amount": 217.72,
+      "location": "RenewalHub Billing",
+      "description": "",
+      "timestamp": "2087-02-11T10:35:17",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "c4201815-1f04-46a7-9a98-71bc5e99f12f",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "e-commerce",
+      "amount": 28.74,
+      "location": "Savings transfer Sep",
+      "description": "",
+      "timestamp": "2087-05-20T16:31:18",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "fb7eabc3-918d-45bb-b65d-15980cb9e892",
+      "sender_id": "BRNT-JLTT-7D3-COR-0",
+      "transaction_type": "e-commerce",
+      "amount": 13.32,
+      "location": "Emergency fund transfer",
+      "description": "",
+      "timestamp": "2087-07-08T10:02:23",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "76f8e0ea-bd73-42bf-9435-cfb568bb938f",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "e-commerce",
+      "amount": 69.65,
+      "location": "Savings transfer Sep",
+      "description": "",
+      "timestamp": "2087-09-18T08:56:15",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "078435c0-3c2c-42b5-a0ca-6b932678e454",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "e-commerce",
+      "amount": 10.33,
+      "location": "RenewFlow Subscriptions",
+      "description": "",
+      "timestamp": "2087-09-19T14:44:05",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "6b8bbe6d-4582-46f9-9875-db58a11bc84e",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 498.57,
+      "location": "LoopBilling Solutions",
+      "description": "",
+      "timestamp": "2087-12-11T22:32:26",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "8c5498d4-3a95-462f-813e-cf857d869fdd",
+      "sender_id": "PRKR-JLUI-7D4-AUR-0",
+      "transaction_type": "e-commerce",
+      "amount": 25.09,
+      "location": "Internet bill Nov",
+      "description": "",
+      "timestamp": "2087-12-19T09:07:52",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "c5566edf-709e-42d2-afc9-ed3d338b3869",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "e-commerce",
+      "amount": 36.62,
+      "location": "Internet bill Nov",
+      "description": "",
+      "timestamp": "2087-12-30T13:17:41",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "131da821-73b4-4327-942c-ef1b9d8289e9",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "e-commerce",
+      "amount": 62.44,
+      "location": "Renewo Billing",
+      "description": "",
+      "timestamp": "2088-01-16T10:44:31",
+      "score": 1.62,
+      "agent_scores": {
+        "counterparty": 1.62
+      },
+      "reasons": [
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "6cd8e288-31f7-447d-9fc0-11429556c4a4",
+      "sender_id": "PRKR-JLUI-7D4-AUR-0",
+      "transaction_type": "transfer",
+      "amount": 206.74,
+      "location": "",
+      "description": "Dental treatment payment",
+      "timestamp": "2087-03-05T17:10:15",
+      "score": 1.603,
+      "agent_scores": {
+        "communications": 0.933,
+        "counterparty": 0.67
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Social Security | To: +17690760947 | Date: 2087-03-03 20:36:17",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "91ae1cbb-06ed-4358-8d7d-dedda285b86b",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "transfer",
+      "amount": 875.7,
+      "location": "",
+      "description": "Rent payment Apr - Home Living Paris",
+      "timestamp": "2087-04-07T18:53:43",
+      "score": 1.5776,
+      "agent_scores": {
+        "behavior": 0.3,
+        "communications": 0.7076,
+        "counterparty": 0.45,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: Urgent: Overdue supplier payment \u2014 Invoice INV-2087-4501 requires immediate action",
+        "counterparty appears across several mismatched payment patterns",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "b660dd66-ff1b-41b6-b3ae-8b538e96cc54",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "transfer",
+      "amount": 1229.17,
+      "location": "",
+      "description": "Vendor invoice payment",
+      "timestamp": "2087-09-23T20:17:01",
+      "score": 1.5374,
+      "agent_scores": {
+        "behavior": 0.9674,
+        "counterparty": 0.45,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty appears across several mismatched payment patterns",
+        "amount is a strong outlier versus earlier transactions",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "c28051ed-d1fd-438e-bda8-00912fade60e",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "withdrawal",
+      "amount": 49.97,
+      "location": "Indianapolis - ATM Monument Circle",
+      "description": "",
+      "timestamp": "2087-04-28T06:31:55",
+      "score": 1.53,
+      "agent_scores": {
+        "behavior": 1.53
+      },
+      "reasons": [
+        "amount is a strong outlier versus earlier transactions",
+        "cash amount matches a common ATM extraction pattern"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "fb60ac8f-a26d-4a85-ab87-078a6cbda5e9",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "withdrawal",
+      "amount": 99.99,
+      "location": "Indianapolis - ATM Monument Circle",
+      "description": "",
+      "timestamp": "2087-08-29T23:12:12",
+      "score": 1.53,
+      "agent_scores": {
+        "behavior": 1.53
+      },
+      "reasons": [
+        "amount is a strong outlier versus earlier transactions",
+        "cash amount matches a common ATM extraction pattern",
+        "recent audio context exists (1 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "4452c206-833a-4ae8-b9b7-87d1f4f9b00b",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "e-commerce",
+      "amount": 117.84,
+      "location": "Internet bill Nov",
+      "description": "",
+      "timestamp": "2087-01-13T08:42:06",
+      "score": 1.52,
+      "agent_scores": {
+        "counterparty": 1.4,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty appears across several mismatched payment patterns",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "c25da4ea-ac30-4ead-8088-dcd9b72b6b65",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "e-commerce",
+      "amount": 27.32,
+      "location": "AutoRenew Solutions",
+      "description": "",
+      "timestamp": "2087-11-22T16:52:05",
+      "score": 1.5169,
+      "agent_scores": {
+        "communications": 0.5169,
+        "counterparty": 1.0
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Indiana Lottery | To: +13482159938 | Date: 2087-11-22 10:01:34",
+        "counterparty is reused across unrelated users and payment categories"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "d9723808-b484-4d43-b54e-695948775e5f",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "direct debit",
+      "amount": 43.09,
+      "location": "",
+      "description": "Robo advisor monthly fee",
+      "timestamp": "2087-05-24T08:58:16",
+      "score": 1.5165,
+      "agent_scores": {
+        "communications": 0.2965,
+        "counterparty": 1.22
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Munich Lottery | To: +18834419655 | Date: 2087-05-22 13:51:09",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "48d872fc-d787-4ac5-a865-6bf5ce1a72e0",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "transfer",
+      "amount": 519.33,
+      "location": "",
+      "description": "Gas bill Jun",
+      "timestamp": "2087-06-23T08:43:35",
+      "score": 1.5109,
+      "agent_scores": {
+        "behavior": 0.4709,
+        "counterparty": 1.04
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "43c0733c-85c2-455a-89f9-dfb0b2027d3d",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "e-commerce",
+      "amount": 51.19,
+      "location": "Electricity bill Apr",
+      "description": "",
+      "timestamp": "2087-03-27T19:28:04",
+      "score": 1.5058,
+      "agent_scores": {
+        "communications": 0.3358,
+        "counterparty": 1.17
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Campus IT | To: +17859340115 | Date: 2087-03-26 13:47:52",
+        "merchant label looks like a financial transfer or billing endpoint instead of a normal merchant",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "e9c4bac9-5ad5-44a4-aaad-9b22a59e6015",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "direct debit",
+      "amount": 35.04,
+      "location": "",
+      "description": "Cloud storage monthly fee",
+      "timestamp": "2087-05-09T04:44:42",
+      "score": 1.49,
+      "agent_scores": {
+        "counterparty": 1.37,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "f8aba539-aa5d-4fbe-a039-f1aef4febcc1",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 53.63,
+      "location": "MarketLane Direct",
+      "description": "",
+      "timestamp": "2087-06-20T19:19:25",
+      "score": 1.49,
+      "agent_scores": {
+        "counterparty": 1.37,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "29b44114-4935-4989-bdbe-b89d25218084",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "direct debit",
+      "amount": 22.91,
+      "location": "",
+      "description": "Monthly student gym fee",
+      "timestamp": "2087-07-28T01:01:54",
+      "score": 1.49,
+      "agent_scores": {
+        "counterparty": 1.37,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "078e6513-7289-442d-bec3-2f242cffddc7",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "transfer",
+      "amount": 856.09,
+      "location": "",
+      "description": "Rent payment Jun - Home Living Paris",
+      "timestamp": "2087-06-07T20:39:33",
+      "score": 1.4892,
+      "agent_scores": {
+        "behavior": 0.9192,
+        "counterparty": 0.45,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty appears across several mismatched payment patterns",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "47df1df9-5b7e-42ef-b34c-7f0ab4380182",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "e-commerce",
+      "amount": 10.55,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-05-13T09:33:36",
+      "score": 1.4735,
+      "agent_scores": {
+        "behavior": 0.1035,
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "3d5d6369-7a43-48e0-a00f-ade56ead965b",
+      "sender_id": "PTTR-JMSA-80C-CER-0",
+      "transaction_type": "withdrawal",
+      "amount": 200.07,
+      "location": "Munich - ATM Munich Central Plaza",
+      "description": "",
+      "timestamp": "2087-03-14T10:13:31",
+      "score": 1.4679,
+      "agent_scores": {
+        "behavior": 0.93,
+        "communications": 0.5379
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Amazon Security | To: +18853162739 | Date: 2087-03-14 06:01:32",
+        "multiple cash withdrawals happened in a short time window",
+        "cash amount matches a common ATM extraction pattern"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "f5b83e51-232b-494e-b902-21c54ad2e420",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "direct debit",
+      "amount": 60.22,
+      "location": "",
+      "description": "Monthly student gym membership",
+      "timestamp": "2087-07-29T04:41:48",
+      "score": 1.4578,
+      "agent_scores": {
+        "behavior": 0.1178,
+        "counterparty": 1.22,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "e8ae6115-aae5-41ff-89fd-421be55e1499",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "direct debit",
+      "amount": 35.07,
+      "location": "",
+      "description": "Student gym membership monthly fee",
+      "timestamp": "2087-04-28T06:50:20",
+      "score": 1.453,
+      "agent_scores": {
+        "communications": 0.183,
+        "counterparty": 1.15,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: === SMS CONVERSATION === |  | From: Tonneins Campus Services",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "cfc07573-ad6c-4324-b5e3-88c8216ed912",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "transfer",
+      "amount": 1380.69,
+      "location": "",
+      "description": "Savings deposit",
+      "timestamp": "2087-03-13T12:04:16",
+      "score": 1.45,
+      "agent_scores": {
+        "behavior": 0.3,
+        "counterparty": 1.15
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "9d416df0-43bd-4947-b267-14d3565187c8",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "direct debit",
+      "amount": 153.85,
+      "location": "",
+      "description": "Investment platform monthly fee",
+      "timestamp": "2087-01-15T00:27:41",
+      "score": 1.4485,
+      "agent_scores": {
+        "communications": 0.2285,
+        "counterparty": 1.22
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Vanguard | To: +18834419655 | Date: 2087-01-14 03:19:30",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "e8b4bf9d-e852-46e3-82f2-25a7b9e7d748",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "transfer",
+      "amount": 299.57,
+      "location": "",
+      "description": "Office chair purchase",
+      "timestamp": "2087-09-17T20:56:17",
+      "score": 1.4413,
+      "agent_scores": {
+        "communications": 0.6513,
+        "counterparty": 0.67,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: From: Coinbase Security | To: +13017996586 | Date: 2087-09-17 12:22:31",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "ebc46ffa-6148-4a77-8fe2-82563e2399a0",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 45.81,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-08-08T16:36:03",
+      "score": 1.44,
+      "agent_scores": {
+        "counterparty": 1.32,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty has not appeared in the sender's prior history",
+        "recurring payment label switched to a new counterparty"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "bfc75b30-4366-4757-9be3-7c1bf1d14082",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "e-commerce",
+      "amount": 173.65,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-10-24T18:39:17",
+      "score": 1.44,
+      "agent_scores": {
+        "counterparty": 1.32,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty has not appeared in the sender's prior history",
+        "recurring payment label switched to a new counterparty"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "595783af-f6a9-44e4-9fb8-50010dfb6c22",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 68.52,
+      "location": "MarketLane Direct",
+      "description": "",
+      "timestamp": "2087-12-29T20:24:14",
+      "score": 1.44,
+      "agent_scores": {
+        "counterparty": 1.32,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty has not appeared in the sender's prior history",
+        "recurring payment label switched to a new counterparty"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "f623b550-b144-4398-a4d3-c92e23957392",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "direct debit",
+      "amount": 50.24,
+      "location": "",
+      "description": "Office cloud software monthly fee",
+      "timestamp": "2087-07-31T07:35:06",
+      "score": 1.4241,
+      "agent_scores": {
+        "communications": 0.1541,
+        "counterparty": 1.15,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: From: PayPal Security | To: +13017996586 | Date: 2087-07-28 22:35:51",
+        "counterparty is reused across unrelated users and payment categories"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "338245c7-791d-49e9-a2bb-339eb32b4488",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "e-commerce",
+      "amount": 10.66,
+      "location": "CyclePay Solutions",
+      "description": "",
+      "timestamp": "2087-10-27T22:34:51",
+      "score": 1.4193,
+      "agent_scores": {
+        "behavior": 0.2693,
+        "counterparty": 1.15
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "ac7ba9aa-3afc-4666-8d03-45e151581e74",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "transfer",
+      "amount": 1229.17,
+      "location": "",
+      "description": "Office equipment invoice 2087",
+      "timestamp": "2087-09-29T11:44:28",
+      "score": 1.4154,
+      "agent_scores": {
+        "behavior": 0.8454,
+        "counterparty": 0.45,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty appears across several mismatched payment patterns",
+        "amount is a strong outlier versus earlier transactions",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "b56503ef-c181-4e3a-b067-089fea5270a2",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "direct debit",
+      "amount": 39.18,
+      "location": "",
+      "description": "Student gym membership monthly fee",
+      "timestamp": "2088-01-16T07:05:51",
+      "score": 1.41,
+      "agent_scores": {
+        "counterparty": 1.29,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "fcbd34cb-2ecc-4222-9ebf-33f3558d3075",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "transfer",
+      "amount": 398.52,
+      "location": "",
+      "description": "Rent payment Mar - Abitazioni Plus Wiesbaden",
+      "timestamp": "2087-03-06T20:13:52",
+      "score": 1.4081,
+      "agent_scores": {
+        "behavior": 1.4081
+      },
+      "reasons": [
+        "amount is a strong outlier versus earlier transactions",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "6b382e52-4bc8-4f72-bb45-a9be6e896f94",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "transfer",
+      "amount": 86.42,
+      "location": "",
+      "description": "Textbook purchase",
+      "timestamp": "2087-05-05T19:35:34",
+      "score": 1.4003,
+      "agent_scores": {
+        "communications": 0.7303,
+        "counterparty": 0.67
+      },
+      "reasons": [
+        "risky communication preceded the transaction: Claim Your Prize \u2014 Congratulations, Winner Guido!",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "a8450d00-25b7-411a-8cd5-df1fb7226a34",
+      "sender_id": "PRKR-JLUI-7D4-AUR-0",
+      "transaction_type": "transfer",
+      "amount": 368.66,
+      "location": "",
+      "description": "Home repair invoice payment",
+      "timestamp": "2087-02-13T14:28:38",
+      "score": 1.3916,
+      "agent_scores": {
+        "communications": 0.7216,
+        "counterparty": 0.67
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Coinbase Security | To: +17690760947 | Date: 2087-02-13 12:46:03",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "2e89e60b-82ed-418e-8ee2-41cf5449e50c",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "e-commerce",
+      "amount": 55.62,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-11-25T18:22:52",
+      "score": 1.3893,
+      "agent_scores": {
+        "communications": 0.1193,
+        "counterparty": 1.15,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "risky communication preceded the transaction: Community Services Update & Resources for Administrative Staff in Paris",
+        "counterparty is reused across unrelated users and payment categories"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "676272b4-c535-4327-8dd6-6d6174d2b25a",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "transfer",
+      "amount": 190.33,
+      "location": "",
+      "description": "Investment club contribution",
+      "timestamp": "2087-08-19T10:53:44",
+      "score": 1.3884,
+      "agent_scores": {
+        "communications": 0.7184,
+        "counterparty": 0.67
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Coinbase Security | To: +18834419655 | Date: 2087-08-19 08:52:16",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "edcc7ce4-893c-4187-b004-34971149afd4",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "withdrawal",
+      "amount": 150.02,
+      "location": "Indianapolis - ATM Monument Circle",
+      "description": "",
+      "timestamp": "2087-04-24T15:52:52",
+      "score": 1.3872,
+      "agent_scores": {
+        "behavior": 0.73,
+        "communications": 0.4372,
+        "counterparty": 0.22
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: Barclays Security | To: +17344825086 | Date: 2087-04-23 22:59:26",
+        "counterparty has not appeared in the sender's prior history",
+        "multiple cash withdrawals happened in a short time window",
+        "cash amount matches a common ATM extraction pattern"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "22e73ece-fdc1-47d1-bd4c-407e9f337bee",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "transfer",
+      "amount": 169.93,
+      "location": "",
+      "description": "Consultant fee",
+      "timestamp": "2087-10-15T14:11:52",
+      "score": 1.3846,
+      "agent_scores": {
+        "behavior": 0.3446,
+        "counterparty": 1.04
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "da6c06bc-bb18-43fc-871d-dd28d6dd50d4",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "transfer",
+      "amount": 130.72,
+      "location": "",
+      "description": "Dental treatment payment",
+      "timestamp": "2087-04-22T17:30:02",
+      "score": 1.3826,
+      "agent_scores": {
+        "communications": 0.7126,
+        "counterparty": 0.67
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: National Lottery | To: +15919152242 | Date: 2087-04-22 14:54:29",
+        "counterparty appears across several mismatched payment patterns",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "6269b693-a827-401b-9bda-88f196cd319a",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "transfer",
+      "amount": 3102.23,
+      "location": "",
+      "description": "Emergency fund transfer",
+      "timestamp": "2087-09-18T13:31:18",
+      "score": 1.38,
+      "agent_scores": {
+        "behavior": 0.3,
+        "counterparty": 1.08
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "transaction is meaningfully large compared with the sender's monthly income"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "d51248f0-a26b-4628-b391-4f880a371e29",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "transfer",
+      "amount": 521.87,
+      "location": "",
+      "description": "Phone bill",
+      "timestamp": "2087-03-11T19:17:40",
+      "score": 1.3709,
+      "agent_scores": {
+        "communications": 0.1109,
+        "counterparty": 1.26
+      },
+      "reasons": [
+        "risky communication preceded the transaction: From: PayPal Security | To: +17344825086 | Date: 2087-03-09 03:16:53",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "0699d90e-8db8-49b8-88a7-71e870116667",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "direct debit",
+      "amount": 106.66,
+      "location": "",
+      "description": "Shop insurance monthly premium",
+      "timestamp": "2087-02-12T06:43:48",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "141c6803-dc1f-45d5-9c0a-1baba0751e43",
+      "sender_id": "PRKR-JLUI-7D4-AUR-0",
+      "transaction_type": "transfer",
+      "amount": 289.37,
+      "location": "",
+      "description": "Water bill Feb",
+      "timestamp": "2087-02-27T12:48:52",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "recent audio context exists (2 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "5d42310d-8c1a-4443-99b3-7f3b2053e7d8",
+      "sender_id": "BRNT-JLTT-7D3-COR-0",
+      "transaction_type": "direct debit",
+      "amount": 146.11,
+      "location": "",
+      "description": "Monthly private health insurance",
+      "timestamp": "2087-03-19T05:08:38",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "3ab7155b-fc14-4073-8677-65a842707615",
+      "sender_id": "VSCN-MRAU-807-BRI-1",
+      "transaction_type": "e-commerce",
+      "amount": 80.54,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-04-02T16:53:23",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "recent audio context exists (1 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "cc35c838-6c79-4202-b324-97b488adc3af",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 360.58,
+      "location": "AutoRenew Systems",
+      "description": "",
+      "timestamp": "2087-05-06T22:45:31",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "0dedb69d-b12e-4f85-b59c-527192df77ea",
+      "sender_id": "VSCN-MRAU-807-BRI-1",
+      "transaction_type": "direct debit",
+      "amount": 80.2,
+      "location": "",
+      "description": "Office admin software monthly fee",
+      "timestamp": "2087-05-08T02:12:49",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "bfb63632-c059-4cee-bb25-362f1cd5a12a",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 351.44,
+      "location": "MarketLane Direct",
+      "description": "",
+      "timestamp": "2087-06-03T21:46:52",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history",
+        "recent audio context exists (1 file(s) in the previous 14 days)"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "6f16bd4f-d1e4-470e-81b4-e3c74f2153fb",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "direct debit",
+      "amount": 189.43,
+      "location": "",
+      "description": "POS terminal rental monthly fee",
+      "timestamp": "2087-06-04T06:27:25",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "48c194bf-d3c9-428b-bf43-e871b8357448",
+      "sender_id": "SHPH-DNLA-7D2-LON-0",
+      "transaction_type": "e-commerce",
+      "amount": 97.51,
+      "location": "AutoRenew Systems",
+      "description": "",
+      "timestamp": "2087-06-29T17:19:46",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "9f125193-ed5d-4ec3-a527-cb7016ea43eb",
+      "sender_id": "VSCN-MRAU-807-BRI-1",
+      "transaction_type": "e-commerce",
+      "amount": 104.39,
+      "location": "AutoRenew Systems",
+      "description": "",
+      "timestamp": "2087-07-05T14:10:25",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "49818a49-c92d-47d2-82f8-1a13655fabf3",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "e-commerce",
+      "amount": 65.68,
+      "location": "MarketLane Direct",
+      "description": "",
+      "timestamp": "2087-08-09T08:13:53",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "92b71bb4-fb29-46ec-b171-85800f73e191",
+      "sender_id": "BRNT-JLTT-7D3-COR-0",
+      "transaction_type": "e-commerce",
+      "amount": 79.98,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-10-04T07:14:56",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "29c86632-8543-4ec4-b0ce-3fe32b8315ed",
+      "sender_id": "LDCK-SLVT-7F8-MUN-0",
+      "transaction_type": "e-commerce",
+      "amount": 616.51,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-10-12T20:48:09",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "c1479e9b-3457-4aba-846b-566242f0be63",
+      "sender_id": "BRNT-JLTT-7D3-COR-0",
+      "transaction_type": "direct debit",
+      "amount": 123.61,
+      "location": "",
+      "description": "Private health insurance monthly premium",
+      "timestamp": "2088-01-16T05:48:13",
+      "score": 1.37,
+      "agent_scores": {
+        "counterparty": 1.37
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "0a638c7f-ba85-4818-b9bf-b47f3a02427d",
+      "sender_id": "MSIE-BRNT-7D5-ARN-1",
+      "transaction_type": "transfer",
+      "amount": 268.53,
+      "location": "",
+      "description": "Emergency fund transfer",
+      "timestamp": "2087-03-12T20:09:03",
+      "score": 1.35,
+      "agent_scores": {
+        "behavior": 1.35
+      },
+      "reasons": [
+        "amount is a strong outlier versus earlier transactions"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "4e2e4cbe-dc25-44a1-915e-5a0571bed599",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "e-commerce",
+      "amount": 46.2,
+      "location": "MonthlyMinder Services",
+      "description": "",
+      "timestamp": "2087-06-10T15:04:06",
+      "score": 1.34,
+      "agent_scores": {
+        "counterparty": 1.22,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "c351048a-f879-4ea8-bdd4-9c9d9eb2408e",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "direct debit",
+      "amount": 97.81,
+      "location": "",
+      "description": "Payroll software monthly fee",
+      "timestamp": "2087-08-01T00:52:37",
+      "score": 1.34,
+      "agent_scores": {
+        "counterparty": 1.22,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "966934a8-97f0-490b-a3cf-c62b9656ab84",
+      "sender_id": "MBRT-JS\u00c9P-811-TON-0",
+      "transaction_type": "direct debit",
+      "amount": 26.62,
+      "location": "",
+      "description": "Student mobile plan monthly fee",
+      "timestamp": "2087-09-24T02:39:13",
+      "score": 1.34,
+      "agent_scores": {
+        "counterparty": 1.22,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "15ccd61c-e47d-46d9-ba9c-f287588976bc",
+      "sender_id": "BLND-M\u00c9AI-7FE-PAR-1",
+      "transaction_type": "e-commerce",
+      "amount": 125.39,
+      "location": "LoopCharge Services",
+      "description": "",
+      "timestamp": "2087-10-30T14:28:50",
+      "score": 1.34,
+      "agent_scores": {
+        "counterparty": 1.22,
+        "user_vulnerability": 0.12
+      },
+      "reasons": [
+        "sender profile indicates elevated phishing susceptibility",
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "9ab5e792-5a83-4696-839a-9f7e43c63eca",
+      "sender_id": "BRNT-JLTT-7D3-COR-0",
+      "transaction_type": "transfer",
+      "amount": 498.94,
+      "location": "",
+      "description": "Phone bill",
+      "timestamp": "2087-03-09T15:20:42",
+      "score": 1.33,
+      "agent_scores": {
+        "counterparty": 1.33
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "540e1a18-5949-4363-adc9-e0ea26c574d7",
+      "sender_id": "VSCN-MRAU-807-BRI-1",
+      "transaction_type": "e-commerce",
+      "amount": 138.66,
+      "location": "CycleCharge Payments",
+      "description": "",
+      "timestamp": "2087-03-23T22:41:38",
+      "score": 1.33,
+      "agent_scores": {
+        "counterparty": 1.33
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "112511ef-d89b-409d-a697-7e60808d0e60",
+      "sender_id": "BRNT-JLTT-7D3-COR-0",
+      "transaction_type": "transfer",
+      "amount": 236.64,
+      "location": "",
+      "description": "Emergency fund transfer",
+      "timestamp": "2087-06-08T10:06:46",
+      "score": 1.33,
+      "agent_scores": {
+        "counterparty": 1.33
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "7b3f2444-9cd4-409e-9e01-4dfa636fbad5",
+      "sender_id": "D\u00d6HN-GDUI-811-WIE-0",
+      "transaction_type": "direct debit",
+      "amount": 39.49,
+      "location": "",
+      "description": "Student gym membership monthly fee",
+      "timestamp": "2087-06-09T06:23:34",
+      "score": 1.33,
+      "agent_scores": {
+        "counterparty": 1.33
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "5f38cddc-fefd-41a3-86e5-c2e2c1b732d4",
+      "sender_id": "SPNC-SRAA-7F1-IND-0",
+      "transaction_type": "direct debit",
+      "amount": 39.84,
+      "location": "",
+      "description": "POS software monthly subscription",
+      "timestamp": "2087-06-19T02:25:42",
+      "score": 1.33,
+      "agent_scores": {
+        "counterparty": 1.33
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "5cd87157-e5ad-4dfe-a386-d5e1621f5745",
+      "sender_id": "BRNT-JLTT-7D3-COR-0",
+      "transaction_type": "direct debit",
+      "amount": 204.96,
+      "location": "",
+      "description": "Private health insurance monthly",
+      "timestamp": "2087-07-10T00:20:06",
+      "score": 1.33,
+      "agent_scores": {
+        "counterparty": 1.33
+      },
+      "reasons": [
+        "counterparty is reused across unrelated users and payment categories",
+        "counterparty has not appeared in the sender's prior history"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "3acad35d-b622-4f79-b8bb-fdc3953f0d6e",
+      "sender_id": "PTTR-JMSA-80C-CER-0",
+      "transaction_type": "e-commerce",
+      "amount": 121.84,
+      "location": "UrbanCart Marketplace",
+      "description": "",
+      "timestamp": "2087-04-19T18:41:15",
+      "score": 1.32,
+      "agent_scores": {
+        "counterparty": 1.32
+      },
+      "reasons": [
+        "counterparty has not appeared in the sender's prior history",
+        "recurring payment label switched to a new counterparty"
+      ],
+      "llm_review": null
+    },
+    {
+      "transaction_id": "d1bc71b2-6097-416c-9067-efd8c55480e3",
+      "sender_id": "PTTR-JMSA-80C-CER-0",
+      "transaction_type": "transfer",
+      "amount": 467.93,
+      "location": "",
+      "description": "Savings transfer May",
+      "timestamp": "2087-05-19T18:54:32",
+      "score": 1.32,
+      "agent_scores": {
+        "counterparty": 1.32
+      },
+      "reasons": [
+        "counterparty has not appeared in the sender's prior history",
+        "recurring payment label switched to a new counterparty"
+      ],
+      "llm_review": null
+    }
+  ]
+}

@@ -1,0 +1,2874 @@
+{
+  "dataset_path": "D:\\Downloads\\Blade+Runner+-+validation.zip",
+  "output_path": "D:\\codexProjects\\Brave-New_World\\submission_bladerunner_validation.txt",
+  "selected_count": 52,
+  "threshold": 5.0,
+  "min_candidates": null,
+  "llm_judge_enabled": true,
+  "langfuse_session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8",
+  "llm_judge_disabled_reason": null,
+  "dataset_profile": {
+    "transaction_count": 7288,
+    "user_count": 20,
+    "location_ping_count": 5512,
+    "sms_count": 1080,
+    "mail_count": 73,
+    "transaction_type_counts": {
+      "direct debit": 944,
+      "e-commerce": 1715,
+      "in-person payment": 2309,
+      "transfer": 1541,
+      "withdrawal": 779
+    },
+    "payment_method_counts": {
+      "Google Pay": 598,
+      "PayPal": 248,
+      "debit card": 3172,
+      "mobile phone": 549,
+      "smartwatch": 236,
+      "unlabeled": 2485
+    }
+  },
+  "heuristic_fit_summary": {
+    "resolved_account_count": 20,
+    "accounts_with_message_alerts": 20,
+    "message_alert_count": 195,
+    "geo_anomaly_transaction_count": 44,
+    "geo_anomaly_account_count": 16,
+    "microcharge_transaction_count": 6,
+    "post_compromise_transaction_count": 2
+  },
+  "selection_summary": {
+    "threshold": 5.0,
+    "requested_min_candidates": null,
+    "effective_min_candidates": 12,
+    "auto_backfill_floor": 4.0,
+    "scored_candidate_count": 52,
+    "threshold_selected_count": 52,
+    "eligible_auto_backfill_count": 52,
+    "final_selected_count": 52,
+    "backfilled_below_threshold_count": 0,
+    "top_candidate_scores": [
+      12.5,
+      12.5,
+      12.5,
+      12.5,
+      10.5,
+      10.5,
+      9.0,
+      9.0,
+      9.0,
+      9.0
+    ]
+  },
+  "resolved_accounts": [
+    {
+      "account_id": "BCCH-PNIA-80C-ROM-1",
+      "user": "Pina Boccherini",
+      "residence_city": "Rome",
+      "matching_score": 0.796
+    },
+    {
+      "account_id": "BKRA-SMLA-7FB-LON-1",
+      "user": "Samuel Baker",
+      "residence_city": "London",
+      "matching_score": 0.819
+    },
+    {
+      "account_id": "BLBA-GNMR-802-NAP-0",
+      "user": "Gianmarco Balbo",
+      "residence_city": "Naples",
+      "matching_score": 0.829
+    },
+    {
+      "account_id": "BRKR-JSMN-80D-PLY-0",
+      "user": "Jasmine Barker",
+      "residence_city": "Plymouth",
+      "matching_score": 0.909
+    },
+    {
+      "account_id": "BRMR-HNSJ-808-WEN-0",
+      "user": "Hansj\u00fcrgen Briemer",
+      "residence_city": "Wendelstein",
+      "matching_score": 0.804
+    },
+    {
+      "account_id": "CSTO-HGSU-812-LYO-1",
+      "user": "Hugues Costa",
+      "residence_city": "Lyon",
+      "matching_score": 0.857
+    },
+    {
+      "account_id": "DNLS-BRTT-7FC-MIN-1",
+      "user": "Brittany Daniels",
+      "residence_city": "Minneapolis",
+      "matching_score": 0.856
+    },
+    {
+      "account_id": "HFFR-SRGE-800-BRE-0",
+      "user": "Serge Hauffer",
+      "residence_city": "Bremen",
+      "matching_score": 0.9
+    },
+    {
+      "account_id": "JNSO-GBRL-80B-MIA-0",
+      "user": "Gabriel Jones",
+      "residence_city": "Miami",
+      "matching_score": 0.879
+    },
+    {
+      "account_id": "KHLU-SLME-808-WUR-1",
+      "user": "Selma Kuhl",
+      "residence_city": "Wurzen",
+      "matching_score": 0.819
+    },
+    {
+      "account_id": "LLRD-PLNA-7FF-PAR-1",
+      "user": "Pauline Allard",
+      "residence_city": "Paris",
+      "matching_score": 0.907
+    },
+    {
+      "account_id": "MNDZ-LWRN-805-VIR-0",
+      "user": "Lawrence Mendoza",
+      "residence_city": "Virginia Beach",
+      "matching_score": 0.847
+    },
+    {
+      "account_id": "MRQZ-JFFR-7F0-LAS-1",
+      "user": "Jeffrey Marquez",
+      "residence_city": "Las Vegas",
+      "matching_score": 0.909
+    },
+    {
+      "account_id": "MRTN-KTHE-7FF-HEM-0",
+      "user": "Keith Martinez",
+      "residence_city": "Hempstead",
+      "matching_score": 0.802
+    },
+    {
+      "account_id": "P\u00c4RT-\u00c4NNE-801-HAM-0",
+      "user": "\u00c4nne P\u00e4rtzelt",
+      "residence_city": "Hamminkeln",
+      "matching_score": 0.726
+    },
+    {
+      "account_id": "RMNA-NNLS-806-MON-1",
+      "user": "Annalisa Armani",
+      "residence_city": "Monza",
+      "matching_score": 0.879
+    },
+    {
+      "account_id": "SCTT-BRNI-7C9-FUL-1",
+      "user": "Brian Scott",
+      "residence_city": "Fulham",
+      "matching_score": 0.89
+    },
+    {
+      "account_id": "VLLD-PRNG-7F9-MOL-1",
+      "user": "Pierangelo Villadicani",
+      "residence_city": "Molfetta",
+      "matching_score": 0.776
+    },
+    {
+      "account_id": "VSRA-MRCA-812-BOL-1",
+      "user": "Marco Vasari",
+      "residence_city": "Bollate",
+      "matching_score": 0.806
+    },
+    {
+      "account_id": "WLLC-MCHL-80F-MYR-0",
+      "user": "Michelle Wallace",
+      "residence_city": "Myrtle Grove",
+      "matching_score": 0.852
+    }
+  ],
+  "suspicious_messages": [
+    {
+      "account_id": "BCCH-PNIA-80C-ROM-1",
+      "messages": [
+        {
+          "timestamp": "2087-01-27T07:24:40",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-28T20:56:32",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-07T21:39:53",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-12T15:01:46",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-26T18:44:09",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-28T03:23:37",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-13T02:55:43",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-13T04:31:39",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-29T10:36:15",
+          "channel": "sms",
+          "first_line": "From: Student Grants",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-17T16:05:39",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "BKRA-SMLA-7FB-LON-1",
+      "messages": [
+        {
+          "timestamp": "2087-05-26T09:10:29",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-05T10:00:02",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-18T04:39:10",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-08T10:27:07",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-29T12:19:10",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-18T20:33:09",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-19T23:03:18",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-07T17:35:12",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-16T11:46:03",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-03T21:56:37",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-21T14:41:03",
+          "channel": "mail",
+          "first_line": "From: \"Clara W. Martinez\" <accounts@harrison-payments-secure.com>",
+          "subject": "Subject: Urgent: Overdue Supplier Payment - Invoice INV-2087-0456 (Action Required)"
+        }
+      ]
+    },
+    {
+      "account_id": "BLBA-GNMR-802-NAP-0",
+      "messages": [
+        {
+          "timestamp": "2087-01-03T20:02:15",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-01-31T03:15:25",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-25T19:15:10",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-04T15:57:26",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-12T17:28:08",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-02T18:36:41",
+          "channel": "sms",
+          "first_line": "From: Coinbase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-11T07:36:49",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-05T03:54:24",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-30T20:54:12",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-13T19:46:37",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "BRKR-JSMN-80D-PLY-0",
+      "messages": [
+        {
+          "timestamp": "2087-02-05T05:09:55",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-22T13:28:23",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-19T04:59:47",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-20T11:14:59",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-14T20:20:33",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-15T18:04:50",
+          "channel": "sms",
+          "first_line": "From: Netflix Billing",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-22T09:44:14",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-27T08:22:41",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "BRMR-HNSJ-808-WEN-0",
+      "messages": [
+        {
+          "timestamp": "2087-01-24T14:35:05",
+          "channel": "sms",
+          "first_line": "From: Wendelstein City Hall",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-01-27T21:14:43",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-16T14:19:03",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-13T11:56:27",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-04T07:49:59",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-13T08:48:05",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-26T13:19:24",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-08T20:29:43",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-18T19:22:54",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-21T10:42:00",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-11T17:08:00",
+          "channel": "sms",
+          "first_line": "From: Wendelstein HR",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-08T18:26:20",
+          "channel": "mail",
+          "first_line": "From: \"Marta Klein\" <billing@paypa1-secure.net>",
+          "subject": "Subject: Subscription Renewal Update \u2014 Immediate Action Required"
+        }
+      ]
+    },
+    {
+      "account_id": "CSTO-HGSU-812-LYO-1",
+      "messages": [
+        {
+          "timestamp": "2087-02-17T12:06:25",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-19T11:09:49",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-02T21:25:39",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-08T17:13:51",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-03T15:32:18",
+          "channel": "sms",
+          "first_line": "From: Coinbase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-18T21:04:29",
+          "channel": "sms",
+          "first_line": "From: National Lottery",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-29T17:25:46",
+          "channel": "sms",
+          "first_line": "From: University of Lyon IT",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-09T02:41:50",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-23T22:55:02",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "DNLS-BRTT-7FC-MIN-1",
+      "messages": [
+        {
+          "timestamp": "2087-01-25T23:52:28",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-12T13:39:17",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-11T02:17:50",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-23T01:08:01",
+          "channel": "sms",
+          "first_line": "From: Bank of America Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-19T07:46:22",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-08T18:45:52",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-26T17:25:22",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-21T05:00:47",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-11T15:50:08",
+          "channel": "sms",
+          "first_line": "From: Bank of America Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-10T10:31:55",
+          "channel": "mail",
+          "first_line": "From: \"Evelyn Hart\" <evelyn.hart@gl0bal-prizeintl.com>",
+          "subject": "Subject: URGENT: Prize Claim Notice \u2014 You Are a Winner, Brittany"
+        }
+      ]
+    },
+    {
+      "account_id": "HFFR-SRGE-800-BRE-0",
+      "messages": [
+        {
+          "timestamp": "2087-01-12T14:24:57",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-10T17:24:36",
+          "channel": "sms",
+          "first_line": "From: Bremen Tax Office",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-19T13:01:50",
+          "channel": "sms",
+          "first_line": "From: Coinbase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-07T20:56:40",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-25T11:13:12",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-21T00:24:58",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-26T17:47:51",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-27T15:18:17",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-27T11:19:20",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-23T20:07:22",
+          "channel": "mail",
+          "first_line": "From: \"Daniel Harper\" <renewals@amaz0n-verify.com>",
+          "subject": "Subject: Subscription Renewal Alert \u2014 Payment Update Required"
+        }
+      ]
+    },
+    {
+      "account_id": "JNSO-GBRL-80B-MIA-0",
+      "messages": [
+        {
+          "timestamp": "2087-03-19T08:25:11",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-26T22:37:30",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-25T11:56:23",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-14T15:19:14",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-28T17:02:52",
+          "channel": "sms",
+          "first_line": "From: CoinBase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-12T09:35:20",
+          "channel": "sms",
+          "first_line": "From: Netflix Billing",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-25T20:47:31",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "KHLU-SLME-808-WUR-1",
+      "messages": [
+        {
+          "timestamp": "2087-02-21T19:08:57",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-29T06:22:26",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-07T09:49:57",
+          "channel": "sms",
+          "first_line": "From: Coinbase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-23T19:12:02",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-17T23:44:21",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-17T06:33:20",
+          "channel": "sms",
+          "first_line": "From: Campus IT",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-13T19:54:03",
+          "channel": "sms",
+          "first_line": "From: University Admin",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-22T10:54:11",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-24T08:41:40",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-27T11:33:58",
+          "channel": "mail",
+          "first_line": "From: \"Account Security Team\" <security@amaz0n-verify.com>",
+          "subject": "Subject: Immediate ID Verification Required to Secure Your Account"
+        }
+      ]
+    },
+    {
+      "account_id": "LLRD-PLNA-7FF-PAR-1",
+      "messages": [
+        {
+          "timestamp": "2087-02-25T10:00:41",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-28T17:04:02",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-11T12:22:57",
+          "channel": "sms",
+          "first_line": "From: Chase Bank",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-13T19:32:51",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-18T15:42:30",
+          "channel": "sms",
+          "first_line": "From: EuroLotto",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-19T01:00:17",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-01T20:31:20",
+          "channel": "sms",
+          "first_line": "=== SMS CONVERSATION ===",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-24T19:31:22",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-04T18:53:09",
+          "channel": "sms",
+          "first_line": "From: Coinbase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-29T15:52:34",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-06T20:32:47",
+          "channel": "mail",
+          "first_line": "From: \"Emily Rousseau\" <emily.rousseau@paypa1-secure.net>",
+          "subject": "Subject: Immediate Identity Verification Required: Confirm Your ID Now"
+        }
+      ]
+    },
+    {
+      "account_id": "MNDZ-LWRN-805-VIR-0",
+      "messages": [
+        {
+          "timestamp": "2087-02-11T18:48:40",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-10T17:33:46",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-29T04:14:52",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-16T13:08:48",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-30T00:54:40",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-08T22:24:54",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-04T13:19:13",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-24T13:17:03",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-11T14:48:46",
+          "channel": "mail",
+          "first_line": "From: \"National Fraud Awareness Center\" <alerts@fraudawareness.org>",
+          "subject": "Subject: Dating Scam Alert: Protect your heart and connection from romance fraud \u2014 Guidance for 2087"
+        }
+      ]
+    },
+    {
+      "account_id": "MRQZ-JFFR-7F0-LAS-1",
+      "messages": [
+        {
+          "timestamp": "2087-01-14T13:08:23",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-01-22T01:01:58",
+          "channel": "sms",
+          "first_line": "From: Fidelity Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-23T16:58:19",
+          "channel": "sms",
+          "first_line": "From: Las Vegas Lottery",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-19T16:51:15",
+          "channel": "sms",
+          "first_line": "From: PayPal Billing",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-06T14:47:07",
+          "channel": "sms",
+          "first_line": "From: Fidelity Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-12T23:23:12",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-22T20:31:14",
+          "channel": "sms",
+          "first_line": "From: Investment Alert",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-01T03:24:05",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-05T19:42:34",
+          "channel": "sms",
+          "first_line": "From: CoinBase Secure",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-18T11:11:59",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "MRTN-KTHE-7FF-HEM-0",
+      "messages": [
+        {
+          "timestamp": "2087-02-12T09:45:23",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-17T07:25:45",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-07T22:46:12",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-22T15:19:54",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-28T11:27:46",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-03T17:37:49",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-25T21:42:23",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-12T15:43:23",
+          "channel": "sms",
+          "first_line": "From: Bank of America Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-14T12:11:14",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-18T15:09:42",
+          "channel": "sms",
+          "first_line": "From: National Lottery",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-24T06:10:27",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "P\u00c4RT-\u00c4NNE-801-HAM-0",
+      "messages": [
+        {
+          "timestamp": "2087-01-27T23:20:40",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-03T19:18:52",
+          "channel": "sms",
+          "first_line": "From: Coinbase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-25T13:54:12",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-03T09:22:34",
+          "channel": "sms",
+          "first_line": "From: Netflix Billing",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-21T20:56:12",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-01T08:42:28",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-08T19:12:56",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-26T14:46:24",
+          "channel": "sms",
+          "first_line": "From: National Lottery",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-01-24T06:09:41",
+          "channel": "mail",
+          "first_line": "From: \"Rebecca Klein\" <security@amaz0n-verify.com>",
+          "subject": "Subject: URGENT ID verification required for your account \u2014 Action needed, \u00c4nne"
+        }
+      ]
+    },
+    {
+      "account_id": "RMNA-NNLS-806-MON-1",
+      "messages": [
+        {
+          "timestamp": "2087-01-01T20:41:18",
+          "channel": "sms",
+          "first_line": "From: Monza ID Dept",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-01-09T06:20:38",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-04T03:19:17",
+          "channel": "sms",
+          "first_line": "From: Monza City Services",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-13T03:23:39",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-09T16:26:26",
+          "channel": "sms",
+          "first_line": "From: Monza Bank Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-18T13:10:53",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-29T10:44:12",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-10T07:49:43",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-10T16:52:38",
+          "channel": "sms",
+          "first_line": "From: Netflix Billing",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-25T12:54:07",
+          "channel": "sms",
+          "first_line": "From: UniCredit Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-06-07T11:13:08",
+          "channel": "mail",
+          "first_line": "From: \"Luca Martelli\" <accounts@eurotech-supplies-secure.net>",
+          "subject": "Subject: Urgent: Overdue Supplier Payment Invoice - Immediate Action Required"
+        }
+      ]
+    },
+    {
+      "account_id": "SCTT-BRNI-7C9-FUL-1",
+      "messages": [
+        {
+          "timestamp": "2087-02-04T10:55:56",
+          "channel": "sms",
+          "first_line": "From: HSBC Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-07T16:21:00",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-14T12:40:56",
+          "channel": "sms",
+          "first_line": "From: Barclays Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-25T22:38:46",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-10T13:00:02",
+          "channel": "sms",
+          "first_line": "From: National Lottery",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-21T18:07:07",
+          "channel": "sms",
+          "first_line": "From: Barclays Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-20T11:36:40",
+          "channel": "sms",
+          "first_line": "From: NatWest Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-06T01:20:18",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-19T06:42:56",
+          "channel": "sms",
+          "first_line": "From: Pension Service",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-07T12:55:31",
+          "channel": "sms",
+          "first_line": "From: HSBC Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-05T11:51:29",
+          "channel": "mail",
+          "first_line": "From: \"Victoria Lane\" <security@amaz0n-verify.com>",
+          "subject": "Subject: Immediate Action Required: Login Compromised \u2014 Verify Your Access"
+        }
+      ]
+    },
+    {
+      "account_id": "VLLD-PRNG-7F9-MOL-1",
+      "messages": [
+        {
+          "timestamp": "2087-03-28T18:51:28",
+          "channel": "sms",
+          "first_line": "From: DHL Delivery",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-23T09:05:19",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-03T09:59:05",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-18T11:21:27",
+          "channel": "sms",
+          "first_line": "From: Coinbase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-07-03T12:44:57",
+          "channel": "sms",
+          "first_line": "From: Italian Customs",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-24T05:34:12",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-15T10:03:44",
+          "channel": "sms",
+          "first_line": "From: Netflix Billing",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "VSRA-MRCA-812-BOL-1",
+      "messages": [
+        {
+          "timestamp": "2087-01-24T10:41:22",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-01-27T09:46:27",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-15T17:07:31",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-10T11:07:21",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-03-15T18:58:41",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-05T22:00:20",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-06T01:36:38",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-29T08:31:32",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-29T04:52:55",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-10-02T06:56:06",
+          "channel": "sms",
+          "first_line": "From: Student Portal Security",
+          "subject": ""
+        }
+      ]
+    },
+    {
+      "account_id": "WLLC-MCHL-80F-MYR-0",
+      "messages": [
+        {
+          "timestamp": "2087-01-04T15:00:53",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-01-22T08:21:55",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-02-12T20:30:00",
+          "channel": "sms",
+          "first_line": "From: National Lottery",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-04-05T19:44:18",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-05-26T16:46:15",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-08-17T16:51:17",
+          "channel": "sms",
+          "first_line": "From: Amazon Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-09-27T09:11:24",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-11-13T16:25:36",
+          "channel": "sms",
+          "first_line": "From: Chase Security",
+          "subject": ""
+        },
+        {
+          "timestamp": "2087-12-17T02:56:06",
+          "channel": "sms",
+          "first_line": "From: PayPal Security",
+          "subject": ""
+        }
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "transaction_id": "92282b80-1692-49b6-9ba1-e955c5dac367",
+      "sender_id": "RMNA-NNLS-806-MON-1",
+      "timestamp": "2087-01-01T13:14:24",
+      "transaction_type": "withdrawal",
+      "amount": 150.03,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 12.5,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 11.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Betsiboka",
+              "Chevy Chase",
+              "Monza"
+            ],
+            "rapid_repeat_count": 2
+          }
+        },
+        {
+          "agent": "llm_judge",
+          "score": 1.5,
+          "reason": "The withdrawal location is not in the GPS history, indicating potential fraud.",
+          "details": {
+            "label": "fraud",
+            "session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "1bbbafcf-ef5b-4c1a-b777-ef2d03a93e95",
+      "sender_id": "LLRD-PLNA-7FF-PAR-1",
+      "timestamp": "2087-02-25T20:23:56",
+      "transaction_type": "withdrawal",
+      "amount": 49.74,
+      "location": "Myrtle Grove - ATM Myrtle Grove Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 12.5,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 11.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Myrtle Grove",
+            "known_gps_cities": [
+              "Anqiu",
+              "Paris"
+            ],
+            "rapid_repeat_count": 2
+          }
+        },
+        {
+          "agent": "llm_judge",
+          "score": 1.5,
+          "reason": "The withdrawal location is absent from GPS history, indicating potential fraud.",
+          "details": {
+            "label": "fraud",
+            "session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "bd7f38a0-d4b1-43c9-8b03-243671d8e85b",
+      "sender_id": "LLRD-PLNA-7FF-PAR-1",
+      "timestamp": "2087-05-07T06:54:31",
+      "transaction_type": "withdrawal",
+      "amount": 299.91,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 12.5,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 11.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Anqiu",
+              "Paris"
+            ],
+            "rapid_repeat_count": 2
+          }
+        },
+        {
+          "agent": "llm_judge",
+          "score": 1.5,
+          "reason": "The withdrawal location is not in the GPS history, indicating potential fraud.",
+          "details": {
+            "label": "fraud",
+            "session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "5578f960-e947-4fff-8e0d-f6aa11cb598f",
+      "sender_id": "JNSO-GBRL-80B-MIA-0",
+      "timestamp": "2087-08-11T06:31:15",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "location": "Wurzen - ATM Wurzen Market Square",
+      "recipient_id": "",
+      "description": "",
+      "score": 12.5,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 11.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Wurzen",
+            "known_gps_cities": [
+              "Altena",
+              "Cankiri",
+              "Miami"
+            ],
+            "rapid_repeat_count": 2
+          }
+        },
+        {
+          "agent": "llm_judge",
+          "score": 1.5,
+          "reason": "The withdrawal location is not in the known GPS history, indicating potential fraud.",
+          "details": {
+            "label": "fraud",
+            "session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "30feb0d7-a9a0-4ecd-beac-74797f84a90b",
+      "sender_id": "RMNA-NNLS-806-MON-1",
+      "timestamp": "2087-01-01T13:02:16",
+      "transaction_type": "withdrawal",
+      "amount": 300.28,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 10.5,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Betsiboka",
+              "Chevy Chase",
+              "Monza"
+            ],
+            "rapid_repeat_count": 1
+          }
+        },
+        {
+          "agent": "llm_judge",
+          "score": 1.5,
+          "reason": "The withdrawal in Las Vegas is suspicious due to the absence of GPS history for that city.",
+          "details": {
+            "label": "fraud",
+            "session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "18868c0e-d131-4fe2-9ac9-4c07e9d4fa19",
+      "sender_id": "LLRD-PLNA-7FF-PAR-1",
+      "timestamp": "2087-02-25T19:58:35",
+      "transaction_type": "withdrawal",
+      "amount": 299.52,
+      "location": "Myrtle Grove - ATM Myrtle Grove Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 10.5,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Myrtle Grove",
+            "known_gps_cities": [
+              "Anqiu",
+              "Paris"
+            ],
+            "rapid_repeat_count": 1
+          }
+        },
+        {
+          "agent": "llm_judge",
+          "score": 1.5,
+          "reason": "The withdrawal location is not in the GPS history, indicating potential fraud.",
+          "details": {
+            "label": "fraud",
+            "session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "99e8346b-2395-479b-9beb-d688960d8146",
+      "sender_id": "VSRA-MRCA-812-BOL-1",
+      "timestamp": "2087-03-10T14:05:25",
+      "transaction_type": "withdrawal",
+      "amount": 49.9,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Blaj",
+              "Bollate",
+              "Bykhaw",
+              "Efatsy-Anandroza",
+              "Highland Heights"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "a12b31d5-4235-4e1d-8d0a-f208da5b159a",
+      "sender_id": "MNDZ-LWRN-805-VIR-0",
+      "timestamp": "2087-03-10T22:22:18",
+      "transaction_type": "withdrawal",
+      "amount": 300.05,
+      "location": "Bollate - ATM Bollate Town Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Etropole",
+              "Feldkirch",
+              "Jose Marmol",
+              "Reisterstown",
+              "Thanesar",
+              "Virginia Beach"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "fa1a4a6f-d3a1-4632-8cda-eedc74ca51a1",
+      "sender_id": "VLLD-PRNG-7F9-MOL-1",
+      "timestamp": "2087-04-23T07:25:48",
+      "transaction_type": "withdrawal",
+      "amount": 199.89,
+      "location": "Virginia Beach - ATM Virginia Beach Oceanfront",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Virginia Beach",
+            "known_gps_cities": [
+              "Molfetta",
+              "Santa Cruz"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "27129a0e-82ae-49c9-b0b3-7bfc7a66aa0f",
+      "sender_id": "LLRD-PLNA-7FF-PAR-1",
+      "timestamp": "2087-05-07T06:43:13",
+      "transaction_type": "withdrawal",
+      "amount": 250.05,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Anqiu",
+              "Paris"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "e3376b63-6fe7-4ef0-ac04-16dda79bdacb",
+      "sender_id": "BCCH-PNIA-80C-ROM-1",
+      "timestamp": "2087-06-12T10:47:14",
+      "transaction_type": "withdrawal",
+      "amount": 108.5,
+      "location": "Myrtle Grove - ATM Myrtle Grove Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Myrtle Grove",
+            "known_gps_cities": [
+              "Makato",
+              "Rome"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "ca904dcc-46e4-456c-be44-3ed5316843bb",
+      "sender_id": "JNSO-GBRL-80B-MIA-0",
+      "timestamp": "2087-08-11T06:15:49",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "location": "Wurzen - ATM Wurzen Market Square",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Wurzen",
+            "known_gps_cities": [
+              "Altena",
+              "Cankiri",
+              "Miami"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "e01b92d7-92ba-4821-bdc4-21585bc1f12a",
+      "sender_id": "WLLC-MCHL-80F-MYR-0",
+      "timestamp": "2087-08-17T11:18:33",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "location": "Bollate - ATM Bollate Town Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Clayton",
+              "Fredonia",
+              "Myrtle Grove",
+              "Sakardih"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "fb663978-9567-4df8-bd64-f7dc71a3f44a",
+      "sender_id": "BRMR-HNSJ-808-WEN-0",
+      "timestamp": "2087-10-21T08:41:50",
+      "transaction_type": "withdrawal",
+      "amount": 200.33,
+      "location": "Virginia Beach - ATM Virginia Beach Boardwalk",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Virginia Beach",
+            "known_gps_cities": [
+              "Medroussa",
+              "Sebaste",
+              "Wendelstein"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "c5d28e73-c3bf-452d-8290-c1138c2b77bb",
+      "sender_id": "KHLU-SLME-808-WUR-1",
+      "timestamp": "2087-11-27T13:07:16",
+      "transaction_type": "withdrawal",
+      "amount": 99.86,
+      "location": "Minneapolis - ATM Minneapolis River Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 9.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 9.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Denpasar",
+              "Santo Domingo Tehuantepec",
+              "Wurzen"
+            ],
+            "rapid_repeat_count": 1
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "1d3c67f6-817b-4140-bcef-7ceb6e1f26a7",
+      "sender_id": "RMNA-NNLS-806-MON-1",
+      "timestamp": "2087-01-01T12:48:20",
+      "transaction_type": "withdrawal",
+      "amount": 100.44,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Betsiboka",
+              "Chevy Chase",
+              "Monza"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "fe603e1b-0d2a-4a5d-ac2e-8adb8854d7b6",
+      "sender_id": "VSRA-MRCA-812-BOL-1",
+      "timestamp": "2087-01-24T10:58:05",
+      "transaction_type": "e-commerce",
+      "amount": 513.02,
+      "location": "AutoBill Solutions",
+      "recipient_id": "SYSTB16361",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 7.0,
+          "reason": "large charge preceded by microcharge at same merchant",
+          "details": {
+            "microcharge_transaction_id": "bd223263-b4ae-4f0e-be8e-16584c8f480a"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "410042ae-6a57-4399-a977-f2a3b8083174",
+      "sender_id": "P\u00c4RT-\u00c4NNE-801-HAM-0",
+      "timestamp": "2087-01-24T22:49:39",
+      "transaction_type": "withdrawal",
+      "amount": 300.1,
+      "location": "Minneapolis - ATM North Loop Station",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Cheremkhovo",
+              "Hamminkeln",
+              "Kolokonde",
+              "Piran"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "d26d6bcb-8549-46c7-89f6-b5f53aad3b22",
+      "sender_id": "P\u00c4RT-\u00c4NNE-801-HAM-0",
+      "timestamp": "2087-01-24T23:00:49",
+      "transaction_type": "withdrawal",
+      "amount": 199.93,
+      "location": "Minneapolis - ATM Minneapolis River Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Cheremkhovo",
+              "Hamminkeln",
+              "Kolokonde",
+              "Piran"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "85bee6af-18c2-4692-b488-2d1c305b3a5d",
+      "sender_id": "CSTO-HGSU-812-LYO-1",
+      "timestamp": "2087-02-17T21:30:40",
+      "transaction_type": "withdrawal",
+      "amount": 100.25,
+      "location": "Minneapolis - ATM North Loop Station",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Lyon",
+              "Zitorada"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "161e6c42-e20a-4751-a2da-dbc4a8b65925",
+      "sender_id": "CSTO-HGSU-812-LYO-1",
+      "timestamp": "2087-02-17T21:47:00",
+      "transaction_type": "withdrawal",
+      "amount": 249.74,
+      "location": "Minneapolis - ATM Downtown Minneapolis",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Lyon",
+              "Zitorada"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "87c9a126-95fa-4077-acde-125c53066c40",
+      "sender_id": "LLRD-PLNA-7FF-PAR-1",
+      "timestamp": "2087-02-25T19:36:14",
+      "transaction_type": "withdrawal",
+      "amount": 149.73,
+      "location": "Myrtle Grove - ATM Myrtle Grove Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Myrtle Grove",
+            "known_gps_cities": [
+              "Anqiu",
+              "Paris"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "e1c0a864-9d90-47a4-871d-dcb14954b66e",
+      "sender_id": "VSRA-MRCA-812-BOL-1",
+      "timestamp": "2087-03-10T13:21:53",
+      "transaction_type": "withdrawal",
+      "amount": 50.21,
+      "location": "Las Vegas - ATM Las Vegas Casino Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Blaj",
+              "Bollate",
+              "Bykhaw",
+              "Efatsy-Anandroza",
+              "Highland Heights"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "4be9d320-3a2b-4210-b264-b35b8c243138",
+      "sender_id": "VSRA-MRCA-812-BOL-1",
+      "timestamp": "2087-03-10T13:40:08",
+      "transaction_type": "withdrawal",
+      "amount": 300.38,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Blaj",
+              "Bollate",
+              "Bykhaw",
+              "Efatsy-Anandroza",
+              "Highland Heights"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "62e04cfe-601b-4a95-9b80-447860e7cbc1",
+      "sender_id": "MNDZ-LWRN-805-VIR-0",
+      "timestamp": "2087-03-10T21:44:21",
+      "transaction_type": "withdrawal",
+      "amount": 149.8,
+      "location": "Bollate - ATM Bollate Town Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Etropole",
+              "Feldkirch",
+              "Jose Marmol",
+              "Reisterstown",
+              "Thanesar",
+              "Virginia Beach"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "f090e3be-2ddb-4862-91ce-13cb66d7edd4",
+      "sender_id": "MNDZ-LWRN-805-VIR-0",
+      "timestamp": "2087-03-10T22:04:38",
+      "transaction_type": "withdrawal",
+      "amount": 250.42,
+      "location": "Bollate - ATM Bollate City Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Etropole",
+              "Feldkirch",
+              "Jose Marmol",
+              "Reisterstown",
+              "Thanesar",
+              "Virginia Beach"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "bf9bb483-f3d1-4001-b1ff-457cac599661",
+      "sender_id": "DNLS-BRTT-7FC-MIN-1",
+      "timestamp": "2087-04-19T18:38:05",
+      "transaction_type": "withdrawal",
+      "amount": 49.73,
+      "location": "Rome - ATM Trastevere Square",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Rome",
+            "known_gps_cities": [
+              "Carlos Casares",
+              "Minneapolis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "216b831a-633c-48da-b509-c6f0457fd3f7",
+      "sender_id": "DNLS-BRTT-7FC-MIN-1",
+      "timestamp": "2087-04-19T18:53:12",
+      "transaction_type": "withdrawal",
+      "amount": 150.14,
+      "location": "Rome - ATM Colosseum Entrance",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Rome",
+            "known_gps_cities": [
+              "Carlos Casares",
+              "Minneapolis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "c825f4fe-f4de-45a8-8e09-2a32d13b0fb5",
+      "sender_id": "DNLS-BRTT-7FC-MIN-1",
+      "timestamp": "2087-04-19T19:07:49",
+      "transaction_type": "withdrawal",
+      "amount": 249.7,
+      "location": "Rome - ATM Trastevere Market",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Rome",
+            "known_gps_cities": [
+              "Carlos Casares",
+              "Minneapolis"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "7096ab6f-0546-46d2-8ec9-cd0809c77e57",
+      "sender_id": "VLLD-PRNG-7F9-MOL-1",
+      "timestamp": "2087-04-23T06:55:09",
+      "transaction_type": "withdrawal",
+      "amount": 49.75,
+      "location": "Virginia Beach - ATM Virginia Beach Boardwalk",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Virginia Beach",
+            "known_gps_cities": [
+              "Molfetta",
+              "Santa Cruz"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "83a40a5f-1ce7-46c2-a731-5692cc705576",
+      "sender_id": "VLLD-PRNG-7F9-MOL-1",
+      "timestamp": "2087-04-23T07:14:31",
+      "transaction_type": "withdrawal",
+      "amount": 300.39,
+      "location": "Virginia Beach - ATM Virginia Beach Oceanfront",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Virginia Beach",
+            "known_gps_cities": [
+              "Molfetta",
+              "Santa Cruz"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "47cd8d1c-0fdf-4aed-9491-9d581ad6ffe2",
+      "sender_id": "LLRD-PLNA-7FF-PAR-1",
+      "timestamp": "2087-05-07T06:26:50",
+      "transaction_type": "withdrawal",
+      "amount": 149.68,
+      "location": "Las Vegas - ATM Fremont Street Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Las Vegas",
+            "known_gps_cities": [
+              "Anqiu",
+              "Paris"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "b2d8b4bf-9b69-4af3-abef-49207e8fc70e",
+      "sender_id": "SCTT-BRNI-7C9-FUL-1",
+      "timestamp": "2087-05-21T09:51:40",
+      "transaction_type": "e-commerce",
+      "amount": 1157.04,
+      "location": "BrightCart Online",
+      "recipient_id": "ORGSV70357",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 7.0,
+          "reason": "large charge preceded by microcharge at same merchant",
+          "details": {
+            "microcharge_transaction_id": "d9e2528a-9bbc-4a8a-a8ec-e8e281a0afbf"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "5650a71a-a461-4db1-ac26-ee43143841dc",
+      "sender_id": "BCCH-PNIA-80C-ROM-1",
+      "timestamp": "2087-06-12T10:29:44",
+      "transaction_type": "withdrawal",
+      "amount": 99.65,
+      "location": "Myrtle Grove - ATM Myrtle Grove Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Myrtle Grove",
+            "known_gps_cities": [
+              "Makato",
+              "Rome"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "c64cab1c-8c7f-4983-8295-4494fa33b69b",
+      "sender_id": "MRTN-KTHE-7FF-HEM-0",
+      "timestamp": "2087-06-26T10:44:07",
+      "transaction_type": "withdrawal",
+      "amount": 249.86,
+      "location": "Rome - ATM Colosseum Square",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Rome",
+            "known_gps_cities": [
+              "Anivorano Avaratra",
+              "Hempstead",
+              "Koekelare"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "dec0ef4b-f789-4e59-aa4e-715904000bb0",
+      "sender_id": "MRTN-KTHE-7FF-HEM-0",
+      "timestamp": "2087-06-26T11:05:10",
+      "transaction_type": "withdrawal",
+      "amount": 200.07,
+      "location": "Rome - ATM Rome Historic Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Rome",
+            "known_gps_cities": [
+              "Anivorano Avaratra",
+              "Hempstead",
+              "Koekelare"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "7ce20f63-2868-4674-91c4-6a67a229ebea",
+      "sender_id": "BLBA-GNMR-802-NAP-0",
+      "timestamp": "2087-07-11T13:59:13",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "location": "Minneapolis - ATM Downtown Minneapolis",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Clay Cross",
+              "Naples",
+              "Serra Azul",
+              "Sidhauli",
+              "Tankal",
+              "Vemuluru",
+              "West Memphis",
+              "Yola"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "d1aabed0-2125-4c7c-ac05-41c388c5a4d4",
+      "sender_id": "BLBA-GNMR-802-NAP-0",
+      "timestamp": "2087-07-11T14:09:20",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "location": "Minneapolis - ATM Minneapolis River Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Clay Cross",
+              "Naples",
+              "Serra Azul",
+              "Sidhauli",
+              "Tankal",
+              "Vemuluru",
+              "West Memphis",
+              "Yola"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "a48fca8d-2700-484b-bb53-c804f7d20b80",
+      "sender_id": "JNSO-GBRL-80B-MIA-0",
+      "timestamp": "2087-08-11T06:06:33",
+      "transaction_type": "withdrawal",
+      "amount": 267.91,
+      "location": "Wurzen - ATM Wurzen Market Square",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Wurzen",
+            "known_gps_cities": [
+              "Altena",
+              "Cankiri",
+              "Miami"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "9263da60-d32d-4e0e-be0c-4d72d8c9db11",
+      "sender_id": "WLLC-MCHL-80F-MYR-0",
+      "timestamp": "2087-08-17T10:54:15",
+      "transaction_type": "withdrawal",
+      "amount": 100.15,
+      "location": "Bollate - ATM Bollate Town Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Clayton",
+              "Fredonia",
+              "Myrtle Grove",
+              "Sakardih"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "8c6cbfaa-d7e1-4a2c-a1ab-13648ae5ac4b",
+      "sender_id": "WLLC-MCHL-80F-MYR-0",
+      "timestamp": "2087-08-17T11:10:35",
+      "transaction_type": "withdrawal",
+      "amount": 5.37,
+      "location": "Bollate - ATM Bollate City Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Clayton",
+              "Fredonia",
+              "Myrtle Grove",
+              "Sakardih"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "72e3740b-1db5-45ea-b92e-56dfae157ed8",
+      "sender_id": "MRQZ-JFFR-7F0-LAS-1",
+      "timestamp": "2087-10-18T00:38:31",
+      "transaction_type": "withdrawal",
+      "amount": 149.68,
+      "location": "Bollate - ATM Bollate City Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Chorozinho",
+              "Greenwood",
+              "Joyabaj",
+              "Labe",
+              "Las Vegas",
+              "Tiruttani"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "679ec62d-8aa3-47e9-a987-169bc824e580",
+      "sender_id": "MRQZ-JFFR-7F0-LAS-1",
+      "timestamp": "2087-10-18T00:56:42",
+      "transaction_type": "withdrawal",
+      "amount": 199.88,
+      "location": "Bollate - ATM Bollate Town Center",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Bollate",
+            "known_gps_cities": [
+              "Chorozinho",
+              "Greenwood",
+              "Joyabaj",
+              "Labe",
+              "Las Vegas",
+              "Tiruttani"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "455453f3-6dfa-43e7-b156-da2dbf113ef2",
+      "sender_id": "BRMR-HNSJ-808-WEN-0",
+      "timestamp": "2087-10-21T08:33:09",
+      "transaction_type": "withdrawal",
+      "amount": 200.43,
+      "location": "Virginia Beach - ATM Virginia Beach Boardwalk",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Virginia Beach",
+            "known_gps_cities": [
+              "Medroussa",
+              "Sebaste",
+              "Wendelstein"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "72e1cb99-e970-4efc-ab7c-5c8b3bd9735d",
+      "sender_id": "WLLC-MCHL-80F-MYR-0",
+      "timestamp": "2087-11-13T14:45:53",
+      "transaction_type": "e-commerce",
+      "amount": 596.9,
+      "location": "BrightCart Online",
+      "recipient_id": "ORGSV70357",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 7.0,
+          "reason": "large charge preceded by microcharge at same merchant",
+          "details": {
+            "microcharge_transaction_id": "c8f553df-7ecf-476f-ae57-911ec647f3d7"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "ed0b5b0b-4538-47c3-bd38-e60fcc812ac7",
+      "sender_id": "KHLU-SLME-808-WUR-1",
+      "timestamp": "2087-11-27T12:55:47",
+      "transaction_type": "withdrawal",
+      "amount": 149.65,
+      "location": "Minneapolis - ATM Minneapolis River Plaza",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Denpasar",
+              "Santo Domingo Tehuantepec",
+              "Wurzen"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "092b4a20-ed4c-42b1-ab9c-ed7a1fabfca4",
+      "sender_id": "KHLU-SLME-808-WUR-1",
+      "timestamp": "2087-11-27T13:30:30",
+      "transaction_type": "withdrawal",
+      "amount": 11.77,
+      "location": "Minneapolis - ATM North Loop Station",
+      "recipient_id": "",
+      "description": "",
+      "score": 7.0,
+      "evidences": [
+        {
+          "agent": "geo_temporal",
+          "score": 7.0,
+          "reason": "withdrawal city absent from GPS history",
+          "details": {
+            "transaction_city": "Minneapolis",
+            "known_gps_cities": [
+              "Denpasar",
+              "Santo Domingo Tehuantepec",
+              "Wurzen"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "bd223263-b4ae-4f0e-be8e-16584c8f480a",
+      "sender_id": "VSRA-MRCA-812-BOL-1",
+      "timestamp": "2087-01-24T10:40:22",
+      "transaction_type": "e-commerce",
+      "amount": 3.59,
+      "location": "AutoBill Solutions",
+      "recipient_id": "SYSTB16361",
+      "description": "",
+      "score": 6.0,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 6.0,
+          "reason": "small card-test charge before larger merchant hit",
+          "details": {
+            "follow_up_transaction_id": "fe603e1b-0d2a-4a5d-ac2e-8adb8854d7b6"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "d9e2528a-9bbc-4a8a-a8ec-e8e281a0afbf",
+      "sender_id": "SCTT-BRNI-7C9-FUL-1",
+      "timestamp": "2087-05-21T09:17:04",
+      "transaction_type": "e-commerce",
+      "amount": 1.0,
+      "location": "BrightCart Online",
+      "recipient_id": "ORGSV70357",
+      "description": "",
+      "score": 6.0,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 6.0,
+          "reason": "small card-test charge before larger merchant hit",
+          "details": {
+            "follow_up_transaction_id": "b2d8b4bf-9b69-4af3-abef-49207e8fc70e"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "c8f553df-7ecf-476f-ae57-911ec647f3d7",
+      "sender_id": "WLLC-MCHL-80F-MYR-0",
+      "timestamp": "2087-11-13T14:30:53",
+      "transaction_type": "e-commerce",
+      "amount": 2.79,
+      "location": "BrightCart Online",
+      "recipient_id": "ORGSV70357",
+      "description": "",
+      "score": 6.0,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 6.0,
+          "reason": "small card-test charge before larger merchant hit",
+          "details": {
+            "follow_up_transaction_id": "72e1cb99-e970-4efc-ab7c-5c8b3bd9735d"
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "21e86f26-d63b-44d7-9a8a-37c9ae69747e",
+      "sender_id": "CSTO-HGSU-812-LYO-1",
+      "timestamp": "2087-02-18T11:02:53",
+      "transaction_type": "transfer",
+      "amount": 39.09,
+      "location": "",
+      "recipient_id": "ENTMR90651",
+      "description": "Emergency fund transfer",
+      "score": 5.5,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 5.5,
+          "reason": "new counterparty after compromise; vague money-move label after compromise; urgent transfer label immediately after compromise",
+          "details": {
+            "recent_alert": true,
+            "recent_compromise_anchor": true,
+            "routine_label": false
+          }
+        }
+      ]
+    },
+    {
+      "transaction_id": "93fcac37-516d-4d02-8e8d-fc2547b2528f",
+      "sender_id": "LLRD-PLNA-7FF-PAR-1",
+      "timestamp": "2087-05-08T09:59:56",
+      "transaction_type": "transfer",
+      "amount": 24.53,
+      "location": "",
+      "recipient_id": "VNDDN44400",
+      "description": "Donation",
+      "score": 5.5,
+      "evidences": [
+        {
+          "agent": "counterparty_novelty",
+          "score": 4.0,
+          "reason": "new counterparty after compromise; vague money-move label after compromise",
+          "details": {
+            "recent_alert": true,
+            "recent_compromise_anchor": true,
+            "routine_label": false
+          }
+        },
+        {
+          "agent": "llm_judge",
+          "score": 1.5,
+          "reason": "The transaction is suspicious due to a new counterparty and vague labeling after a recent compromise.",
+          "details": {
+            "label": "fraud",
+            "session_id": "KairatNurtas-01KPBW1R1YDFBW4J30432X1PE8"
+          }
+        }
+      ]
+    }
+  ]
+}

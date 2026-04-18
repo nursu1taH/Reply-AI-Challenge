@@ -1,0 +1,8 @@
+python-dotenv>=1.0,<2
+ulid-py>=1.1,<2
+openai>=2.0,<3
+packaging>=24,<26
+langchain>=1.0,<2
+langchain-openai>=0.3,<1
+langfuse>=3,<4
+

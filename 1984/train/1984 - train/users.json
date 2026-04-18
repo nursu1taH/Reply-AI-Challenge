@@ -1,0 +1,562 @@
+[
+  {
+    "first_name": "Katarina",
+    "last_name": "Fischer",
+    "birth_year": 2056,
+    "salary": 14500,
+    "job": "Student",
+    "iban": "DE37X8580256657634545607471",
+    "residence": {
+      "city": "Munich",
+      "lat": "48.1375",
+      "lng": "11.5750"
+    },
+    "description": "Katarina Fischer, geboren 2056 und damit 31 Jahre alt, lebt und studiert in München; als Studentin hat sie ein Einkommen von 14.500 Euro und verwaltet ihr Konto unter der IBAN DE37X8580256657634545607471, sie reist im Durchschnitt einmal im Jahr — manchmal nur regional, manchmal bis zu 15.000 Kilometer weit — und besucht Ziele von kleinen Orten bis zu Megastädten mit bis zu 45 Millionen Einwohnern, was zeigt, dass ihre Reisen sowohl nahe als auch sehr fern liegen können; online ist sie pragmatisch, aber nicht übervorsichtig: ihre Anfälligkeit, auf Phishing hereinzufallen, liegt bei etwa 49 Prozent, sodass sie gelegentlich vorschnelle Klicks bereut, insgesamt aber organisiert und zielstrebig wirkt."
+  },
+  {
+    "first_name": "Anna",
+    "last_name": "Weiss",
+    "birth_year": 2049,
+    "salary": 39900,
+    "job": "Office Clerk",
+    "iban": "US36S0961732582907262154077",
+    "residence": {
+      "city": "Burien",
+      "lat": "47.4762",
+      "lng": "-122.3394"
+    },
+    "description": "Anna Weiss, born in 2049, is a 38-year-old office clerk who lives in Burien, just south of Seattle; she earns about $39,900 a year and keeps life practical—mornings spent sorting paperwork and managing small office systems, evenings on the bus home or running errands around town—her pay goes into an account that she references by the last digits 4077, and she treats technology with a mix of trust and caution, roughly a coin-flip likelihood of falling for a clever phishing lure so she’s learned to pause before clicking; she travels about three times a year, sometimes to nearby Puget Sound getaways and sometimes as far as 15,000 km away, moving between places as intimate as thousand-person towns and the bustle of sprawling metropolises, and she prefers a steady routine punctuated by those occasional trips that remind her there’s more beyond the office."
+  },
+  {
+    "first_name": "Angelo",
+    "last_name": "Zoppetto",
+    "birth_year": 2037,
+    "salary": 263200,
+    "job": "Investor",
+    "iban": "IT28J8404455538542286978537",
+    "residence": {
+      "city": "Genoa",
+      "lat": "44.4072",
+      "lng": "8.9340"
+    },
+    "description": "Angelo Zoppetto, nato nel 2037 e oggi cinquantenne, è un imprenditore e investor con base a Genova: guadagna circa 263.200 euro l'anno e gestisce portafogli che oscillano tra capitale privato e operazioni ad alto rendimento; vive sul fronte portuale della città e mantiene un ritmo di lavoro serrato ma controllato, viaggiando solo una volta all'anno, spesso verso grandi metropoli o capitali lontane fino a 15.000 km e con destinazioni che vanno da piccole città a megacittà fino a 45 milioni di abitanti; pragmatico nel valutare rischi finanziari, è però vulnerabile agli inganni digitali e talvolta clicca link sospetti, qualità che lo rende allo stesso tempo ambizioso e umano agli occhi dei colleghi genovesi."
+  },
+  {
+    "first_name": "Geneviève",
+    "last_name": "Petitjean",
+    "birth_year": 2031,
+    "salary": 148100,
+    "job": "Investor",
+    "iban": "FR41F3780213632912807343428",
+    "residence": {
+      "city": "Paris",
+      "lat": "48.8567",
+      "lng": "2.3522"
+    },
+    "description": "Geneviève Petitjean, née en 2031 et installée à Paris, est une entrepreneuse-investisseuse de premier plan de 56 ans dont le quotidien mêle décisions d'investissement exigeantes et direction de projets innovants; avec un revenu annuel d'environ 148 100 €, elle mène une vie professionnelle dense mais choisit de ne voyager qu'une fois par an, parfois jusqu'à 15 000 km pour des destinations qui vont de petites agglomérations à de vastes métropoles, et malgré son pragmatisme et sa capacité à prendre des risques calculés elle reconnaît une vulnérabilité numérique — sa probabilité de cliquer sur un courriel d'hameçonnage est estimée à 49 %, une faiblesse qu'elle surveille et corrige au fil du temps."
+  },
+  {
+    "first_name": "Valentine",
+    "last_name": "Gerlach",
+    "birth_year": 2056,
+    "salary": 6100,
+    "job": "Student",
+    "iban": "DE63D2443196701697981458469",
+    "residence": {
+      "city": "Kiel",
+      "lat": "54.3233",
+      "lng": "10.1394"
+    },
+    "description": "Valentine Gerlach, 31 Jahre alt (Jahrgang 2056), studiert in Kiel und wohnt an der Kieler Förde; mit einem monatlichen Einkommen von 6.100 Euro finanziert Valentine Studium und Alltag, unternimmt im Schnitt zwei Reisen pro Jahr — mal kurze Trips in der Nähe, mal weite Strecken bis zu 15.000 km zu Großstädten mit bis zu 45 Millionen Einwohnern — und ist online eher unvorsichtig: die Wahrscheinlichkeit, auf Phishing‑Links zu klicken, liegt bei rund 50 Prozent."
+  },
+  {
+    "first_name": "Véronique",
+    "last_name": "Verdier",
+    "birth_year": 2044,
+    "salary": 25700,
+    "job": "Administrative Assistant",
+    "iban": "FR79B9310679814120944924219",
+    "residence": {
+      "city": "Brive-la-Gaillarde",
+      "lat": "45.1583",
+      "lng": "1.5321"
+    },
+    "description": "Véronique Verdier, née en 2044 et âgée de 43 ans, vit à Brive‑la‑Gaillarde où elle travaille comme assistante administrative; avec un salaire modeste d'environ 25 700 € par an, elle mène une vie ordonnée — dossiers classés, agendas respectés et comptes suivis — et partage son temps entre quatre voyages par an, allant des escapades dans les bourgs de Corrèze à des séjours dans des métropoles lointaines (jusqu'à 15 000 km), ce qui lui fait côtoyer tant des lieux de mille habitants que des villes de plusieurs millions; prudente avec ses finances et attentive aux virements depuis son compte français, elle garde néanmoins une préférence pour le carnet papier et la familiarité des marchés locaux, tout en admettant qu'un courriel trompeur peut parfois la surprendre."
+  },
+  {
+    "first_name": "Alberto",
+    "last_name": "Cipolla",
+    "birth_year": 2047,
+    "salary": 35400,
+    "job": "Office Clerk",
+    "iban": "IT28N8990257657576490589675",
+    "residence": {
+      "city": "Naples",
+      "lat": "40.8358",
+      "lng": "14.2486"
+    },
+    "description": "Alberto Cipolla, nato nel 2047 e oggi quarantenne, è il classico impiegato d'ufficio di Napoli: sveglia presto, tragitto tra quartieri familiari e una postazione davanti allo schermo dove gestisce documenti, pratiche e numeri con una puntualità che tiene a galla la sua carriera; guadagna 35.400 euro l'anno e tiene il conto corrente intestato a lui (IBAN IT28N8990257657576490589675), abbastanza per una vita dignitosa ma senza eccessi, con qualche risparmio destinato alle vacanze. Viaggia in media sette volte l'anno: c'è chi fa solo brevi fine settimana sul lungomare o visite a paesi vicini (distanze possibili da 0 km), e ci sono invece trasferte o vacanze lunghe che lo portano fino a 15.000 km, tra piccoli borghi e metropoli da decine di milioni di abitanti; ama alternare la routine quotidiana di Napoli alla curiosità di luoghi nuovi, organizzando ogni viaggio con attenzione al budget ma con il gusto per la scoperta. Sul fronte digitale non è un fanatico della sicurezza: con una probabilità di circa il 48% tende ancora a fidarsi di email e offerte troppo allettanti, e qualche errore del passato lo ha spinto a essere più cauto, anche se non immune alle trappole online; in città conserva il pragmatismo napoletano — un mix di senso pratico, umorismo secco e affetto per la sua comunità — che lo rende una figura riconoscibile tra colleghi e vicini."
+  },
+  {
+    "first_name": "Anselm",
+    "last_name": "Klingelhöfer",
+    "birth_year": 2058,
+    "salary": 2000,
+    "job": "Student",
+    "iban": "DE89D3638692773298033680720",
+    "residence": {
+      "city": "Stockach",
+      "lat": "47.8514",
+      "lng": "9.0114"
+    },
+    "description": "Anselm Klingelhöfer, geboren 2058, ist ein 29-jähriger Student aus Stockach, der mit einem Monatseinkommen von 2000 seinen Alltag zwischen Vorlesungen und Nebenjobs organisiert und seine Finanzen über das Konto mit der IBAN DE89D3638692773298033680720 regelt; etwa dreimal im Jahr bricht er auf—von kurzen Regionalausflügen bis zu Fernreisen von bis zu 15.000 Kilometern, immer wieder zwischen Orten mit rund tausend Einwohnern und Megastädten mit Millionen—und online zeigt er sich etwas unvorsichtig, seine Wahrscheinlichkeit, auf Phishing-Versuche zu klicken, liegt bei rund 49%, was ihn nicht daran hindert, nüchtern und zielorientiert in Stockach zu leben."
+  },
+  {
+    "first_name": "Célina",
+    "last_name": "Tanguy",
+    "birth_year": 2050,
+    "salary": 21000,
+    "job": "Freelance Designer",
+    "iban": "FR15C0515459207187401115517",
+    "residence": {
+      "city": "Brunoy",
+      "lat": "48.6979",
+      "lng": "2.5044"
+    },
+    "description": "Célina Tanguy, née en 2050, vit à Brunoy et travaille comme freelance designer; elle mène une vie plutôt modeste avec un revenu d'environ 21 000 € par an, aménageant son petit atelier chez elle pour des commandes locales et des projets distants, elle ne voyage qu'une fois par an en moyenne — de brefs séjours qui peuvent l'emmener d'un village de mille habitants jusqu'à une mégapole de plusieurs dizaines de millions, parfois à 15 000 km de là — et, si elle tient à son indépendance créative, elle avoue ne pas être toujours irréprochable face aux pièges du Web : près d'une chance sur deux qu'un lien douteux l'attire, ce qui l'a rendue plus prudente mais pas moins curieuse."
+  },
+  {
+    "first_name": "Damiano",
+    "last_name": "Torlonia",
+    "birth_year": 2066,
+    "salary": 4300,
+    "job": "Student",
+    "iban": "IT21F6133312551134091221836",
+    "residence": {
+      "city": "Roncaglia",
+      "lat": "45.0437",
+      "lng": "9.7957"
+    },
+    "description": "Damiano Torlonia, nato nel 2066 e dunque ventunenne, è uno studente universitario che abita a Roncaglia, una piccola città lombarda dove il ritmo è più semplice ma le ambizioni sono grandi; si mantiene con lavoretti e qualche incarico freelance che gli fruttano intorno ai 4.300 euro al mese, abbastanza da permettergli di studiare senza rinunce e di organizzare viaggi. Viaggia in media sei volte l'anno: a volte restando in zona, altre volte spostandosi fino a 15.000 chilometri per stage, conferenze o per seguire amici e opportunità, passando indifferentemente da borghi di mille abitanti a metropoli da decine di milioni; queste mobilità lo hanno reso curioso e adattabile, capace di muoversi tra ambienti diversi con predisposizione pratica. È abile con gli strumenti digitali ma, nella fretta quotidiana, tende a fidarsi facilmente di messaggi e proposte online — un atteggiamento che lo espone a rischi di phishing circa nella misura del cinquanta percento —; questo contrasto tra prudenza reale e una certa ingenuità digitale è parte del suo carattere: impulsivo quando si tratta di opportunità, riflessivo quando si parla di studi e progetti a lungo termine."
+  },
+  {
+    "first_name": "Karen",
+    "last_name": "Thompson",
+    "birth_year": 2055,
+    "salary": 22200,
+    "job": "Ride-share Driver",
+    "iban": "US96F2185733362876541523483",
+    "residence": {
+      "city": "Fremont",
+      "lat": "37.5265",
+      "lng": "-121.9843"
+    },
+    "description": "Karen Thompson, nata nel 2055, è una 32enne che lavora come ride-share driver a Fremont, California: guadagna circa $22.200 l'anno guidando sulle piattaforme on-demand del Bay Area, conoscendo a memoria i tagli tra campus tecnologici e aree industriali e imparando a modulare turni e pause per sfruttare i momenti di maggior domanda; viaggia circa quattro volte l'anno, a volte per distanze lunghe fino a 15.000 miglia, tra paesi di poche migliaia di abitanti e megacittà da decine di milioni, e sebbene sia pratica con gli smartphone non è immune agli inganni digitali — ha quasi il 50% di probabilità di cliccare link sospetti — perciò adotta precauzioni semplici e concrete quando si tratta di soldi e documenti."
+  },
+  {
+    "first_name": "Angelo",
+    "last_name": "Rosemann",
+    "birth_year": 2011,
+    "salary": 37000,
+    "job": "Retired",
+    "iban": "DE66K6484821112920201183719",
+    "residence": {
+      "city": "Nuremberg",
+      "lat": "49.4539",
+      "lng": "11.0775"
+    },
+    "description": "Angelo Rosemann ist 76 Jahre alt und lebt in Nürnberg; einst Hausmann, jetzt Rentner, führt er einen ruhigen Alltag und kommt mit einer jährlichen Rente von rund 37.000 Euro gut zurecht, kümmert sich um Haushalt und Nachbarschaft und bleibt dabei neugierig auf die Welt: etwa fünfmal im Jahr bricht er zu Reisen auf, von kurzen Ausflügen in die Umgebung bis zu Fernreisen von bis zu 15.000 km, mal in kleine Orte, mal in riesige Metropolen; im Umgang mit dem Internet ist er offen, aber nicht immer misstrauisch und klickt gelegentlich auf zweifelhafte Angebote."
+  },
+  {
+    "first_name": "Michael",
+    "last_name": "Silva",
+    "birth_year": 2003,
+    "salary": 36500,
+    "job": "Retired",
+    "iban": "US53C1238405887674384136036",
+    "residence": {
+      "city": "Fort Hood",
+      "lat": "31.1357",
+      "lng": "-97.7834"
+    },
+    "description": "Michael Silva, born in 2003 and now 84, is a retired homemaker who keeps a steady, deliberate life in Fort Hood; he lives on a modest pension of about $36,500 a year, spends his days tending a small rooftop garden, cooking for himself and the neighbors who drop by, repairing what he can with a soldering iron and practiced hands, and reading old newsfeeds while the drones hum overhead. The base-turned-community around him has thinned and hardened since his youth, with rationed power hours and biometric checkpoints, so he treasures the simple rituals—morning coffee on the balcony, barter visits at the communal pantry, an evening walk under the flicker of recycled streetlamps—that make the place feel like home. He still travels twice a year, sometimes only crossing to a nearby town and other times taking long, rare journeys up to 15,000 kilometers to visit friends or see a shoreline that remembers the old world; those trips recharge him and give him stories to trade for bread. Online, he’s cautious—he’s learned to distrust slick offers and urgent messages, though an unfamiliar link still occasionally fools him—so he keeps a paper log and leans on a younger neighbor for tech help. Practical, quietly proud, and stubbornly social, Michael has carved out a gentle corner of normalcy in a city that hasn’t always been gentle."
+  },
+  {
+    "first_name": "Alois",
+    "last_name": "Riehl",
+    "birth_year": 2043,
+    "salary": 105300,
+    "job": "Senior Consultant",
+    "iban": "DE34T2049956169765945780761",
+    "residence": {
+      "city": "Dippoldiswalde",
+      "lat": "50.8933",
+      "lng": "13.6667"
+    },
+    "description": "Alois Riehl, Jahrgang 2043, ist ein 44‑jähriger Senior Consultant aus Dippoldiswalde, der mit einem Jahresgehalt von etwa 105.300 Euro zwischen Kundenprojekten und Teamführung pendelt und im Schnitt zweimal im Jahr unterwegs ist, mal zu nahegelegenen Auftraggebern in Kleinstädten, mal auf Geschäftsreisen über Kontinente hinweg – Entfernungen bis zu 15.000 Kilometern, Ziele reichen von Orten mit nur wenigen Tausend Einwohnern bis zu Metropolen mit Millionenbevölkerung; pragmatisch und organisiert plant er Reisen und Präsentationen akribisch, behält Budgets und Zeitpläne im Blick und verhandelt strategisch für seine Klienten, gleichzeitig ist er im digitalen Alltag trotz Vorsicht nicht unfehlbar: unter Zeitdruck klickt er gelegentlich auf fragwürdige Nachrichten, eine Schwäche, die ihm bewusst ist und an der er aktiv arbeitet."
+  },
+  {
+    "first_name": "Alexander",
+    "last_name": "Thomas",
+    "birth_year": 2056,
+    "salary": 38500,
+    "job": "Office Clerk",
+    "iban": "GB32T7301024348753298567709",
+    "residence": {
+      "city": "Daventry",
+      "lat": "52.2578",
+      "lng": "-1.1628"
+    },
+    "description": "Alexander Thomas (born 2056) is a 31-year-old Office Clerk based in Daventry who earns £38,500 a year and spends his days on routine administration and schedules; he travels about six times a year, from short local trips to journeys up to 15,000 km that take him to places as small as a thousand residents or as vast as 45 million, and online he’s practical but not overly cautious — data suggests he’s about as likely to click a phishing link as to ignore it."
+  },
+  {
+    "first_name": "Vincent",
+    "last_name": "Reynaud",
+    "birth_year": 2054,
+    "salary": 15000,
+    "job": "Freelance Designer",
+    "iban": "FR91D2378545503751435879941",
+    "residence": {
+      "city": "Dunkerque",
+      "lat": "51.0383",
+      "lng": "2.3775"
+    },
+    "description": "Vincent Reynaud, né en 2054 et âgé de 33 ans, est designer freelance installé à Dunkerque: il vit de ses projets graphiques et d'identité visuelle, touchant 15 000, et partage son temps entre commandes locales et collaborations à distance; il voyage environ deux fois par an, parfois jusqu'à 15 000 km, allant tantôt dans de petites villes de quelques milliers d'habitants, tantôt dans des métropoles de plusieurs millions, et, derrière son écran, il reste pratique mais parfois trop confiant face aux messages numériques douteux, cliquant sur des pièges en ligne près d'une fois sur deux."
+  },
+  {
+    "first_name": "Victor",
+    "last_name": "Jacquot",
+    "birth_year": 2034,
+    "salary": 49400,
+    "job": "Restaurant Owner",
+    "iban": "FR30L2277084839783940042425",
+    "residence": {
+      "city": "Antibes",
+      "lat": "43.5808",
+      "lng": "7.1239"
+    },
+    "description": "Victor Jacquot, né en 2034, a 53 ans et tient depuis des années un petit restaurant à Antibes où il connaît les marins du port, les habitués du Vieux-Port et les touristes de passage; il touche environ 49 400 € par an et gère son établissement avec pragmatisme, joignant marchés matinaux et cartes de saison, tout en faisant en moyenne cinq voyages par an — parfois de courts trajets le long de la côte, parfois des escapades lointaines allant jusqu'à 15 000 km, des villages d'un millier d'habitants aux métropoles de plusieurs dizaines de millions — pour sourcer des produits, rencontrer des fournisseurs ou trouver de nouvelles idées; dans sa relation au numérique il reste pratique mais pas toujours méfiant, au point d'admettre qu'il clique sur des courriels suspects presque une fois sur deux; familier des ruelles et des terrasses d'Antibes, il est cet entrepreneur local qui tient son comptoir comme une maison, attentif aux saisons et aux visages qui passent."
+  },
+  {
+    "first_name": "Teresa",
+    "last_name": "Almagià",
+    "birth_year": 2061,
+    "salary": 36000,
+    "job": "Freelance Designer",
+    "iban": "IT92V2045256586683735650168",
+    "residence": {
+      "city": "Brescia",
+      "lat": "45.5389",
+      "lng": "10.2203"
+    },
+    "description": "Teresa Almagià, nata nel 2061 e quindi ventiseienne, è una freelance designer che vive a Brescia e lavora da uno studio ricavato in una vecchia officina lungo la Mella: guadagna circa 36.000 euro l'anno progettando brand e interfacce, alterna giornate di concentrazione creativa a tre viaggi l'anno — dai brevi spostamenti in Lombardy fino a voli di 15.000 km verso metropoli o piccoli borghi — per prendere ispirazione, frequenta i coworking e i mercatini dei materiali rigenerati della città e, pur essendo pragmatica e autonoma, tende a fidarsi un po' troppo delle comunicazioni digitali, cosa che ogni tanto la mette nei guai con tentativi di phishing."
+  },
+  {
+    "first_name": "Hans-Walter",
+    "last_name": "Täsche",
+    "birth_year": 2061,
+    "salary": 4300,
+    "job": "Student",
+    "iban": "DE30U9662834847337473754074",
+    "residence": {
+      "city": "Meschede",
+      "lat": "51.3500",
+      "lng": "8.2833"
+    },
+    "description": "Hans-Walter Täsche, geboren 2061, ist ein 26-jähriger Student, der in Meschede lebt und dort sein Studium absolviert; er hat ein monatliches Einkommen von rund 4.300 Euro, mit dem er Miete, Alltag und Reisekosten trägt. Er unternimmt etwa fünf Reisen im Jahr, mal kurze Ausflüge in die Umgebung, manchmal Langstrecken bis zu 15.000 km, Ziele reichen von kleineren Orten bis zu Metropolen mit Millionen Einwohnern. Im Netz ist er nicht übermäßig misstrauisch—bei Phishing liegt seine Klickwahrscheinlichkeit bei etwa 50 Prozent, ein Bereich, in dem er sich bewusst verbessern will, ohne dabei seine Neugier aufs Digitale ganz aufzugeben."
+  },
+  {
+    "first_name": "Raffaella",
+    "last_name": "Tarchetti",
+    "birth_year": 2051,
+    "salary": 27100,
+    "job": "Administrative Assistant",
+    "iban": "IT24S4595806090383518948615",
+    "residence": {
+      "city": "Turin",
+      "lat": "45.0792",
+      "lng": "7.6761"
+    },
+    "description": "Raffaella Tarchetti, nata nel 2051 e oggi trentaseienne, vive a Torino e porta ogni giorno al lavoro la precisione di un'impiegata classica: come administrative assistant gestisce scartoffie, scadenze e pratiche con metodo, con uno stipendio modesto di circa 27.100 euro che le permette di mantenere un appartamento in città e qualche piccolo piacere, dal bicerin al mercato del sabato; è una presenza affidabile nell'ufficio, sempre pronta a mettere ordine nelle agende dei colleghi, e fuori dall'orario d'ufficio organizza tre viaggi l'anno — a volte brevi fughe in Piemonte o visite a paesi piccoli, altre volte spostamenti che la portano lontano fino a migliaia di chilometri —, naviga il mondo digitale con pragmatismo ma non sempre è cauta davanti alle insidie delle comunicazioni online, imparando però dall'esperienza e dal ritmo calmo della sua città."
+  },
+  {
+    "first_name": "Elizabeth",
+    "last_name": "Meyers",
+    "birth_year": 2049,
+    "salary": 40800,
+    "job": "Office Clerk",
+    "iban": "US61S6786607301177864418879",
+    "residence": {
+      "city": "Minneapolis",
+      "lat": "44.9635",
+      "lng": "-93.2678"
+    },
+    "description": "Elizabeth Meyers, born in 2049 and 38 years old in 2087, works as an office clerk in Minneapolis and lives a steady, practical life on a modest $40,800 a year—her days shaped by paperwork, schedules and the routines of a city that values efficiency; online she can be a bit trusting (her profile shows about a 49% likelihood of clicking phishing links), so she's had to adopt cautious habits, and she travels only about once a year, sometimes on long journeys up to 15,000 km to destinations that range from small regional centers to sprawling megacities."
+  },
+  {
+    "first_name": "Dennis",
+    "last_name": "Dean",
+    "birth_year": 2060,
+    "salary": 7400,
+    "job": "Student",
+    "iban": "GB78N5986231065521131615162",
+    "residence": {
+      "city": "Catford",
+      "lat": "51.4452",
+      "lng": "-0.0207"
+    },
+    "description": "Dennis Dean, born in 2060 and now 27, is a university student based in Catford, south-east London, juggling lectures and assignments with the kind of part-time work that stretches a modest stipend of £7,400; his days are marked by hurried coffees from the market stall, late-night study pods and the commuter rhythms of the Overground, and he escapes once a year on a long trip—sometimes up to 15,000 km—to visit friends or recharge in a much bigger city, preferring destinations that range from small towns to mega-hubs; tech-literate enough to get by but still liable to trust slick online offers, he’s learning to be cautious, and otherwise moves through 2087’s cramped comforts and flickering opportunities with quiet persistence and practical resolve."
+  },
+  {
+    "first_name": "Gianluigi",
+    "last_name": "Scaramucci",
+    "birth_year": 2053,
+    "salary": 19000,
+    "job": "Delivery Worker",
+    "iban": "IT21N0293036860448562627091",
+    "residence": {
+      "city": "Ascoli Piceno",
+      "lat": "42.8547",
+      "lng": "13.5753"
+    },
+    "description": "Gianluigi Scaramucci è un autista-consegnatore nato nel 2053 che vive ad Ascoli Piceno e guadagna circa 19.000 euro l'anno lavorando per piattaforme di delivery: trascorre le giornate guidando il suo furgone a guida assistita tra le viuzze medievali e le nuove arterie sopraelevate della provincia, con routine per lo più locale ma accettando tre trasferte all'anno che possono portarlo da paesini di poche migliaia di abitanti fino a metropoli da 45 milioni, talvolta a distanze che arrivano fino a 15.000 km; la vita da gig worker gli lascia poco margine, conta ogni corsa extra per far quadrare i conti e usa il tempo libero per tornare a Piazza del Popolo o a una pizzeria dove lo riconoscono, mentre sul piano digitale è poco prudente: quasi la metà delle volte clicca link e offerte sospette e ogni tanto questo gli causa piccoli guai amministrativi."
+  },
+  {
+    "first_name": "Marie",
+    "last_name": "Lecoq",
+    "birth_year": 2057,
+    "salary": 30000,
+    "job": "Ride-share Driver",
+    "iban": "FR19Y7932544701757942593324",
+    "residence": {
+      "city": "Paris",
+      "lat": "48.8567",
+      "lng": "2.3522"
+    },
+    "description": "Marie Lecoq, née en 2057 et installée à Paris, est une conductrice de véhicules en service partagé qui vit au rythme des algorithmes et des heures de pointe de la mégapole; à trente ans elle gagne environ 30 000 € par an en jonglant entre courses diurnes et trajets nocturnes, connaît chaque ruelle et chaque porte automatique du centre comme les failles des plateformes qui la rémunèrent, et se réarme de patience et de café pour supporter des journées où tout peut basculer d'un coup. Elle voyage peu mais suffisamment pour garder de la perspective — quatre déplacements par an, parfois jusqu'à 15 000 km, des hameaux d'un millier d'habitants aux métropoles de dizaines de millions — et ces rares escapades sont autant de soupapes qui lui permettent d'échapper au béton et aux caméras. Dans une ville de 2087 où la confiance se négocie en clic, elle admet une propension moyenne à suivre des liens douteux, ce qui l'expose aux arnaques numériques autant qu'à la curiosité qui la pousse à tester des applis et des itinéraires nouveaux; pragmatique et tenace, elle reste fidèle à son volant, attentive aux passagers et aux compromis quotidiens imposés par l'économie des petits boulots."
+  },
+  {
+    "first_name": "Patrik",
+    "last_name": "Loos",
+    "birth_year": 2046,
+    "salary": 32400,
+    "job": "Administrative Assistant",
+    "iban": "DE32X5693083622423278626910",
+    "residence": {
+      "city": "Hamburg",
+      "lat": "53.5500",
+      "lng": "10.0000"
+    },
+    "description": "Patrik Loos, geboren 2046 und 41 Jahre alt, lebt als Sachbearbeiter in Hamburg und verdient rund 32.400 € im Jahr; er ist ein klassischer Büroangestellter mit festem Rhythmus: Vormittags Schreibtischtätigkeit, mittags schneller Kaffee, abends Rückzug in seine schlichte Wohnung, die er sich in einer zweckmäßigen Lage der Stadt leistet. Er kennt die Stadt praktisch auswendig – Elbe, Hafen und die Tram sind Teil seines Alltags –, ist zuverlässig und ordentlich in der Arbeit, eher reserviert im Umgang, aber nicht unfreundlich; kleine Gewohnheiten wie ein Fischbrötchen am Markt oder ein Spaziergang an der Alster geben seinem Wochenablauf Struktur. Digital ist er pragmatisch, nutzt E‑Mails und Online-Tools routiniert, dabei aber manchmal zu vertrauensselig: er fällt gelegentlich auf betrügerische Nachrichten herein. Reisen unternimmt er nur etwa einmal im Jahr, meist als Pflichtbesuch oder kurze Auszeit, Ziele können sowohl kleine Orte als auch große Metropolen sein und Entfernungen bis zu 15.000 km umfassen; insgesamt wirkt Patrik wie jemand, der Stabilität sucht und sich gelegentliche Abwechslung genau einteilt."
+  },
+  {
+    "first_name": "Brandon",
+    "last_name": "Bell",
+    "birth_year": 2007,
+    "salary": 30200,
+    "job": "Retired",
+    "iban": "US45Y0450340314014549653022",
+    "residence": {
+      "city": "Modesto",
+      "lat": "37.6375",
+      "lng": "-121.0028"
+    },
+    "description": "Brandon Bell, born in 2007 and now eighty, lives quietly in Modesto as a retired homemaker: his days are shaped by small, dependable rituals—tending a compact backyard garden, cooking meals he learned long ago, and sharing coffee and conversation at the same corner diner—his modest pension of $30,200 a year keeps things comfortable but deliberate, and once a year he treats himself to a trip that can be anything from a short drive to the coast to a long flight to visit old friends; he’s practical and social in person but still a little too trusting online, so family often helps him with banking and digital matters, and he prefers the steady rhythms of his neighborhood to the fast, flashy promises that clutter the feeds."
+  },
+  {
+    "first_name": "Alice",
+    "last_name": "Seguin",
+    "birth_year": 2046,
+    "salary": 36000,
+    "job": "Office Clerk",
+    "iban": "FR09Q1556766919995538156507",
+    "residence": {
+      "city": "Paris",
+      "lat": "48.8567",
+      "lng": "2.3522"
+    },
+    "description": "Elle s'appelle Alice Seguin, née en 2046, et à 41 ans mène une vie d'employée de bureau au cœur de Paris; elle gagne environ 36 000 € par an et habite un appartement près de la Seine (48.8567, 2.3522). Sa journée type est rythmée par des dossiers administratifs et des trajets courts, mais elle s'offre en moyenne cinq voyages par an — parfois de courts séjours dans des villages tranquilles, parfois des escapades jusqu'à 15 000 km, dans des villes de quelques milliers d'habitants comme dans des métropoles immenses — ce mélange lui suffit pour garder l'esprit ouvert sans changer sa routine. Elle gère ses comptes en ligne (IBAN FR09Q1556766919995538156507) et, bien qu'elle soit généralement prudente, elle admet avoir environ une chance sur deux de cliquer sur un lien douteux; cela l'a rendue vigilante: elle vérifie rapidement toute anomalie et contacte sa banque dès qu'elle a un doute."
+  },
+  {
+    "first_name": "Denis",
+    "last_name": "Vaillant",
+    "birth_year": 2063,
+    "salary": 5500,
+    "job": "Student",
+    "iban": "FR78G2760258716667042681705",
+    "residence": {
+      "city": "Amiens",
+      "lat": "49.8920",
+      "lng": "2.2990"
+    },
+    "description": "Denis Vaillant, né en 2063, a 24 ans et étudie à l'université d'Amiens; il partage son temps entre amphithéâtres, projets pratiques et un travail/stage qui lui procure environ 5 500 € par mois, suffisant pour payer un petit logement près de la cathédrale et financer ses escapades: il voyage à peu près trois fois par an, parfois de courts séjours dans des bourgs picards, parfois des trajets de plusieurs milliers de kilomètres jusqu'à de grandes métropoles; Amiens reste pourtant son point d'ancrage — il aime réviser au bord des hortillonnages ou dans un café du centre-ville — et, curieux et sociable, il apprend à être plus méfiant face aux pièges du monde numérique après quelques mauvaises expériences en ligne."
+  },
+  {
+    "first_name": "Filippa",
+    "last_name": "Frescobaldi",
+    "birth_year": 2041,
+    "salary": 31100,
+    "job": "Office Clerk",
+    "iban": "IT75W1524252070829972964508",
+    "residence": {
+      "city": "Rome",
+      "lat": "41.8931",
+      "lng": "12.4828"
+    },
+    "description": "Filippa Frescobaldi, nata nel 2041, è un'impiegata d'ufficio di 46 anni che vive a Roma: lavora con orari regolari su pratiche digitali e archivi elettronici, guadagnando circa 31.100 euro l'anno che le garantiscono una vita modesta ma stabile. Abituata alla routine degli uffici e alle pause caffè sotto il palazzo, si muove in città tra tram smart e biciclette condivise e si concede due viaggi all'anno, talvolta brevi fughe in paesini di poche migliaia di abitanti, altre volte trasferte verso metropoli di decine di milioni, anche fino a 15.000 km di distanza. Sul fronte digitale è pragmatica ma non impeccabile: tende a fidarsi abbastanza delle comunicazioni online — quasi una possibilità su due di cliccare link sospetti — e ha imparato a rimediare aggiornando password e pulendo la posta dopo qualche errore. In città è vista come una presenza concreta e affidabile; non cerca ribalte né rischi grandi, preferisce la sicurezza dello stipendio regolare, le amicizie di quartiere e le serate tranquille a casa."
+  },
+  {
+    "first_name": "Chris",
+    "last_name": "James",
+    "birth_year": 2056,
+    "salary": 45400,
+    "job": "Freelance Designer",
+    "iban": "US57R4551141067174325748539",
+    "residence": {
+      "city": "Los Angeles",
+      "lat": "34.1141",
+      "lng": "-118.4068"
+    },
+    "description": "Chris James, born in 2056 and now 31, works as a freelance designer in Los Angeles and lives near the hills at 34.1141, -118.4068; he earns about $45,400 a year, keeps a flexible routine of co-work studios and late-night café edits, takes roughly five trips a year that can be as local as a short commute or as far as 15,000 km to places ranging from small towns to megacities, gravitates toward projects that let him reshape brands and spaces, and — candidly — has a habit of clicking on unexpected messages about half the time, a small risk he tolerates for the quick leads and new contacts that keep his practice moving."
+  },
+  {
+    "first_name": "Thibaut",
+    "last_name": "Nicolas",
+    "birth_year": 2043,
+    "salary": 60800,
+    "job": "Retail Entrepreneur",
+    "iban": "FR96R5722302301530596709586",
+    "residence": {
+      "city": "Cannes",
+      "lat": "43.5513",
+      "lng": "7.0128"
+    },
+    "description": "Thibaut Nicolas, né en 2043 (44 ans en 2087), est un entrepreneur du commerce de détail installé à Cannes: il dirige une enseigne locale qui vit au rythme des saisons touristiques et lui assure un revenu annuel d'environ 60 800 euros; homme de terrain, il partage son temps entre la boutique, les négociations avec des fournisseurs et cinq déplacements par an — parfois des sorties locales, parfois des trajets allant jusque 15 000 km vers des villes allant de 1 000 à 45 000 000 d'habitants — pour sourcer des produits ou participer à des salons; connecté et pragmatique, il gère beaucoup de choses en ligne mais admet une légère propension à cliquer sur des messages douteux (≈51 %), un travers qu'il compense par son réseau et son sens pratique dans la communauté cannoise."
+  },
+  {
+    "first_name": "Toni",
+    "last_name": "Galuppi",
+    "birth_year": 2026,
+    "salary": 310700,
+    "job": "CEO",
+    "iban": "IT19H6067698531018280221031",
+    "residence": {
+      "city": "Bagheria",
+      "lat": "38.0833",
+      "lng": "13.5000"
+    },
+    "description": "Toni Galuppi, 61 anni, è un imprenditore navigato e CEO che vive a Bagheria: dirige aziende con lo sguardo pragmatico di chi ha costruito tutto per gradi e guadagna circa 310.700 euro l'anno; i suoi giorni oscillano tra riunioni strategiche e brevi pause sul lungomare, e ogni anno si concede in media quattro viaggi che lo portano tanto in borghi di poche migliaia di abitanti quanto in metropoli da decine di milioni di persone, con tratte che possono arrivare fino a 15.000 km. Lavora con decisione ma non è immune agli errori della vita digitale: ha una certa fiducia nelle comunicazioni online che talvolta lo rende vulnerabile a email ingannevoli, e per questo ultimamente affida la sicurezza informatica del gruppo a consulenti esterni; a Bagheria mantiene uno stile di vita sobrio ma influente, un equilibrio tra radici locali e orizzonti globali."
+  },
+  {
+    "first_name": "Terry",
+    "last_name": "Williams",
+    "birth_year": 2056,
+    "salary": 11300,
+    "job": "Student",
+    "iban": "GB81C8377911495762281907339",
+    "residence": {
+      "city": "Hereford",
+      "lat": "52.0560",
+      "lng": "-2.7160"
+    },
+    "description": "Terry Williams, born in 2056 and now a 31-year-old student living in Hereford, balances lectures and deadlines with a modest income of about £11,300 a year, paying rent on a small flat not far from the cathedral and spending evenings revising in the old cafés by the river Wye. He came back to study later than many of his classmates, carving a careful routine from part-time work, supermarket bargains and cheap dinners, yet keeps a curious streak: when he can afford it he takes one proper trip a year, sometimes a short escape around Britain and sometimes a long-haul journey that lands him halfway across the globe. Practical and down-to-earth in the market and on the pavement, he's less guarded online—he's been caught out by tempting links and flashy offers more than once—so he keeps his accounts under a stricter eye than his inbox, and otherwise lets Hereford's small-community rhythms and the university's uneven semesters shape the steady, thrifty life he's building."
+  },
+  {
+    "first_name": "Barry",
+    "last_name": "Davies",
+    "birth_year": 2059,
+    "salary": 10200,
+    "job": "Student",
+    "iban": "GB91X3038793837339970538384",
+    "residence": {
+      "city": "London",
+      "lat": "51.5072",
+      "lng": "-0.1275"
+    },
+    "description": "Barry Davies, born 2059, is a 28-year-old university student in London in 2087 who lives on a modest student income of about £10,200 a year, juggling lectures, part-time shifts and the constant balancing of a small bank account (his student IBAN ends in 8384); he takes roughly four trips a year—sometimes short hops around the city or nearby towns, sometimes long-haul journeys up to 15,000 km—and his destinations range from 1,000-person villages to 45-million megacities depending on study needs or cheap fares; in a city remade by corporate zones and layered surveillance he gets around on patched transport and public study pods, pragmatic more than romantic, and he knows he's not the most cyber-secure—he still clicks dubious links about half the time, a bad habit that has cost him small setbacks and taught him caution the hard way."
+  },
+  {
+    "first_name": "Élisabeth",
+    "last_name": "Daniel",
+    "birth_year": 2053,
+    "salary": 43500,
+    "job": "Administrative Assistant",
+    "iban": "FR75C2971561092669690427080",
+    "residence": {
+      "city": "Paris",
+      "lat": "48.8567",
+      "lng": "2.3522"
+    },
+    "description": "Élisabeth Daniel, née en 2053 et âgée de 34 ans, vit à Paris et travaille comme assistante administrative; avec un salaire de 43 500 € par an elle mène une vie de bureau plutôt stable, effectue en moyenne quatre voyages par an — parfois des trajets locaux, parfois des allers lointains jusqu'à 15 000 km, vers des lieux allant de petites communes à de grandes mégapoles — et, malgré une vigilance générale, affiche une probabilité estimée de 48 % de cliquer sur un e‑mail de phishing; son compte est répertorié sous l'IBAN FR75C2971561092669690427080, et son quotidien reflète la routine discrète d'une employée classique de la capitale."
+  },
+  {
+    "first_name": "Christa",
+    "last_name": "Schacht",
+    "birth_year": 2011,
+    "salary": 26300,
+    "job": "Retired",
+    "iban": "DE70R9774158585987490130139",
+    "residence": {
+      "city": "Siegen",
+      "lat": "50.8833",
+      "lng": "8.0167"
+    },
+    "description": "Christa Schacht, geboren 2011, ist eine 76-jährige Pensionärin und ehemalige Hausfrau aus Siegen; mit einer jährlichen Rente von rund 26.300 Euro lebt sie sparsam, aber selbstbestimmt, pflegt den kleinen Garten hinter dem Reihenhaus, kocht nach überlieferten Rezepten für Enkel und Nachbarn und engagiert sich gelegentlich im Quartierszentrum, wo man sie als verlässliche Ansprechpartnerin kennt; sie unternimmt etwa vier Reisen im Jahr – mal kurze Ausflüge ins umliegende Sauerland, mal Städtetrips in kleinere Orte und hin und wieder Fernreisen bis zu 15.000 Kilometern, bei denen sie sowohl ruhige Dörfer als auch große Metropolen besucht; digital ist sie pragmatisch unterwegs, nutzt ein Holo‑Pad und hat gelernt, misstrauisch zu sein, bleibt aber anfällig für raffinierte Online‑Betrugsversuche, sodass die Nachbarschaft ihr oft mit Rat zur Seite steht."
+  },
+  {
+    "first_name": "Richard",
+    "last_name": "Nguyen",
+    "birth_year": 2048,
+    "salary": 31400,
+    "job": "Office Clerk",
+    "iban": "FR50J7345380273554168746681",
+    "residence": {
+      "city": "Cognac",
+      "lat": "45.7000",
+      "lng": "-0.3300"
+    },
+    "description": "Richard Nguyen, né en 2048 et âgé de 39 ans, habite Cognac et travaille comme employé de bureau; avec un salaire annuel d'environ 31 400 euros il mène une vie modeste et réglée, partagée entre des journées administratives routinières et des soirées calmes en ville, il voyage en moyenne trois fois par an — parfois pour quelques kilomètres, parfois jusqu'à 15 000 km, fréquentant aussi bien des bourgs d'un millier d'habitants que des agglomérations atteignant plusieurs dizaines de millions — et, côté numérique, il reste vulnérable aux pièges en ligne: il a presque une chance sur deux de cliquer sur un lien suspect, ce qui le pousse à solliciter de l'aide pour protéger ses appareils et ses comptes."
+  },
+  {
+    "first_name": "Malgorzata",
+    "last_name": "Weller",
+    "birth_year": 2048,
+    "salary": 36900,
+    "job": "Administrative Assistant",
+    "iban": "DE60Q1687643261376183331004",
+    "residence": {
+      "city": "Weisswasser/Oberlausitz",
+      "lat": "51.5000",
+      "lng": "14.6333"
+    },
+    "description": "Malgorzata Weller, geboren 2048, ist eine 39‑jährige Verwaltungsassistentin aus Weisswasser/Oberlausitz, die mit einem Jahresgehalt von rund 36.900 Euro einen bodenständigen, verlässlichen Alltag organisiert; sie kennt die Amtsstuben und Formularfluten, übernimmt Akten, Termine und Telefonate mit sorgfältiger Handschrift und einer Vorliebe für ordentliche Listen, pendelt mit Regionalzug oder Fahrrad, engagiert sich im örtlichen Netzwerk und spart bewusst, um etwa zwei Mal im Jahr zu verreisen — mal in kleine, ruhige Orte, mal in ferne Metropolen, gelegentlich bis zu 15.000 Kilometer entfernt —; digital ist sie pragmatisch und meistens vorsichtig mit Nachrichten, doch hin und wieder übersieht sie eine raffinierte Phishing‑Nachricht, aus der sie dann leise, aber konsequent ihre Lehren zieht."
+  },
+  {
+    "first_name": "Jonathan",
+    "last_name": "Rodriguez",
+    "birth_year": 2050,
+    "salary": 32100,
+    "job": "Freelance Designer",
+    "iban": "US70J4143953775443788602766",
+    "residence": {
+      "city": "Lemon Hill",
+      "lat": "38.5172",
+      "lng": "-121.4573"
+    },
+    "description": "Jonathan Rodriguez (born 2050) is a 37-year-old freelance designer living in Lemon Hill who earns about $32,100 a year creating branding, interfaces and visual work for a rotating roster of small clients; he values the freedom of freelance life, runs a modest studio from his apartment and makes roughly six trips a year—anything from short regional hops to 15,000-kilometer journeys—visiting places that can be as quiet as a thousand-person town or as vast as a forty-five-million-resident megacity; pragmatic and approachable in his craft, he's curious online and quick to try new tools and links, a trait that has both widened his network and led to occasional headaches in 2087's uneven digital economy."
+  },
+  {
+    "first_name": "Kayleigh",
+    "last_name": "Price",
+    "birth_year": 2052,
+    "salary": 29700,
+    "job": "Administrative Assistant",
+    "iban": "GB39C5156240692201299160101",
+    "residence": {
+      "city": "Snodland",
+      "lat": "51.3280",
+      "lng": "0.4467"
+    },
+    "description": "Kayleigh Price, born in 2052 and now 35, lives in Snodland and keeps a steady life as an administrative assistant on a modest £29,700 a year; in the tilted, corporatised Britain of 2087 she moves through routines—local commutes, steady paperwork and the small satisfactions of a tidy workspace—taking only one trip a year that can stretch from a short regional escape to a long-haul journey up to 15,000 km toward destinations that feel busy enough to matter, and while she presents a practical, organised front she still misjudges digital risks about half the time, a vulnerability that makes her careful with finances and official forms even as she tries to carve out quiet stability in a restless world."
+  }
+]

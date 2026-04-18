@@ -1,0 +1,3415 @@
+{
+  "session_id": "KairatNurtas-01KPBVD7KJKMFY2TEW2N238PJN",
+  "database": "D:\\codexProjects\\1984\\1984.db",
+  "llm_mode": "on",
+  "selected_transactions": 933,
+  "notes": [
+    "LLM adjudicator returned no usable verdicts; verify outbound access to OpenRouter and Langfuse."
+  ],
+  "top_transactions": [
+    {
+      "transaction_id": "2f777804-ead8-4ce2-ba5a-3b2629016b13",
+      "score": 1.0,
+      "direction": "outgoing",
+      "user_id": "NGYN-RCHR-800-COG-0",
+      "transaction_type": "withdrawal",
+      "amount": 250.13,
+      "timestamp": "2087-03-04T20:14:45",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.2184,
+          "reasons": [
+            "Amount deviates from historical baseline (median 61.31)",
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 9081 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "c4d3730c-f04a-42ba-bea3-ce1af85cb26e",
+      "score": 0.9886,
+      "direction": "outgoing",
+      "user_id": "NGYN-RCHR-800-COG-0",
+      "transaction_type": "withdrawal",
+      "amount": 250.4,
+      "timestamp": "2087-03-04T20:04:04",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.1886,
+          "reasons": [
+            "Amount deviates from historical baseline (median 61.31)"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 9081 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "0faddab4-83cd-4164-b9e5-19d614997df8",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "THMP-KRNA-807-FRE-1",
+      "transaction_type": "withdrawal",
+      "amount": 200.05,
+      "timestamp": "2087-01-20T18:40:30",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.12,
+          "reasons": [
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 10010 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "4ca1ab28-344b-4e08-a8e3-b6330231d440",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "LCQE-MRAI-809-PAR-0",
+      "transaction_type": "withdrawal",
+      "amount": 300.41,
+      "timestamp": "2087-01-25T17:43:34",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: ub3r-verify.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.12,
+          "reasons": [
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8837 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "0747f48f-7828-4671-aa20-4d7b963621f1",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "LCQE-MRAI-809-PAR-0",
+      "transaction_type": "withdrawal",
+      "amount": 100.42,
+      "timestamp": "2087-01-25T17:52:14",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: ub3r-verify.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.12,
+          "reasons": [
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8837 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "f671847f-392e-43ad-9684-3767cd615d9f",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "transfer",
+      "amount": 368.43,
+      "timestamp": "2087-02-09T12:58:46",
+      "counterparty_id": "ENTNV93368",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.42,
+          "reasons": [
+            "Amount deviates from historical baseline (median 100.27)",
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "2925a069-5a2b-4d61-aed9-9b1527ff194a",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "THMS-LXND-808-DAV-1",
+      "transaction_type": "withdrawal",
+      "amount": 150.38,
+      "timestamp": "2087-03-16T15:10:19",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: gov-id-verify.net"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.12,
+          "reasons": [
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8512 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "12aeae26-210a-479d-9530-3b0237e9ef17",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "SCHC-CHRS-7DB-SIE-1",
+      "transaction_type": "withdrawal",
+      "amount": 0.01,
+      "timestamp": "2087-06-01T22:47:38",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.12,
+          "reasons": [
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8365 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "b75610ad-a2d7-473b-9606-4007d58b2bd9",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "TRCH-RFFL-803-TUR-1",
+      "transaction_type": "transfer",
+      "amount": 1332.58,
+      "timestamp": "2087-07-26T15:52:04",
+      "counterparty_id": "TRDLN32932",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 13 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.42,
+          "reasons": [
+            "Amount deviates from historical baseline (median 241.07)",
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "6487b133-47c9-42ee-8c4c-d14bb0e64001",
+      "score": 0.92,
+      "direction": "outgoing",
+      "user_id": "GLPP-TNOI-7EA-BAG-0",
+      "transaction_type": "withdrawal",
+      "amount": 249.95,
+      "timestamp": "2087-11-27T19:46:06",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Lookalike domain: amaz0n-verify.com"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.12,
+          "reasons": [
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 10331 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "186f0748-c350-46f9-b022-ff9eff5abe07",
+      "score": 0.87,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "direct debit",
+      "amount": 82.6,
+      "timestamp": "2087-05-04T03:33:57",
+      "counterparty_id": "CMPSR86002",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: coinbse-claim2087.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "84e46c9b-0e0b-41fa-b750-05378125e86a",
+      "score": 0.87,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "direct debit",
+      "amount": 138.31,
+      "timestamp": "2087-06-13T05:37:38",
+      "counterparty_id": "VNDLN99930",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 11 day(s) earlier",
+            "Lookalike domain: ch4se-secure.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "113b6d33-1aef-4374-80c7-f12fb256471a",
+      "score": 0.8678,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "transfer",
+      "amount": 342.8,
+      "timestamp": "2087-01-31T18:52:10",
+      "counterparty_id": "VNDCN83546",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 10 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.3678,
+          "reasons": [
+            "Amount deviates from historical baseline (median 73.33)",
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "1a8178dd-fdc0-4e1d-abde-933b1771df63",
+      "score": 0.84,
+      "direction": "outgoing",
+      "user_id": "T\u00c4SC-HNSW-80D-MES-1",
+      "transaction_type": "transfer",
+      "amount": 194.87,
+      "timestamp": "2087-07-21T10:00:10",
+      "counterparty_id": "TRDNV68123",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 10 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.42,
+          "reasons": [
+            "Amount deviates from historical baseline (median 38.67)",
+            "New counterparty for this user"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "1940417c-6c61-4651-93eb-6d37c1125685",
+      "score": 0.82,
+      "direction": "outgoing",
+      "user_id": "DVSA-BRRY-80B-LON-0",
+      "transaction_type": "transfer",
+      "amount": 367.31,
+      "timestamp": "2087-04-03T19:28:50",
+      "counterparty_id": "CASE98058",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 7 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.24,
+          "reasons": [
+            "Amount deviates from historical baseline (median 93.12)"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "Rapid pass-through after an incoming credit"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "92e336b9-09ae-4d95-a42c-e7fe9be6317a",
+      "score": 0.8104,
+      "direction": "outgoing",
+      "user_id": "DNEA-DNNS-80C-CAT-0",
+      "transaction_type": "transfer",
+      "amount": 294.66,
+      "timestamp": "2087-03-10T22:48:58",
+      "counterparty_id": "CMPSR52211",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: nationa1-lottery-claim.com",
+            "Advance-fee scam wording"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.3104,
+          "reasons": [
+            "Amount deviates from historical baseline (median 57.40)",
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "e78b3b45-df9a-4181-b57e-9649a763532f",
+      "score": 0.8021,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "direct debit",
+      "amount": 187.11,
+      "timestamp": "2087-02-21T06:32:25",
+      "counterparty_id": "ORGLN26368",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 13 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.3821,
+          "reasons": [
+            "Amount deviates from historical baseline (median 66.59)",
+            "New counterparty for this user"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "da2407c5-f271-46b1-8a36-3131f6bf6008",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "THMP-KRNA-807-FRE-1",
+      "transaction_type": "withdrawal",
+      "amount": 49.86,
+      "timestamp": "2087-01-20T18:04:40",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 10010 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "1544244b-3320-4e01-b56b-19d67abb906c",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "THMP-KRNA-807-FRE-1",
+      "transaction_type": "withdrawal",
+      "amount": 100.39,
+      "timestamp": "2087-01-20T18:23:19",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 10010 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "36eee160-2ca5-45b3-9de2-14fb4ca5a132",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "LCQE-MRAI-809-PAR-0",
+      "transaction_type": "withdrawal",
+      "amount": 299.88,
+      "timestamp": "2087-01-25T17:32:26",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: ub3r-verify.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8837 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "55fbcd6f-e09b-4ede-842a-841b573b4097",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "THMS-LXND-808-DAV-1",
+      "transaction_type": "withdrawal",
+      "amount": 149.64,
+      "timestamp": "2087-03-16T14:52:31",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: gov-id-verify.net"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8512 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "afdbafe6-e898-49d9-a7bb-71e4b577a087",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "WLLM-TRRY-808-HER-0",
+      "transaction_type": "withdrawal",
+      "amount": 299.69,
+      "timestamp": "2087-04-25T15:11:38",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8449 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "57c8c272-5e1f-4d8e-9d51-d7fbf169503b",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "WLLM-TRRY-808-HER-0",
+      "transaction_type": "withdrawal",
+      "amount": 249.61,
+      "timestamp": "2087-04-25T15:27:58",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8449 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "1d7f7c44-5942-4941-8cc4-34098ddf6d5a",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "SCHC-CHRS-7DB-SIE-1",
+      "transaction_type": "withdrawal",
+      "amount": 249.94,
+      "timestamp": "2087-06-01T22:15:41",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8365 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "2dbb83cc-0fe7-44b6-a768-2f0dab61efc9",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "SCHC-CHRS-7DB-SIE-1",
+      "transaction_type": "withdrawal",
+      "amount": 125.26,
+      "timestamp": "2087-06-01T22:32:00",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8365 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "f1805bf7-feaf-426f-aa17-cbe8ca2f52fa",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "DNLA-\u00c9LSB-805-PAR-1",
+      "transaction_type": "withdrawal",
+      "amount": 200.46,
+      "timestamp": "2087-08-14T23:25:42",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8897 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "c033cff4-8ed2-4858-8253-25e53b298cdc",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "DNLA-\u00c9LSB-805-PAR-1",
+      "transaction_type": "withdrawal",
+      "amount": 99.55,
+      "timestamp": "2087-08-14T23:34:53",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 8897 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "f1b79d58-cb5c-48de-bf31-e3e4b8a007e5",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "GRLC-VLNT-808-KIE-1",
+      "transaction_type": "withdrawal",
+      "amount": 197.59,
+      "timestamp": "2087-09-11T21:55:29",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.24,
+          "reasons": [
+            "Amount deviates from historical baseline (median 25.04)"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.14,
+          "reasons": [
+            "In-person transaction far from residence (9018 km)"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "e1b6808e-07cb-4438-a30e-df783e71d654",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "withdrawal",
+      "amount": 199.82,
+      "timestamp": "2087-10-15T18:55:50",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 9123 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "2f4037df-2f1d-449f-bfa8-7ec7bdd1c819",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "withdrawal",
+      "amount": 300.01,
+      "timestamp": "2087-10-15T19:10:04",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 9123 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "21afcce7-ad08-4729-b140-d265c06cba46",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "RYND-VNCN-806-DUN-1",
+      "transaction_type": "withdrawal",
+      "amount": 99.57,
+      "timestamp": "2087-11-19T07:47:59",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 9714 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "303d4441-2215-4708-8798-7aaf77df950d",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "RYND-VNCN-806-DUN-1",
+      "transaction_type": "withdrawal",
+      "amount": 61.55,
+      "timestamp": "2087-11-19T08:05:33",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 9714 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "b2f2741e-91cd-4d76-94dd-2225a9ec34bd",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "GLPP-TNOI-7EA-BAG-0",
+      "transaction_type": "withdrawal",
+      "amount": 50.08,
+      "timestamp": "2087-11-27T19:13:58",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Lookalike domain: amaz0n-verify.com"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 10331 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "51706cae-ef95-44c2-862a-5fdc8cf6eb57",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "GLPP-TNOI-7EA-BAG-0",
+      "transaction_type": "withdrawal",
+      "amount": 150.06,
+      "timestamp": "2087-11-27T19:26:58",
+      "counterparty_id": "",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Lookalike domain: amaz0n-verify.com"
+          ]
+        },
+        {
+          "agent": "geo_temporal",
+          "score": 0.38,
+          "reasons": [
+            "Transaction city is 10331 km away from recent GPS trail",
+            "Implausible travel speed between GPS trace and payment"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "f3056135-a3a7-4236-848e-9fa49070f5ed",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "e-commerce",
+      "amount": 101.66,
+      "timestamp": "2087-01-27T07:08:23",
+      "counterparty_id": "ENTNT49340",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 6 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.3,
+          "reasons": [
+            "New counterparty for this user",
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "2a87f48b-3edb-4bb7-8e2d-004484399b2f",
+      "score": 0.8,
+      "direction": "outgoing",
+      "user_id": "WLLR-MLGR-800-WEI-0",
+      "transaction_type": "e-commerce",
+      "amount": 93.45,
+      "timestamp": "2087-06-24T11:59:37",
+      "counterparty_id": "ENTSV37367",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.3,
+          "reasons": [
+            "New counterparty for this user",
+            "Burst of nearby transactions"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "e9ef1486-375f-4e6d-872f-5e013635f6b2",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "e-commerce",
+      "amount": 44.87,
+      "timestamp": "2087-02-06T19:22:40",
+      "counterparty_id": "RETBL20636",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.37,
+          "reasons": [
+            "Amount deviates from historical baseline (median 122.61)",
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "b6b3e9a5-0ea0-4c3b-b40e-820116a05b90",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "ZPPT-NGLA-7F5-GEN-0",
+      "transaction_type": "direct debit",
+      "amount": 126.68,
+      "timestamp": "2087-02-13T07:01:39",
+      "counterparty_id": "TRDSP18476",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 6 day(s) earlier",
+            "Lookalike domain: lottery-claim2087.com",
+            "Advance-fee scam wording"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "31c2e97a-a41c-488e-abbc-15545c5814d8",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "GRLC-VLNT-808-KIE-1",
+      "transaction_type": "direct debit",
+      "amount": 16.66,
+      "timestamp": "2087-02-25T04:27:28",
+      "counterparty_id": "ORGSR60448",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "d147f0b8-6123-4266-a46c-6bb7aebcb52b",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "JMSA-CHRS-808-LOS-1",
+      "transaction_type": "direct debit",
+      "amount": 54.22,
+      "timestamp": "2087-02-26T00:56:32",
+      "counterparty_id": "ENTSP55472",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "1589947e-fcea-491c-ae94-e119690be0f9",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "direct debit",
+      "amount": 85.28,
+      "timestamp": "2087-02-28T00:58:29",
+      "counterparty_id": "PAYDN29908",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "7bda1c65-accc-48ff-9c5a-bc83baee770a",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "direct debit",
+      "amount": 157.25,
+      "timestamp": "2087-03-05T03:42:41",
+      "counterparty_id": "TRDSR76790",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 7 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "751590d5-4f00-4b67-849a-f738e361676b",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "direct debit",
+      "amount": 94.24,
+      "timestamp": "2087-03-06T03:31:06",
+      "counterparty_id": "CMPSP29463",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "b7536985-b92f-40e1-af7e-750e02ef82e8",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "MYRS-LZBT-801-MIN-0",
+      "transaction_type": "direct debit",
+      "amount": 40.88,
+      "timestamp": "2087-03-07T01:07:27",
+      "counterparty_id": "ENTSR99998",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "0f578f60-d425-402a-844e-9f8a1f6e262e",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "MYRS-LZBT-801-MIN-0",
+      "transaction_type": "direct debit",
+      "amount": 136.41,
+      "timestamp": "2087-03-13T01:58:48",
+      "counterparty_id": "VNDMR35310",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 11 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "b55f0d19-35c6-4c29-bf41-455eea07fe2c",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "DNEA-DNNS-80C-CAT-0",
+      "transaction_type": "direct debit",
+      "amount": 27.86,
+      "timestamp": "2087-03-18T02:04:59",
+      "counterparty_id": "VNDLN57631",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 7 day(s) earlier",
+            "Lookalike domain: nationa1-lottery-claim.com",
+            "Advance-fee scam wording"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "67ade41e-6de9-4450-b7e5-9e1e59ce1d00",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "SLVI-MCHL-7D3-FOR-1",
+      "transaction_type": "direct debit",
+      "amount": 217.9,
+      "timestamp": "2087-03-24T01:27:37",
+      "counterparty_id": "TRDNV44413",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "67498ea3-d6b4-48ef-8613-686cd03ba281",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "SCRM-GNLG-805-ASC-1",
+      "transaction_type": "direct debit",
+      "amount": 78.82,
+      "timestamp": "2087-05-04T05:01:31",
+      "counterparty_id": "ENTGS41234",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Lookalike domain: dhl-customs2087-secure.net"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "fa580c2d-a5ec-4af8-a146-80f3a8cb3430",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "RSMN-NGLA-7DB-NUR-0",
+      "transaction_type": "direct debit",
+      "amount": 132.89,
+      "timestamp": "2087-05-17T02:44:56",
+      "counterparty_id": "PAYCN22725",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 7 day(s) earlier",
+            "Lookalike domain: coinb4se-verify2087.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "45b37f5b-aab4-43a6-a35e-a05a40c27f33",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "RSMN-NGLA-7DB-NUR-0",
+      "transaction_type": "direct debit",
+      "amount": 199.11,
+      "timestamp": "2087-05-23T00:05:28",
+      "counterparty_id": "VNDDN82702",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 1 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "96b90210-67a7-46f0-882b-5fa748192280",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "T\u00c4SC-HNSW-80D-MES-1",
+      "transaction_type": "direct debit",
+      "amount": 0.01,
+      "timestamp": "2087-09-15T02:15:49",
+      "counterparty_id": "ORGCN10593",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "b173eef9-6f62-4bfd-a929-b8e4f835b362",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "LCQE-MRAI-809-PAR-0",
+      "transaction_type": "direct debit",
+      "amount": 53.98,
+      "timestamp": "2087-10-06T02:59:52",
+      "counterparty_id": "VNDMR52189",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 10 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "8773e628-31d5-4ccc-a28c-2d1b576d7891",
+      "score": 0.79,
+      "direction": "outgoing",
+      "user_id": "RSMN-NGLA-7DB-NUR-0",
+      "transaction_type": "direct debit",
+      "amount": 0.01,
+      "timestamp": "2087-10-19T01:31:51",
+      "counterparty_id": "TRDSR43838",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 13 day(s) earlier",
+            "Lookalike domain: chase-secure-login2087.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.29,
+          "reasons": [
+            "New counterparty for this user",
+            "Unusual transaction time for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "79ba1a71-f0f9-45d6-b3e8-880fd1e07936",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "GRLC-VLNT-808-KIE-1",
+      "transaction_type": "direct debit",
+      "amount": 15.88,
+      "timestamp": "2087-02-26T00:41:07",
+      "counterparty_id": "SRVBL37039",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "7f3d4be9-9e49-4fac-a963-0c4b40cd1107",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TRLN-DMNA-812-RON-0",
+      "transaction_type": "e-commerce",
+      "amount": 55.32,
+      "timestamp": "2087-03-06T11:32:48",
+      "counterparty_id": "SRVRN92301",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "7fc4e077-1299-439f-b928-a6251ecc46ac",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "e-commerce",
+      "amount": 61.7,
+      "timestamp": "2087-03-08T23:32:54",
+      "counterparty_id": "SRVRN47060",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 11 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "4b790975-a4ec-43a5-8cac-86a6f50a7f41",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "e-commerce",
+      "amount": 136.08,
+      "timestamp": "2087-03-15T09:01:49",
+      "counterparty_id": "TRDDN91651",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: naples-secure-login.net"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "d22f3781-9c0d-4b7f-9042-490486731f28",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "PTTJ-GNV\u00c8-7EF-PAR-0",
+      "transaction_type": "e-commerce",
+      "amount": 201.4,
+      "timestamp": "2087-04-25T14:45:07",
+      "counterparty_id": "ACCMN20197",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 1 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "0a2e1d6a-6cda-4f05-98ef-de4e335d352b",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "PTTJ-GNV\u00c8-7EF-PAR-0",
+      "transaction_type": "e-commerce",
+      "amount": 64.65,
+      "timestamp": "2087-05-03T09:05:19",
+      "counterparty_id": "ORGDN48672",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: invst-verify.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "d564b711-a215-412d-9cc7-c70b9ee2b6c6",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TRLN-DMNA-812-RON-0",
+      "transaction_type": "direct debit",
+      "amount": 7.57,
+      "timestamp": "2087-05-09T06:39:40",
+      "counterparty_id": "SUBRC24416",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: amaz0n-claim.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "cc26125e-8628-4208-854f-6cff072637db",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "e-commerce",
+      "amount": 22.11,
+      "timestamp": "2087-05-09T12:45:36",
+      "counterparty_id": "TRDCN74034",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 1 day(s) earlier",
+            "Lookalike domain: chase-secure-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "766128b5-da84-4da0-ba64-7a4dd4396586",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "PTTJ-GNV\u00c8-7EF-PAR-0",
+      "transaction_type": "e-commerce",
+      "amount": 631.4,
+      "timestamp": "2087-05-11T10:50:14",
+      "counterparty_id": "SHPRB62016",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 10 day(s) earlier",
+            "Lookalike domain: invst-verify.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "451be29e-6878-4d07-a0f9-708bdffad500",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "GRLC-VLNT-808-KIE-1",
+      "transaction_type": "direct debit",
+      "amount": 8.86,
+      "timestamp": "2087-05-12T06:31:09",
+      "counterparty_id": "COMBL49454",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "e14017a3-c9cb-475d-8648-1d28b8f27ef0",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "PTTJ-GNV\u00c8-7EF-PAR-0",
+      "transaction_type": "direct debit",
+      "amount": 206.93,
+      "timestamp": "2087-05-15T01:20:21",
+      "counterparty_id": "ORGCN26257",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 13 day(s) earlier",
+            "Lookalike domain: invst-verify.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "817382f6-9c47-4204-b5c8-17c4d5a2b028",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "e-commerce",
+      "amount": 15.81,
+      "timestamp": "2087-05-23T10:37:53",
+      "counterparty_id": "SUBRC24416",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "f719ba4a-763e-4c1c-afea-649b3f4be3e3",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "direct debit",
+      "amount": 45.59,
+      "timestamp": "2087-05-25T03:58:19",
+      "counterparty_id": "SRVRN47060",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: natl-l0ttery-claim2087.com",
+            "Advance-fee scam wording"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "ab8cdcf0-f380-4d9d-be5c-44a118dab385",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "direct debit",
+      "amount": 130.78,
+      "timestamp": "2087-05-31T03:35:15",
+      "counterparty_id": "PAYSV24720",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: natl-l0ttery-claim2087.com",
+            "Advance-fee scam wording"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "2964c80f-2303-4153-925f-318ee0ea9d21",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "direct debit",
+      "amount": 96.21,
+      "timestamp": "2087-06-02T02:21:13",
+      "counterparty_id": "SRVRN79551",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 10 day(s) earlier",
+            "Lookalike domain: natl-l0ttery-claim2087.com",
+            "Advance-fee scam wording"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "3f4b6a21-0c93-43fa-9cc8-71e9d59ac717",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "transfer",
+      "amount": 265.25,
+      "timestamp": "2087-06-03T17:54:52",
+      "counterparty_id": "TRDDN28785",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 14 day(s) earlier",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "36e158c2-e9c3-447c-b814-b44b33227b86",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "e-commerce",
+      "amount": 103.01,
+      "timestamp": "2087-06-04T10:21:55",
+      "counterparty_id": "ORGDN48672",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 12 day(s) earlier",
+            "Lookalike domain: natl-l0ttery-claim2087.com",
+            "Advance-fee scam wording"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "e99567b5-6ac4-4a90-a791-9ceb89b5ee0f",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "KLNG-NSLM-80A-STO-1",
+      "transaction_type": "e-commerce",
+      "amount": 24.66,
+      "timestamp": "2087-06-05T21:01:50",
+      "counterparty_id": "SHPRV68169",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "85ea2609-7518-4410-9de8-7a97a9d43770",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "KLNG-NSLM-80A-STO-1",
+      "transaction_type": "direct debit",
+      "amount": 6.64,
+      "timestamp": "2087-06-06T04:35:17",
+      "counterparty_id": "SHPCR32089",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "af698787-01c2-4dc9-bfb8-b70f346c36b3",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "e-commerce",
+      "amount": 163.82,
+      "timestamp": "2087-06-14T21:12:46",
+      "counterparty_id": "SHPRV68169",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "25c8d07e-d15b-4b8b-85cd-07b67dfc43d8",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "e-commerce",
+      "amount": 92.39,
+      "timestamp": "2087-06-21T17:02:33",
+      "counterparty_id": "MKTRB95479",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "b8eb6fd1-49d8-4d0b-ba00-8fe066ef46bc",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "e-commerce",
+      "amount": 150.87,
+      "timestamp": "2087-06-23T22:09:11",
+      "counterparty_id": "PAYCR59331",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 11 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "c3fc5438-ad80-41ea-9584-25e870910565",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "LSOO-PTRK-7FE-HAM-0",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-06-28T03:45:25",
+      "counterparty_id": "CASE17147",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: hamburgbank-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "7377d471-52a0-4f2d-9903-17c47b2115cd",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "NCLS-THBT-7FB-CAN-1",
+      "transaction_type": "transfer",
+      "amount": 2248.97,
+      "timestamp": "2087-06-29T19:38:02",
+      "counterparty_id": "ENTMR73762",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.26,
+          "reasons": [
+            "Amount deviates from historical baseline (median 618.86)",
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.08,
+          "reasons": [
+            "Brand new counterparty in the graph"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "631db364-0fce-4779-9484-bb3fa1bdfee4",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "e-commerce",
+      "amount": 141.4,
+      "timestamp": "2087-07-05T14:41:37",
+      "counterparty_id": "CMPSP61685",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 7 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "56be7d39-14ef-4985-b154-e0f4e4287e2e",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "e-commerce",
+      "amount": 0.01,
+      "timestamp": "2087-07-10T08:44:13",
+      "counterparty_id": "UTLMN68425",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 12 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "effdf962-7433-48b7-aff8-2eb94a55ebe0",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "direct debit",
+      "amount": 103.78,
+      "timestamp": "2087-07-19T06:58:18",
+      "counterparty_id": "SRVRN11784",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "5afc7a43-b83b-4726-ab6f-92c621c1c77d",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "PTTJ-GNV\u00c8-7EF-PAR-0",
+      "transaction_type": "e-commerce",
+      "amount": 665.25,
+      "timestamp": "2087-08-03T17:56:46",
+      "counterparty_id": "CMPSP61685",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 11 day(s) earlier",
+            "Lookalike domain: chase-verify2087.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "93ced522-2b59-4c44-97a6-392df8eb0c90",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "e-commerce",
+      "amount": 17.46,
+      "timestamp": "2087-08-04T23:27:50",
+      "counterparty_id": "SUBRN22450",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 2 day(s) earlier",
+            "Lookalike domain: bankofeurope-secure.net"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "6c5e5aa9-847a-4cb1-9a21-2a71e04dafb0",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "TNGY-C\u00c9LN-802-BRU-1",
+      "transaction_type": "e-commerce",
+      "amount": 98.59,
+      "timestamp": "2087-08-06T10:21:04",
+      "counterparty_id": "TRDDN51121",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 3 day(s) earlier",
+            "Lookalike domain: bankofeurope-secure.net"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "1b4bd1ad-1376-49ea-93b4-44d97aadd269",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "ZPPT-NGLA-7F5-GEN-0",
+      "transaction_type": "direct debit",
+      "amount": 325.28,
+      "timestamp": "2087-08-07T03:56:43",
+      "counterparty_id": "IMMO48760",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: chase-login-verify2087.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "d875aac3-709b-423d-8939-9ac853f12649",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "e-commerce",
+      "amount": 106.56,
+      "timestamp": "2087-08-14T07:43:14",
+      "counterparty_id": "COMBR34342",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 11 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "386ba337-8d73-434c-a723-710cb6eb2093",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "RHLI-LSAO-7FB-DIP-0",
+      "transaction_type": "transfer",
+      "amount": 211.69,
+      "timestamp": "2087-08-16T15:44:38",
+      "counterparty_id": "MKTBR35332",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 3 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "48cacbdd-dff7-4d41-9c1a-69a98c6e51ab",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "KLNG-NSLM-80A-STO-1",
+      "transaction_type": "e-commerce",
+      "amount": 5.0,
+      "timestamp": "2087-09-09T21:16:21",
+      "counterparty_id": "SHPRB62016",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 4 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "2d44f6a1-9b84-4269-8c2f-daccfedf791a",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "KLNG-NSLM-80A-STO-1",
+      "transaction_type": "e-commerce",
+      "amount": 5.0,
+      "timestamp": "2087-09-12T18:12:02",
+      "counterparty_id": "SRVLP18363",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "014736f9-0472-4262-aefd-7fed7c10d282",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "e-commerce",
+      "amount": 147.03,
+      "timestamp": "2087-09-15T07:57:50",
+      "counterparty_id": "CMPSV80060",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "a2f56c28-2f76-4192-849d-2fd41b6b6f13",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "direct debit",
+      "amount": 119.03,
+      "timestamp": "2087-09-16T03:36:48",
+      "counterparty_id": "ORGDN48672",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "06f27450-014c-4640-881a-31debb303ea5",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "direct debit",
+      "amount": 61.12,
+      "timestamp": "2087-09-17T01:13:09",
+      "counterparty_id": "TRDSP18476",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 1 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "1821c72f-46a5-4059-b780-5a2eb77d75d5",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "CPLL-LBRT-7FF-NAP-1",
+      "transaction_type": "direct debit",
+      "amount": 116.3,
+      "timestamp": "2087-09-20T00:53:10",
+      "counterparty_id": "PAYSP37462",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "aa6e2b7e-729f-4cc2-9b63-e9f886db27a0",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "PTTJ-GNV\u00c8-7EF-PAR-0",
+      "transaction_type": "e-commerce",
+      "amount": 658.58,
+      "timestamp": "2087-09-27T21:21:48",
+      "counterparty_id": "ORGSV44360",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 0 day(s) earlier",
+            "Lookalike domain: parisbank-verify2087.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "d3ec86a9-c584-4ec3-9951-e88ead8067cc",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "GRLC-VLNT-808-KIE-1",
+      "transaction_type": "e-commerce",
+      "amount": 47.21,
+      "timestamp": "2087-10-05T15:16:34",
+      "counterparty_id": "VNDSR97241",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 8 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "57d2fc1e-3d18-4616-9ea4-2fc51c2e70e9",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "PTTJ-GNV\u00c8-7EF-PAR-0",
+      "transaction_type": "direct debit",
+      "amount": 211.95,
+      "timestamp": "2087-10-07T01:35:24",
+      "counterparty_id": "VNDSP94051",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 9 day(s) earlier",
+            "Lookalike domain: parisbank-verify2087.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "5c16dad0-d3cd-49b1-9f14-777bda389021",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "GRLC-VLNT-808-KIE-1",
+      "transaction_type": "direct debit",
+      "amount": 7.39,
+      "timestamp": "2087-10-09T05:54:03",
+      "counterparty_id": "UTLMN68425",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 12 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "195c1257-2145-4712-968e-c4bfb9d21e17",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "e-commerce",
+      "amount": 150.55,
+      "timestamp": "2087-10-12T09:44:13",
+      "counterparty_id": "TRDSP48449",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 5 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "558ab3eb-3990-4d8c-b757-f027dda76f8b",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "e-commerce",
+      "amount": 88.76,
+      "timestamp": "2087-10-17T10:17:32",
+      "counterparty_id": "ORGCN26257",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 10 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "5ceeb9b1-2c1b-4972-92f3-0b64f76245eb",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "VRDR-V\u00c9RN-7FC-BRI-0",
+      "transaction_type": "e-commerce",
+      "amount": 27.01,
+      "timestamp": "2087-10-18T13:02:39",
+      "counterparty_id": "PAYNV11563",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 11 day(s) earlier",
+            "Lookalike domain: paypa1-secure.net",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    },
+    {
+      "transaction_id": "4bb3c608-73f3-448e-ad87-f59760de99ea",
+      "score": 0.76,
+      "direction": "outgoing",
+      "user_id": "WSSE-NNAA-801-BUR-0",
+      "transaction_type": "direct debit",
+      "amount": 124.89,
+      "timestamp": "2087-10-20T05:32:34",
+      "counterparty_id": "ACCRN65499",
+      "reasons": [
+        {
+          "agent": "communication",
+          "score": 0.42,
+          "reasons": [
+            "High-risk message 4 day(s) earlier",
+            "Lookalike domain: amaz0n-verify.com",
+            "Security-themed credential pressure"
+          ]
+        },
+        {
+          "agent": "behavioral",
+          "score": 0.18,
+          "reasons": [
+            "New counterparty for this user"
+          ]
+        },
+        {
+          "agent": "counterparty_graph",
+          "score": 0.16,
+          "reasons": [
+            "New counterparty already shared by multiple users"
+          ]
+        }
+      ]
+    }
+  ]
+}
