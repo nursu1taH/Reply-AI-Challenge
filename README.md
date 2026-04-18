@@ -1,83 +1,103 @@
-# Reply Mirror Solver
+# Reply AI Challenge Workspace
 
-This repo now contains a runnable, reproducible solution for the `AIAgentChallenge-ProblemStatement16April` task on `The+Truman+Show+-+train`.
+This repository is a workspace for multiple solutions to the Reply Mirror fraud-detection challenge. It is not a single package with one pipeline. Instead, it contains:
 
-It follows the challenge requirements:
+- a root solver for the `The+Truman+Show+-+train` dataset
+- several standalone scenario folders with their own code, dependencies, and outputs
+- the supplied challenge PDFs, submission-tracking starter files, original dataset archives, and generated artifacts
 
-- agent-style workflow instead of a single static rule
-- ASCII submission output with one suspected fraudulent transaction ID per line
-- reproducible execution steps
-- optional Langfuse tracing grouped by `langfuse_session_id`
+## What Is In The Repo
 
-## What was added
+| Path | Purpose |
+| --- | --- |
+| `main.py` | Root CLI entrypoint for the `The Truman Show` solver. |
+| `reply_mirror_solver/` | Root heuristic pipeline and optional LLM review logic. |
+| `outputs/` | Root output folder with the generated `The Truman Show` submission and analysis report. |
+| `The+Truman+Show+-+train/` | Extracted dataset used by the root solver. |
+| `1984/` | Standalone solution for the `1984` dataset, including its own database, requirements, and artifacts. |
+| `Blade-Runner/` | Standalone Blade Runner solution with its own agent package and SQLite artifacts. |
+| `Brave-New_World/` | Standalone Brave New World workspace with multiple submission variants and tracing helpers. |
+| `Deus-Ex/` | Standalone Deus Ex multi-agent pipeline and outputs. |
+| `track-your-submission/` | Extracted helper project from the challenge materials. |
+| `AIAgentChallenge-ProblemStatement16April.pdf` | Main challenge statement. |
+| `04-resource_management.pdf` | Resource-management and tracing guidance from the challenge. |
+| `*.zip` files in the repo root | Original dataset or helper archives kept alongside the extracted folders. |
 
-- `main.py`: CLI entrypoint
-- `reply_mirror_solver/pipeline.py`: data loading, profiling, communication analysis, fraud scoring, output writing
-- `reply_mirror_solver/llm.py`: optional OpenRouter + Langfuse arbitration layer
-- `.env.example`: where to place your OpenRouter and Langfuse credentials
-- `requirements.txt`: challenge dependencies for traced LLM mode
+## Root Solver
 
-## Where to insert your keys
+The root-level code is the simplest entrypoint in this workspace. It targets the extracted dataset at:
 
-Create a `.env` file in the repo root and copy the variables from [.env.example](/D:/codexProjects/Reply-AI-Challenge/.env.example).
+`The+Truman+Show+-+train\The Truman Show - train`
 
-Insert your values here:
+Main files:
 
-- `OPENROUTER_API_KEY=...`
-- `LANGFUSE_PUBLIC_KEY=...`
-- `LANGFUSE_SECRET_KEY=...`
-- `LANGFUSE_HOST=...`
-- `TEAM_NAME=...`
+- `main.py`: parses CLI arguments and writes the final output files
+- `reply_mirror_solver/pipeline.py`: dataset parsing, communication analysis, transaction scoring, and output generation
+- `reply_mirror_solver/llm.py`: optional OpenRouter plus Langfuse review pass
+- `requirements.txt`: dependencies for the root solver
 
-You said you already have one OpenRouter key and Langfuse host/public/private keys for each dataset. This code is ready for that setup; just swap the `.env` values before running a different dataset.
+The root pipeline produces two files in `outputs/`:
 
-## How to run
+- `The_Truman_Show_-_train_submission.txt`
+- `The_Truman_Show_-_train_analysis.json`
 
-Heuristic-only run:
+## Run The Root Solver
+
+Install the root dependencies:
+
+```powershell
+py -3 -m pip install -r requirements.txt
+```
+
+Run in heuristic-only mode:
 
 ```powershell
 py -3 main.py --llm-mode off
 ```
 
-Traced OpenRouter + Langfuse run:
+Run with optional LLM review when credentials are available:
 
 ```powershell
 py -3 main.py --llm-mode auto
 ```
 
-The default dataset path already points to:
+Useful flags:
 
-`The+Truman+Show+-+train\The Truman Show - train`
+- `--dataset`: override the dataset directory
+- `--output-dir`: choose a different output folder
+- `--llm-mode off|auto|force`: disable review, enable it when possible, or require it
 
-Outputs are written to `outputs/`:
+## Optional Environment Variables
 
-- `*_submission.txt`: required ASCII submission file
-- `*_analysis.json`: ranked evidence and scores for inspection
+The root solver reads a local `.env` file if one exists. Heuristic mode does not require any credentials.
 
-## Agent workflow
+For LLM review, the code expects:
 
-The solution uses four cooperating stages:
+- `OPENROUTER_API_KEY`
+- `LANGFUSE_PUBLIC_KEY`
+- `LANGFUSE_SECRET_KEY`
+- `TEAM_NAME`
 
-1. `Profile Agent`
-   Builds each citizen's financial baseline from recurring salaries, rent, job context, and residence.
+Optional variables:
 
-2. `Communication Agent`
-   Reads mail and SMS threads, separates suspicious vs benign messages, and extracts themes such as PayPal, shopping, banking, utilities, and rideshare.
+- `LANGFUSE_HOST` (defaults to the Reply challenge host in code)
+- `OPENROUTER_MODEL` (defaults to `openai/gpt-4o-mini`)
 
-3. `Anomaly Agent`
-   Scores every user-originated transaction for novelty, one-off counterparties, amount breaks, travel mismatch, and description/payment anomalies.
+If the required variables or optional packages are missing, `--llm-mode auto` skips the LLM pass and continues with the heuristic pipeline.
 
-4. `Decision Agent`
-   Produces the final fraud list. When `.env` credentials and optional dependencies are available, it can also call OpenRouter and trace that arbitration in Langfuse using the same session grouping pattern described in `04-resource_management`.
+## Standalone Scenario Folders
 
-## Current default submission
+The other top-level folders are separate experiments or submission workspaces rather than modules used by the root `main.py`.
 
-Running the heuristic pipeline on `The Truman Show - train` produces the submission file in `outputs/`.
+- `1984/`: contains `main.py`, a `reply_mirror_agent/` package, `1984.db`, and outputs under `artifacts/`
+- `Blade-Runner/`: contains `run_agent.py`, the `blade_runner_agent/` package, extracted training data, and outputs under `artifacts/`
+- `Brave-New_World/`: contains its own `main.py`, `mirror_solver/`, a tracing helper, and multiple saved submission/report variants
+- `Deus-Ex/`: contains `run_submission.py`, the `deus_ex_agents/` package, extracted data under `dataset/`, and outputs under `outputs/`
 
-The current highest-risk transactions are expected to be:
+Each of those folders also has its own `README.md` and `requirements.txt`.
 
-- Alain's PayPal marketplace purchase
-- Karl-Hermann's one-off internet bill transfer while travelling
-- Tracy's one-off rideshare subscription debit
+## Notes
 
-If you want to run the exact same pipeline on the other training datasets, point `--dataset` to the extracted folder and replace the `.env` credentials with the dataset-specific keys before launching.
+- This repo intentionally includes extracted datasets, audio files, reports, submission text files, and helper archives, so it is much larger than a normal source-only repository.
+- The root `requirements.txt` only covers the root solver. Install dependencies from a scenario folder if you are working inside that folder instead.
+- Several folders include generated files such as `__pycache__/`, local databases, and prior submission artifacts because this workspace appears to be used for active experimentation, not only for source storage.
