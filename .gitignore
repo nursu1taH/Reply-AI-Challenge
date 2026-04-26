@@ -1,0 +1,11 @@
+# Secret configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Keep safe examples tracked
+!.env.example
+!*.env.example
